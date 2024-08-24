@@ -5,14 +5,12 @@ import type { Theme, SxProps, Breakpoint } from '@mui/material/styles';
 import Alert from '@mui/material/Alert';
 import { useTheme } from '@mui/material/styles';
 
-import { usePathname } from 'src/routes/hooks';
-
 import { useBoolean } from 'src/hooks/use-boolean';
 
 import { Main } from './main';
 import { NavMobile } from './nav/mobile';
 import { NavDesktop } from './nav/desktop';
-import { Footer, HomeFooter } from './footer';
+import { Footer } from './footer';
 import { HeaderBase } from '../core/header-base';
 import { LayoutSection } from '../core/layout-section';
 import { navData as mainNavData } from '../config-nav-main';
@@ -32,11 +30,7 @@ export type MainLayoutProps = {
 export function MainLayout({ sx, data, children }: MainLayoutProps) {
   const theme = useTheme();
 
-  const pathname = usePathname();
-
   const mobileNavOpen = useBoolean();
-
-  const homePage = pathname === '/';
 
   const layoutQuery: Breakpoint = 'md';
 

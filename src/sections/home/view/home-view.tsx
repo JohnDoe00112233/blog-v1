@@ -10,9 +10,8 @@ import { HomeFAQs } from '../home-faqs';
 import { HomeMinimal } from '../home-minimal';
 import { HomePricing } from '../home-pricing';
 import { HomeTestimonials } from '../home-testimonials';
-import { HomeIntegrations } from '../home-integrations';
 import { HomeAdvertisement } from '../home-advertisement';
-import { HomeHighlightFeatures } from '../home-highlight-features';
+
 
 // ----------------------------------------------------------------------
 
@@ -34,17 +33,11 @@ export function HomeView() {
       <Stack sx={{ position: 'relative', bgcolor: 'background.default' }}>
         <HomeMinimal />
 
-        <HomeHighlightFeatures />
-
-        <HomeIntegrations />
-
         <HomePricing />
 
         <HomeTestimonials />
 
         <HomeFAQs />
-
-
 
         <HomeAdvertisement />
       </Stack>

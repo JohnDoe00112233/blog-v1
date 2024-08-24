@@ -11,9 +11,8 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import { useTheme } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
-import AvatarGroup from '@mui/material/AvatarGroup';
-import Avatar, { avatarClasses } from '@mui/material/Avatar';
+import Typography from '@mui/material/Typography'
+
 
 import { paths } from 'src/routes/paths';
 import { RouterLink } from 'src/routes/components';
@@ -47,7 +46,6 @@ export function HomeHero({ sx, ...other }: StackProps) {
 
   const y1 = useTransformY(scroll.scrollY, distance * -7);
   const y2 = useTransformY(scroll.scrollY, distance * -6);
-  const y3 = useTransformY(scroll.scrollY, distance * -5);
   const y4 = useTransformY(scroll.scrollY, distance * -4);
   const y5 = useTransformY(scroll.scrollY, distance * -3);
 
@@ -73,11 +71,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
           [theme.breakpoints.up(lgKey)]: { fontSize: 72, lineHeight: '90px' },
         }}
       >
-        <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
-          Boost your building
-        </Box>
-        process with
-        <Box
+         <Box
           component={m.span}
           animate={{ backgroundPosition: '200% center' }}
           transition={{
@@ -94,8 +88,12 @@ export function HomeHero({ sx, ...other }: StackProps) {
             ml: { xs: 0.75, md: 1, xl: 1.5 },
           }}
         >
-          Minimal
+          K89BET
         </Box>
+        <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
+        Thương Hiệu Cá Cược Trực Tuyến
+        </Box>
+        Đẳng Cấp Hàng Đầu
       </Box>
     </MInview>
   );
@@ -103,39 +101,15 @@ export function HomeHero({ sx, ...other }: StackProps) {
   const renderText = (
     <MInview>
       <Typography
-        variant="body2"
+        variant="body1"
         sx={{
           mx: 'auto',
           [theme.breakpoints.up(smKey)]: { whiteSpace: 'pre' },
           [theme.breakpoints.up(lgKey)]: { fontSize: 20, lineHeight: '36px' },
         }}
       >
-        {`The starting point for your next project is based on MUI. \nEasy customization helps you build apps faster and better.`}
+        {`K89Bet, một tên tuổi mới trong thị trường cá cược Việt Nam, đã nhanh chóng gây ấn tượng với người chơi nhờ sự uy tín, an toàn, xanh chín và công bằng. \nNền tảng này đáp ứng đầy đủ nhu cầu của bet thủ, đặc biệt là những người chơi khó tính, đảm bảo một sân chơi minh bạch và đáng tin cậy.`}
       </Typography>
-    </MInview>
-  );
-
-  const renderRatings = (
-    <MInview>
-      <Box
-        gap={1.5}
-        display="flex"
-        flexWrap="wrap"
-        alignItems="center"
-        justifyContent="center"
-        sx={{ typography: 'subtitle2' }}
-      >
-        <AvatarGroup sx={{ [`& .${avatarClasses.root}`]: { width: 32, height: 32 } }}>
-          {[...Array(3)].map((_, index) => (
-            <Avatar
-              key={_mock.fullName(index + 1)}
-              alt={_mock.fullName(index + 1)}
-              src={_mock.image.avatar(index + 1)}
-            />
-          ))}
-        </AvatarGroup>
-        160+ Happy customers
-      </Box>
     </MInview>
   );
 
@@ -151,35 +125,8 @@ export function HomeHero({ sx, ...other }: StackProps) {
             variant="contained"
             startIcon={<Iconify width={24} icon="iconoir:flash" />}
           >
-            <span>
-              Live preview
-              <Box
-                component="small"
-                sx={{
-                  mt: '-3px',
-                  opacity: 0.64,
-                  display: 'flex',
-                  fontSize: theme.typography.pxToRem(10),
-                  fontWeight: theme.typography.fontWeightMedium,
-                }}
-              >
-                v{CONFIG.site.version}
-              </Box>
-            </span>
+              Đăng ký ngay
           </Button>
-
-          <Link
-            color="inherit"
-            variant="body2"
-            target="_blank"
-            rel="noopener"
-            href={paths.freeUI}
-            underline="always"
-            sx={{ gap: 0.5, alignItems: 'center', display: 'inline-flex' }}
-          >
-            Get free version
-            <Iconify width={16} icon="eva:external-link-fill" />
-          </Link>
         </Stack>
       </MInview>
 
@@ -191,10 +138,10 @@ export function HomeHero({ sx, ...other }: StackProps) {
           target="_blank"
           rel="noopener"
           href={paths.figma}
-          startIcon={<Iconify width={24} icon="solar:figma-outline" />}
+          startIcon={<Iconify width={24} icon="eva:external-link-fill" />}
           sx={{ borderColor: 'text.primary' }}
         >
-          Figma preview
+          Tải App
         </Button>
       </MInview>
     </Box>
@@ -204,7 +151,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
     <Stack spacing={3} sx={{ textAlign: 'center' }}>
       <MInview>
         <Typography variant="overline" sx={{ opacity: 0.4 }}>
-          Available For
+          Hỗ trợ đa nền tảng
         </Typography>
       </MInview>
 
@@ -281,7 +228,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
             <m.div style={{ y: y1 }}>{renderHeading}</m.div>
             <m.div style={{ y: y2 }}>{renderText}</m.div>
           </Stack>
-          <m.div style={{ y: y3 }}>{renderRatings}</m.div>
+
           <m.div style={{ y: y4 }}>{renderButtons}</m.div>
           <m.div style={{ y: y5 }}>{renderIcons}</m.div>
         </Container>

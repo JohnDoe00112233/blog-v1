@@ -9,7 +9,6 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
 import { CONFIG } from 'src/config-global';
-import { varAlpha, stylesMode } from 'src/theme/styles';
 
 import { SvgColor } from 'src/components/svg-color';
 import { varFade, MotionViewport } from 'src/components/animate';
@@ -33,9 +32,9 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
   const renderDescription = (
     <>
       <SectionTitle
-        caption="Visualizing Success"
-        title="What's in"
-        txtGradient="Minimal?"
+        caption=""
+        title="Giới thiệu về"
+        txtGradient="K89BET"
         sx={{ mb: { xs: 5, md: 8 }, textAlign: { xs: 'center', md: 'left' } }}
       />
 

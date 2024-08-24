@@ -7,13 +7,9 @@ import { setFont } from './styles/utils';
 import { overridesTheme } from './overrides-theme';
 import { shadows, typography, components, colorSchemes, customShadows } from './core';
 import { updateCoreWithSettings, updateComponentsWithSettings } from './with-settings/update-theme';
-
-import type { ThemeLocaleComponents } from './types';
-
 // ----------------------------------------------------------------------
 
 export function createTheme(
-  localeComponents: ThemeLocaleComponents,
   settings: SettingsState
 ): Theme {
   const initialTheme = {
@@ -41,7 +37,6 @@ export function createTheme(
    */
   const theme = extendTheme(
     updateTheme,
-    localeComponents,
     updateComponentsWithSettings(settings),
     overridesTheme
   );

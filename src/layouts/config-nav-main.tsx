@@ -7,16 +7,31 @@ import { Iconify } from 'src/components/iconify';
 // ----------------------------------------------------------------------
 
 export const navData = [
-  { title: 'Home', path: '/', icon: <Iconify width={22} icon="solar:home-2-bold-duotone" /> },
+  { title: 'Trang chủ', path: '/', icon: <Iconify width={22} icon="solar:home-2-bold-duotone" /> },
   {
-    title: 'Components',
+    title: 'Nổ Hũ',
     path: paths.components,
     icon: <Iconify width={22} icon="solar:atom-bold-duotone" />,
   },
   {
-    title: 'Pages',
+    title: 'Casino',
     path: '/pages',
     icon: <Iconify width={22} icon="solar:file-bold-duotone" />,
+  },
+  {
+    title: 'Xổ số',
+    icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
+    path: paths.docs,
+  },
+  {
+    title: 'Thể Thao',
+    icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
+    path: paths.docs,
+  },
+  {
+    title: 'Hướng dẫn',
+    icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
+    path: paths.docs,
     children: [
       {
         subheader: 'Other',
@@ -67,8 +82,9 @@ export const navData = [
     ],
   },
   {
-    title: 'Docs',
+    title: 'Liên hệ',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
     path: paths.docs,
   },
+
 ];

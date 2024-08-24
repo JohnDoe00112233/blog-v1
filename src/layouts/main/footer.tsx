@@ -61,7 +61,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
           [theme.breakpoints.up(layoutQuery)]: { textAlign: 'unset' },
         }}
       >
-        <Logo />
+        <Logo width="100px"  />
 
         <Grid
           container

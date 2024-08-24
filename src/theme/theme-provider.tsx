@@ -10,12 +10,10 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles';
 
-import { useTranslate } from 'src/locales';
 
-import { useSettingsContext } from 'src/components/settings';
+import { defaultSettings } from 'src/components/settings';
 
 import { createTheme } from './create-theme';
-import { RTL } from './with-settings/right-to-left';
 import { schemeConfig } from './color-scheme-script';
 
 // ----------------------------------------------------------------------
@@ -25,11 +23,9 @@ type Props = {
 };
 
 export function ThemeProvider({ children }: Props) {
-  const { currentLang } = useTranslate();
 
-  const settings = useSettingsContext();
 
-  const theme = createTheme(currentLang?.systemValue, settings);
+  const theme = createTheme(defaultSettings);
 
   return (
     <AppRouterCacheProvider options={{ key: 'css' }}>
@@ -39,7 +35,7 @@ export function ThemeProvider({ children }: Props) {
         modeStorageKey={schemeConfig.modeStorageKey}
       >
         <CssBaseline />
-        <RTL direction={settings.direction}>{children}</RTL>
+        {children}
       </CssVarsProvider>
     </AppRouterCacheProvider>
   );

@@ -4,41 +4,85 @@ import 'src/global.css';
 
 import type { Viewport } from 'next';
 
-import { CONFIG } from 'src/config-global';
 import { primary } from 'src/theme/core/palette';
-import { LocalizationProvider } from 'src/locales';
-import { detectLanguage } from 'src/locales/server';
-import { I18nProvider } from 'src/locales/i18n-provider';
 import { ThemeProvider } from 'src/theme/theme-provider';
 import { getInitColorSchemeScript } from 'src/theme/color-scheme-script';
 
 import { Snackbar } from 'src/components/snackbar';
 import { ProgressBar } from 'src/components/progress-bar';
 import { MotionLazy } from 'src/components/animate/motion-lazy';
-import { detectSettings } from 'src/components/settings/server';
-import { SettingsDrawer, defaultSettings, SettingsProvider } from 'src/components/settings';
 
-import { CheckoutProvider } from 'src/sections/checkout/context';
+
 
 import { AuthProvider as JwtAuthProvider } from 'src/auth/context/jwt';
-import { AuthProvider as Auth0AuthProvider } from 'src/auth/context/auth0';
-import { AuthProvider as AmplifyAuthProvider } from 'src/auth/context/amplify';
-import { AuthProvider as SupabaseAuthProvider } from 'src/auth/context/supabase';
-import { AuthProvider as FirebaseAuthProvider } from 'src/auth/context/firebase';
+
 
 // ----------------------------------------------------------------------
 
-const AuthProvider =
-  (CONFIG.auth.method === 'amplify' && AmplifyAuthProvider) ||
-  (CONFIG.auth.method === 'firebase' && FirebaseAuthProvider) ||
-  (CONFIG.auth.method === 'supabase' && SupabaseAuthProvider) ||
-  (CONFIG.auth.method === 'auth0' && Auth0AuthProvider) ||
-  JwtAuthProvider;
+const AuthProvider = JwtAuthProvider;
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
+  maximumScale: 5,
   themeColor: primary.main,
+};
+
+export const metadata = {
+  robots: {
+    index: true,
+    follow: true,
+    "max-video-preview": -1,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
+  title: "K89BET",
+  description:
+    "Đăng ký ngay K89Bet không bị chặn để trải nghiệm cá cược bóng đá, bacarat, casino trực tuyến với tỷ lệ thắng cao. Giao diện dễ sử dụng, nhận ngay 588k khi đăng ký. Hỗ trợ khách hàng 24/7, đảm bảo an toàn.",
+  alternates: {
+    canonical: "https://k89bet.org/vi_VN",
+    languages: {
+      "vi-VN": "https://k89bet.org/vi_VN"
+    },
+  },
+  generator: "K89BET",
+  applicationName: "K89BET",
+  referrer: "origin-when-cross-origin",
+  authors: [{ name: "k89bet" }],
+  creator: "k89bet",
+  publisher: "k89bet",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  locale: "vi_VN",
+  type: "website",
+  manifest: "/manifest.json",
+  icons: [
+    { rel: "icon", url: "/favicon/favicon.ico" },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      url: "/favicon/favicon-16x16.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      url: "/favicon/favicon-32x32.png",
+    },
+    {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      url: "/favicon/apple-touch-icon.png",
+    },
+  ],
+  other: {
+    "dmca-site-verification": "",
+    "google-site-verification": ""
+  }
 };
 
 type Props = {
@@ -46,36 +90,22 @@ type Props = {
 };
 
 export default async function RootLayout({ children }: Props) {
-  const lang = CONFIG.isStaticExport ? 'en' : await detectLanguage();
 
-  const settings = CONFIG.isStaticExport ? defaultSettings : await detectSettings();
+
 
   return (
-    <html lang={lang ?? 'en'} suppressHydrationWarning>
+    <html lang='vi' suppressHydrationWarning>
       <body>
         {getInitColorSchemeScript}
-
-        <I18nProvider lang={CONFIG.isStaticExport ? undefined : lang}>
-          <LocalizationProvider>
             <AuthProvider>
-              <SettingsProvider
-                settings={settings}
-                caches={CONFIG.isStaticExport ? 'localStorage' : 'cookie'}
-              >
                 <ThemeProvider>
                   <MotionLazy>
-                    <CheckoutProvider>
                       <Snackbar />
                       <ProgressBar />
-                      <SettingsDrawer />
                       {children}
-                    </CheckoutProvider>
                   </MotionLazy>
                 </ThemeProvider>
-              </SettingsProvider>
             </AuthProvider>
-          </LocalizationProvider>
-        </I18nProvider>
       </body>
     </html>
   );
