@@ -2,29 +2,26 @@ import type { MotionValue } from 'framer-motion';
 import type { BoxProps } from '@mui/material/Box';
 import type { StackProps } from '@mui/material/Stack';
 
+import Image from 'next/image';
 import { useRef, useState } from 'react';
 import { m, useScroll, useSpring, useTransform, useMotionValueEvent } from 'framer-motion';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography'
 
-
 import { paths } from 'src/routes/paths';
 import { RouterLink } from 'src/routes/components';
 
 import { useResponsive } from 'src/hooks/use-responsive';
 
-import { _mock } from 'src/_mock';
 import { CONFIG } from 'src/config-global';
 import { textGradient } from 'src/theme/styles';
 
 import { Iconify } from 'src/components/iconify';
-import { SvgColor } from 'src/components/svg-color';
 import { varFade, MotionContainer } from 'src/components/animate';
 
 import { HeroBackground } from './components/hero-background';
@@ -88,12 +85,12 @@ export function HomeHero({ sx, ...other }: StackProps) {
             ml: { xs: 0.75, md: 1, xl: 1.5 },
           }}
         >
-          K89BET
+          K89BET COM
         </Box>
         <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
-        Thương Hiệu Cá Cược Trực Tuyến
+        Link vào K89Bet mới nhất
         </Box>
-        Đẳng Cấp Hàng Đầu
+        Tặng 89K
       </Box>
     </MInview>
   );
@@ -119,7 +116,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
         <Stack alignItems="center" spacing={2.5}>
           <Button
             component={RouterLink}
-            href={paths.dashboard.root}
+            href={paths.registerNow}
             color="inherit"
             size="large"
             variant="contained"
@@ -137,11 +134,11 @@ export function HomeHero({ sx, ...other }: StackProps) {
           variant="outlined"
           target="_blank"
           rel="noopener"
-          href={paths.figma}
+          href={paths.dowload}
           startIcon={<Iconify width={24} icon="eva:external-link-fill" />}
           sx={{ borderColor: 'text.primary' }}
         >
-          Tải App
+          Tải App K89Bet
         </Button>
       </MInview>
     </Box>
@@ -155,24 +152,18 @@ export function HomeHero({ sx, ...other }: StackProps) {
         </Typography>
       </MInview>
 
-      <Stack spacing={2.5} direction="row">
-        {['js', 'ts', 'nextjs', 'vite', 'figma'].map((platform) => (
-          <MInview key={platform}>
-            {platform === 'nextjs' ? (
-              <SvgColor
-                src={`${CONFIG.site.basePath}/assets/icons/platforms/ic-${platform}.svg`}
-                sx={{ width: 24, height: 24 }}
+      <Stack spacing={2.5} direction="row" sx={{mx:"auto"}}>
+      {["apple", "android"].map((icon) => (
+            <m.div key={icon} variants={varFade().in}>
+              <Image
+                width={34}
+                height={34}
+                alt={icon}
+                style={{backgroundColor: "transparent", borderRadius:"6px"}}
+                src={`${CONFIG.site.basePath}/assets/icons/workspaces/ic_${icon}.png`}
               />
-            ) : (
-              <Box
-                component="img"
-                alt={platform}
-                src={`${CONFIG.site.basePath}/assets/icons/platforms/ic-${platform}.svg`}
-                sx={{ width: 24, height: 24 }}
-              />
-            )}
-          </MInview>
-        ))}
+            </m.div>
+          ))}
       </Stack>
     </Stack>
   );

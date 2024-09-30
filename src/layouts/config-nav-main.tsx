@@ -1,7 +1,5 @@
 import { paths } from 'src/routes/paths';
 
-import { CONFIG } from 'src/config-global';
-
 import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
@@ -10,81 +8,43 @@ export const navData = [
   { title: 'Trang chủ', path: '/', icon: <Iconify width={22} icon="solar:home-2-bold-duotone" /> },
   {
     title: 'Nổ Hũ',
-    path: paths.components,
+    path: paths.jackpot,
     icon: <Iconify width={22} icon="solar:atom-bold-duotone" />,
   },
   {
     title: 'Casino',
-    path: '/pages',
+    path: paths.casino,
     icon: <Iconify width={22} icon="solar:file-bold-duotone" />,
   },
   {
     title: 'Xổ số',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.docs,
+    path: paths.lottery,
   },
   {
     title: 'Thể Thao',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.docs,
+    path: paths.comingSoon,
   },
   {
     title: 'Hướng dẫn',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.docs,
+    path: "/huong-dan",
     children: [
       {
-        subheader: 'Other',
+        subheader: 'Hướng dẫn người chơi tại nhà cái K89BET',
         items: [
-          { title: 'About us', path: paths.about },
-          { title: 'Contact us', path: paths.contact },
-          { title: 'FAQs', path: paths.faqs },
-          { title: 'Pricing', path: paths.pricing },
-          { title: 'Payment', path: paths.payment },
-          { title: 'Maintenance', path: paths.maintenance },
-          { title: 'Coming soon', path: paths.comingSoon },
+          { title: 'Tải App K89BET', path: paths.download },
+          { title: 'Đăng ký K89BET', path: paths.register },
+          { title: 'Nạp tiền K89BET', path: paths.recharge },
+          { title: 'Rút tiền K89BET', path: paths.withdraw },
         ],
       },
-      {
-        subheader: 'Concepts',
-        items: [
-          { title: 'Shop', path: paths.product.root },
-          { title: 'Product', path: paths.product.demo.details },
-          { title: 'Checkout', path: paths.product.checkout },
-          { title: 'Posts', path: paths.post.root },
-          { title: 'Post', path: paths.post.demo.details },
-        ],
-      },
-      {
-        subheader: 'Auth Demo',
-        items: [
-          { title: 'Sign in', path: paths.authDemo.split.signIn },
-          { title: 'Sign up', path: paths.authDemo.split.signUp },
-          { title: 'Reset password', path: paths.authDemo.split.resetPassword },
-          { title: 'Update password', path: paths.authDemo.split.updatePassword },
-          { title: 'Verify', path: paths.authDemo.split.verify },
-          { title: 'Sign in (centered)', path: paths.authDemo.centered.signIn },
-          { title: 'Sign up (centered)', path: paths.authDemo.centered.signUp },
-          { title: 'Reset password (centered)', path: paths.authDemo.centered.resetPassword },
-          { title: 'Update password (centered)', path: paths.authDemo.centered.updatePassword },
-          { title: 'Verify (centered)', path: paths.authDemo.centered.verify },
-        ],
-      },
-      {
-        subheader: 'Error',
-        items: [
-          { title: 'Page 403', path: paths.page403 },
-          { title: 'Page 404', path: paths.page404 },
-          { title: 'Page 500', path: paths.page500 },
-        ],
-      },
-      { subheader: 'Dashboard', items: [{ title: 'Dashboard', path: CONFIG.auth.redirectPath }] },
     ],
   },
   {
     title: 'Liên hệ',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.docs,
+    path: paths.contact,
   },
-
 ];

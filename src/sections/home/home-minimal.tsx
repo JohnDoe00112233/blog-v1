@@ -6,11 +6,8 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Unstable_Grid2';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 
-import { CONFIG } from 'src/config-global';
-
-import { SvgColor } from 'src/components/svg-color';
+import { Markdown } from 'src/components/markdown';
 import { varFade, MotionViewport } from 'src/components/animate';
 
 import { SectionTitle } from './components/section-title';
@@ -19,6 +16,19 @@ import { CircleSvg, FloatLine, FloatPlusIcon } from './components/svg-elements';
 // ----------------------------------------------------------------------
 
 export function HomeMinimal({ sx, ...other }: StackProps) {
+
+  const data = {
+    title: 'Giới thiệu về nhà cái K89Bet',
+    content: `<h3>🥈Nhà cái K89Bet uy tín,chất lượng</h3>
+  <p><strong><a href="https://k89bet.app/">K89Bet</a></strong> là nhà cái cá cược trực tuyến hàng đầu, cung cấp các sản phẩm cá cược chất lượng cao và uy tín. Với giấy phép hoạt động hợp pháp tại Costa Rica, K89Bet đảm bảo tuân thủ nghiêm ngặt các quy định và chính sách, mang đến sự công bằng cho người chơi.</p>
+  <h3>🥈Môi trường cá cược minh bạch</h3>
+  <p>K89Bet cam kết tạo ra một sân chơi minh bạch, không gian lận. Mọi kết quả trong các ván chơi đều được đảm bảo ngẫu nhiên và công bằng. Bất kỳ hành vi gian lận nào đều bị xử phạt nghiêm khắc.</p>
+  <h3>🥈Sự đa dạng trong các trò chơi</h3>
+  <p>K89Bet cung cấp một kho trò chơi phong phú với hàng nghìn phiên bản nổi bật. Từ Casino đến các trò chơi khác, mọi sản phẩm đều được áp dụng công nghệ cá cược hiện đại, mang lại trải nghiệm đỉnh cao cho người chơi.</p>
+  <h3>🥈K89Bet bảo mật thông tin cá nhân cực kỳ tốt</h3>
+  <p>K89Bet sử dụng công nghệ mã hóa SSL 128-bit để bảo vệ thông tin cá nhân của người chơi. Mỗi thành viên đều được cấp một ID và mật khẩu riêng biệt, giúp quản lý các lần đăng nhập an toàn và hiệu quả.</p>
+  `
+  }
   const renderLines = (
     <>
       <FloatPlusIcon sx={{ top: 72, left: 72 }} />
@@ -32,8 +42,7 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
   const renderDescription = (
     <>
       <SectionTitle
-        caption=""
-        title="Giới thiệu về"
+        title="Giới thiệu về nhà cái"
         txtGradient="K89BET"
         sx={{ mb: { xs: 5, md: 8 }, textAlign: { xs: 'center', md: 'left' } }}
       />
@@ -41,63 +50,23 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
       <Stack
         spacing={6}
         sx={{
-          maxWidth: { sm: 560, md: 400 },
           mx: { xs: 'auto', md: 'unset' },
         }}
       >
-        {ITEMS.map((item) => (
           <Box
             component={m.div}
-            key={item.title}
+            key={data.title}
             variants={varFade({ distance: 24 }).inUp}
             gap={3}
             display="flex"
           >
-            <SvgColor src={item.icon} sx={{ width: 40, height: 40 }} />
             <Stack spacing={1}>
-              <Typography variant="h5" component="h6">
-                {item.title}
-              </Typography>
-              <Typography sx={{ color: 'text.secondary' }}>{item.description}</Typography>
+             <Markdown children={data.content}/>
             </Stack>
           </Box>
-        ))}
       </Stack>
     </>
   );
-
-  // const renderImg = (
-  //   <Stack
-  //     component={m.div}
-  //     variants={varFade({ distance: 24 }).inRight}
-  //     alignItems="center"
-  //     justifyContent="center"
-  //     sx={{ height: 1, position: 'relative' }}
-  //   >
-  //     <Box
-  //       sx={{
-  //         left: 0,
-  //         width: 720,
-  //         borderRadius: 2,
-  //         position: 'absolute',
-  //         bgcolor: 'background.default',
-  //         boxShadow: (theme) =>
-  //           `-40px 40px 80px 0px ${varAlpha(theme.vars.palette.grey['500Channel'], 0.16)}`,
-  //         [stylesMode.dark]: {
-  //           boxShadow: (theme) =>
-  //             `-40px 40px 80px 0px ${varAlpha(theme.vars.palette.common.blackChannel, 0.16)}`,
-  //         },
-  //       }}
-  //     >
-  //       <Box
-  //         component="img"
-  //         alt="Home Chart"
-  //         src={`${CONFIG.site.basePath}/assets/images/home/home-chart.webp`}
-  //         sx={{ width: 720 }}
-  //       />
-  //     </Box>
-  //   </Stack>
-  // );
 
   return (
     <Stack
@@ -118,10 +87,6 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
             <Grid xs={12} md={6} lg={7}>
               {renderDescription}
             </Grid>
-
-            {/* <Grid md={6} lg={5} sx={{ display: { xs: 'none', md: 'block' } }}>
-              {renderImg}
-            </Grid> */}
           </Grid>
 
           <CircleSvg variants={varFade().in} sx={{ display: { xs: 'none', md: 'block' } }} />
@@ -133,20 +98,3 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
 
 // ----------------------------------------------------------------------
 
-const ITEMS = [
-  {
-    icon: `${CONFIG.site.basePath}/assets/icons/home/ic-make-brand.svg`,
-    title: 'Branding',
-    description: 'Consistent design makes it easy to brand your own.',
-  },
-  {
-    icon: `${CONFIG.site.basePath}/assets/icons/home/ic-design.svg`,
-    title: 'UI & UX design',
-    description: 'The kit is built on the principles of the atomic design system.',
-  },
-  {
-    icon: `${CONFIG.site.basePath}/assets/icons/home/ic-development.svg`,
-    title: 'Development',
-    description: 'Easy to customize and extend, saving you time and money.',
-  },
-];

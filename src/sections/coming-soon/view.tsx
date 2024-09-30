@@ -26,11 +26,11 @@ export function ComingSoonView() {
   return (
     <Container>
       <Typography variant="h3" sx={{ mb: 2 }}>
-        Coming soon!
+        Sắp ra mắt!
       </Typography>
 
       <Typography sx={{ color: 'text.secondary' }}>
-        We are currently working hard on this page!
+      Chúng tôi hiện đang làm việc chăm chỉ trên trang này!
       </Typography>
 
       <ComingSoonIllustration sx={{ my: { xs: 5, sm: 10 } }} />

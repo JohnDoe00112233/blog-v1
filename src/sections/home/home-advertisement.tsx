@@ -39,8 +39,7 @@ export function HomeAdvertisement({ sx, ...other }: StackProps) {
         variants={varFade({ distance: 24 }).inDown}
         sx={{ m: 0, color: 'common.white', typography: { xs: 'h2', md: 'h1' } }}
       >
-        Get started with
-        <br /> Minimal kit
+        Bắt đầu <br />đắng ký tài khoản K89BET
         <Box
           component="span"
           sx={{
@@ -50,7 +49,7 @@ export function HomeAdvertisement({ sx, ...other }: StackProps) {
             ml: 1,
           }}
         >
-          today
+          ngay hôm nay
         </Box>
       </Box>
 
@@ -69,7 +68,7 @@ export function HomeAdvertisement({ sx, ...other }: StackProps) {
             rel="noopener"
             href={paths.minimalStore}
           >
-            Purchase now
+            Đăng ký ngay
           </Button>
         </m.div>
 
@@ -88,7 +87,7 @@ export function HomeAdvertisement({ sx, ...other }: StackProps) {
               '&:hover': { borderColor: 'currentColor' },
             }}
           >
-            Get free version
+            Tải App K89BET
           </Button>
         </m.div>
       </Stack>

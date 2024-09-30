@@ -31,8 +31,8 @@ type PostItemProps = {
 export function PostItem({ post }: PostItemProps) {
   const theme = useTheme();
 
-  const linkTo = paths.post.details(post.title);
-
+  const linkTo = paths.post.details(post.slug);
+  console.log("linkTo",linkTo);
   return (
     <Card>
       <Box sx={{ position: 'relative' }}>
@@ -62,7 +62,7 @@ export function PostItem({ post }: PostItemProps) {
       </Box>
 
       <CardContent sx={{ pt: 6 }}>
-        <Typography variant="caption" component="div" sx={{ mb: 1, color: 'text.disabled' }}>
+        <Typography variant="caption" component="div" sx={{ mb: 1, color: 'text.primary' }}>
           {fDate(post.createdAt)}
         </Typography>
 
@@ -96,7 +96,7 @@ type PostItemLatestProps = {
 export function PostItemLatest({ post, index }: PostItemLatestProps) {
   const theme = useTheme();
 
-  const linkTo = paths.post.details(post.title);
+  const linkTo = paths.post.details(post.slug);
 
   const postSmall = index === 1 || index === 2;
 

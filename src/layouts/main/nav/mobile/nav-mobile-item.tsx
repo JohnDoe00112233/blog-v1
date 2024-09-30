@@ -22,6 +22,7 @@ export const NavItem = forwardRef<HTMLButtonElement, NavItemProps>(
       externalLink,
     });
 
+
     return (
       <StyledNavItem
         ref={ref}

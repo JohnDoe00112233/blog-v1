@@ -22,21 +22,22 @@ import { SocialIcon } from 'src/components/iconify';
 
 const LINKS = [
   {
-    headline: 'Minimal',
+    headline: 'K89BET',
     children: [
-      { name: 'About us', href: paths.about },
-      { name: 'Contact us', href: paths.contact },
-      { name: 'FAQs', href: paths.faqs },
+      { name: 'Giới thiệu K89Bet', href: paths.about },
+      { name: 'Giấy phép kinh doanh', href: paths.businessLicense },
+      { name: 'RSS Feed', href: paths.contact },
     ],
   },
   {
-    headline: 'Legal',
+    headline: 'Pháp lý',
     children: [
-      { name: 'Terms and condition', href: '#' },
-      { name: 'Privacy policy', href: '#' },
+      { name: 'Điều khoản điều kiện', href: paths.terms },
+      { name: 'Chính sách bảo mật', href: paths.privacyPolicy },
+      { name: 'Trách nhiệm người chơi', href: paths.playerResponsibility },
+      { name: 'Quyền riêng tư', href: paths.privacy },
     ],
   },
-  { headline: 'Contact', children: [{ name: 'support@minimals.cc', href: '#' }] },
 ];
 
 // ----------------------------------------------------------------------
@@ -61,7 +62,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
           [theme.breakpoints.up(layoutQuery)]: { textAlign: 'unset' },
         }}
       >
-        <Logo width="100px"  />
+        <Logo width="100px" />
 
         <Grid
           container
@@ -80,10 +81,17 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                 [theme.breakpoints.up(layoutQuery)]: { mx: 'unset' },
               }}
             >
-              The starting point for your next project with Minimal UI Kit, built on the newest
-              version of Material-UI ©, ready to be customized to your style.
+              Bên cạnh việc cung cấp dịch vụ hỗ trợ khách hàng qua chat trực tuyến 24/7, <span><Link
+                href="https://k89.app"
+                target="_blank"
+                rel="noopener"
+                sx={{ mx: 0.5 }}
+              >
+                K89BET
+              </Link></span>
+              còn sẵn sàng giải đáp mọi thắc mắc của bạn qua kênh Telegram. Đội ngũ CSKH của K89 casino hoạt động không ngừng nghỉ suốt cả năm, luôn sẵn sàng tiếp nhận và phản hồi nhanh chóng mọi câu hỏi từ người chơi.
             </Typography>
-
+            <Typography><strong>Hashtag:</strong> #K89Bet, #K89app, #K89betcom, #K89betcasino, #nhacaiK89Bet #K89betapp #trangchuK89bet #linkvaoK89bet</Typography>
             <Stack
               direction="row"
               sx={{
@@ -101,7 +109,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
             </Stack>
           </Grid>
 
-          <Grid {...{ xs: 12, [layoutQuery]: 6 }}>
+          <Grid {...{ xs: 12, [layoutQuery]: 7.5 }}>
             <Stack
               spacing={5}
               sx={{
@@ -136,12 +144,71 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                   ))}
                 </Stack>
               ))}
+
+              <Stack
+                spacing={2}
+                sx={{
+                  width: 1,
+                  alignItems: 'center',
+                  [theme.breakpoints.up(layoutQuery)]: { alignItems: 'flex-start' },
+                }}
+              >
+                <Typography component="div" variant="overline">
+                  Liện hệ nhà cái
+                </Typography>
+                <Box component="ul" sx={{ listStyleType: {xs: "none", md:"disc"} }}>
+                  <li>
+                    <Typography variant="body2">
+                      <strong>Địa chỉ:</strong> 146/59 Đ. Vũ Tùng, Phường 2, Bình Thạnh, Hồ Chí Minh.
+                    </Typography>
+                  </li>
+                  <li>
+                    <Typography variant="body2">
+                      <strong>Live Chat CSKH</strong>
+                    </Typography>
+                  </li>
+                  <li>
+                    <Typography variant="body2">
+                      <strong>Hotline: </strong> (+84) 921227035
+                    </Typography>
+                  </li>
+                  <li>
+                    <Typography variant="body2">
+                      <strong>Mail:</strong> K89.app@gmail.com
+                    </Typography>
+                  </li>
+                  <li>
+                    <Typography variant="body2">
+                      <strong>Website:</strong>  <Link
+                        href="https://k89.app/"
+                        target="_blank"
+                        rel="noopener"
+                        sx={{ mx: 0.5 }}
+                      >
+                        https://k89.app/
+                      </Link>
+                    </Typography>
+                  </li>
+                  <li>
+                    <Typography variant="body2">
+                       <Link
+                        href="https://k89.app/sitemap.xml"
+                        target="_blank"
+                        rel="noopener"
+                        sx={{ mx: 0.5 }}
+                      >
+                        Sitemap
+                      </Link>
+                    </Typography>
+                  </li>
+                </Box>
+              </Stack>
             </Stack>
           </Grid>
         </Grid>
 
         <Typography variant="body2" sx={{ mt: 10 }}>
-          © 2024 All rights reserved.
+          © 2024 K89BET All rights reserved.
         </Typography>
       </Container>
     </Box>
@@ -150,30 +217,3 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
 
 // ----------------------------------------------------------------------
 
-export type HomeFooterProps = {
-  sx?: SxProps<Theme>;
-};
-
-export function HomeFooter({ sx }: HomeFooterProps) {
-  return (
-    <Box
-      component="footer"
-      sx={{
-        py: 5,
-        textAlign: 'center',
-        position: 'relative',
-        bgcolor: 'background.default',
-        ...sx,
-      }}
-    >
-      <Container>
-        <Logo />
-        <Box sx={{ mt: 1, typography: 'caption' }}>
-          © All rights reserved.
-          <br /> made by
-          <Link href="https://minimals.cc/"> minimals.cc </Link>
-        </Box>
-      </Container>
-    </Box>
-  );
-}

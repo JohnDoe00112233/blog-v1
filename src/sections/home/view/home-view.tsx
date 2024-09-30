@@ -9,8 +9,6 @@ import { HomeHero } from '../home-hero';
 import { HomeFAQs } from '../home-faqs';
 import { HomeMinimal } from '../home-minimal';
 import { HomePricing } from '../home-pricing';
-import { HomeTestimonials } from '../home-testimonials';
-import { HomeAdvertisement } from '../home-advertisement';
 
 
 // ----------------------------------------------------------------------
@@ -35,11 +33,7 @@ export function HomeView() {
 
         <HomePricing />
 
-        <HomeTestimonials />
-
         <HomeFAQs />
-
-        <HomeAdvertisement />
       </Stack>
     </>
   );

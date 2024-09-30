@@ -96,6 +96,7 @@ export function PostDetailsHero({ title, author, coverUrl, createdAt }: IPostHer
                 tooltipTitle={action.name}
                 tooltipPlacement="top"
                 FabProps={{ color: 'default' }}
+                aria-label={action.name}
               />
             ))}
           </SpeedDial>

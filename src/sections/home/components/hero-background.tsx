@@ -6,14 +6,13 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import { useTheme } from '@mui/material/styles';
 
-import { useResponsive } from 'src/hooks/use-responsive';
-
 import { CONFIG } from 'src/config-global';
+
 import { varAlpha, stylesMode } from 'src/theme/styles';
 
 import { MotionContainer } from 'src/components/animate';
 
-import { Dots, Lines, Texts, Circles, PlusIcon } from './hero-svg';
+import { Dots, Lines, Circles, PlusIcon } from './hero-svg';
 
 // ----------------------------------------------------------------------
 
@@ -23,8 +22,6 @@ type Props = {
 
 export function HeroBackground({ sx }: Props) {
   const theme = useTheme();
-
-  const upMd = useResponsive('up', 'md');
 
   const lightMode = theme.palette.mode === 'light';
 
@@ -64,8 +61,6 @@ export function HeroBackground({ sx }: Props) {
       }}
     >
       <Dots />
-
-      {upMd && <Texts />}
 
       <Box
         component={m.svg}

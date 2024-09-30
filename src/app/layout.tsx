@@ -14,12 +14,8 @@ import { MotionLazy } from 'src/components/animate/motion-lazy';
 
 
 
-import { AuthProvider as JwtAuthProvider } from 'src/auth/context/jwt';
-
 
 // ----------------------------------------------------------------------
-
-const AuthProvider = JwtAuthProvider;
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -90,22 +86,17 @@ type Props = {
 };
 
 export default async function RootLayout({ children }: Props) {
-
-
-
   return (
     <html lang='vi' suppressHydrationWarning>
       <body>
         {getInitColorSchemeScript}
-            <AuthProvider>
-                <ThemeProvider>
-                  <MotionLazy>
-                      <Snackbar />
-                      <ProgressBar />
-                      {children}
-                  </MotionLazy>
-                </ThemeProvider>
-            </AuthProvider>
+        <ThemeProvider>
+          <MotionLazy>
+            <Snackbar />
+            <ProgressBar />
+            {children}
+          </MotionLazy>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -31,21 +31,26 @@ export type IPostComment = {
 
 export type IPostItem = {
   id: string;
+  name?:string;
+  itemPath?:string;
   title: string;
+  slug:string;
+  articleSection?:string;
+  keyword?:string;
   tags: string[];
   publish: string;
   content: string;
   coverUrl: string;
+  coverUrlAlt: string;
   metaTitle: string;
   totalViews: number;
   totalShares: number;
   description: string;
   totalComments: number;
   totalFavorites: number;
-  metaKeywords: string[];
   metaDescription: string;
-  comments: IPostComment[];
+  coverUrlOpenGraph:string;
+  coverUrlOpenGraphAlt:string;
   createdAt: IDateValue;
-  favoritePerson: { name: string; avatarUrl: string }[];
   author: { name: string; avatarUrl: string };
 };

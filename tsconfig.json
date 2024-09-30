@@ -36,7 +36,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/app/demo/page.mdx", "src/app/gioi-thieu-k89bet/page.tsx"  ],
   "exclude": [
     "node_modules"
   ]

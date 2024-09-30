@@ -9,7 +9,7 @@ import Stack from '@mui/material/Stack';
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 
-import { varAlpha, textGradient } from 'src/theme/styles';
+import { textGradient, varAlpha } from 'src/theme/styles';
 
 import { varFade } from 'src/components/animate';
 
@@ -41,8 +41,7 @@ export function SectionTitle({
   description,
   ...other
 }: Props) {
-  const theme = useTheme();
-
+  const theme = useTheme()
   return (
     <Stack spacing={3} {...other}>
       {caption && (

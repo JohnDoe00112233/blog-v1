@@ -13,12 +13,9 @@ import { HeaderSection } from './header-section';
 import { Searchbar } from '../components/searchbar';
 import { MenuButton } from '../components/menu-button';
 import { SignInButton } from '../components/sign-in-button';
-import { AccountDrawer } from '../components/account-drawer';
-import { ContactsPopover } from '../components/contacts-popover';
 
 import type { HeaderSectionProps } from './header-section';
-import type { AccountDrawerProps } from '../components/account-drawer';
-import type { ContactsPopoverProps } from '../components/contacts-popover';
+
 
 // ----------------------------------------------------------------------
 
@@ -53,8 +50,6 @@ export type HeaderBaseProps = HeaderSectionProps & {
   onOpenNav: () => void;
   data?: {
     nav?: NavSectionProps['data'];
-    account?: AccountDrawerProps['data'];
-    contacts?: ContactsPopoverProps['data'];
   };
   slots?: {
     navMobile?: {
@@ -67,7 +62,6 @@ export type HeaderBaseProps = HeaderSectionProps & {
     account?: boolean;
     helpLink?: boolean;
     settings?: boolean;
-
     contacts?: boolean;
     searchbar?: boolean;
     workspaces?: boolean;
@@ -91,7 +85,6 @@ export function HeaderBase({
     contacts = true,
     searchbar = true,
     menuButton = true,
-    notifications = true,
   } = {},
   ...other
 }: HeaderBaseProps) {
@@ -112,6 +105,7 @@ export function HeaderBase({
             {menuButton && (
               <MenuButton
                 data-slot="menu-button"
+                aria-label='menu-button'
                 onClick={onOpenNav}
                 sx={{ mr: 1, ml: -1, [theme.breakpoints.up(layoutQuery)]: { display: 'none' } }}
               />
@@ -154,13 +148,6 @@ export function HeaderBase({
               {/* -- Searchbar -- */}
               {searchbar && <Searchbar data-slot="searchbar" data={data?.nav} />}
 
-              {/* -- Notifications popover -- */}
-
-              {/* -- Contacts popover -- */}
-              {contacts && <ContactsPopover data-slot="contacts" data={data?.contacts} />}
-
-              {/* -- Account drawer -- */}
-              {account && <AccountDrawer data-slot="account" data={data?.account} />}
 
               {/* -- Sign in button -- */}
               {signIn && <SignInButton />}

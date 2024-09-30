@@ -1,13 +1,11 @@
 import { defaultFont } from 'src/theme/core/typography';
 
-import type { SettingsState } from './types';
-
 // ----------------------------------------------------------------------
 
 export const STORAGE_KEY = 'app-settings';
 
-export const defaultSettings: SettingsState = {
-  colorScheme: 'light',
+export const defaultSettings = {
+  colorScheme: 'dark',
   direction: 'ltr',
   contrast: 'default',
   navLayout: 'vertical',

@@ -1,5 +1,7 @@
 import { cloneElement } from 'react';
 
+import { useMediaQuery } from '@mui/material';
+
 import { RouterLink } from 'src/routes/components';
 
 import type { NavItemProps } from './types';
@@ -42,11 +44,16 @@ export function useNavItem({
 
   const subDeepItem = Number(depth) > 2;
 
+  // Kiểm tra xem có đang ở mobile không
+  const isMobile = useMediaQuery('(max-width:900px)');
+
   const linkProps = externalLink
     ? { href: path, target: '_blank', rel: 'noopener' }
     : { component: RouterLink, href: path };
 
-  const baseProps = hasChild && !enabledRootRedirect ? { component: 'div' } : linkProps;
+    const baseProps = isMobile && hasChild && !enabledRootRedirect
+    ? { component: 'div' }
+    : linkProps;
 
   /**
    * Render @icon
@@ -72,6 +79,7 @@ export function useNavItem({
   } else {
     renderInfo = info;
   }
+
 
   return {
     subItem,
