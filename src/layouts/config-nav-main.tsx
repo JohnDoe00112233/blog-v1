@@ -24,7 +24,7 @@ export const navData = [
   {
     title: 'Thể Thao',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.comingSoon,
+    path: paths.sports,
   },
   {
     title: 'Hướng dẫn',

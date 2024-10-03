@@ -42,6 +42,7 @@ export type IPostItem = {
   content: string;
   coverUrl: string;
   coverUrlAlt: string;
+  category:any;
   metaTitle: string;
   totalViews: number;
   totalShares: number;

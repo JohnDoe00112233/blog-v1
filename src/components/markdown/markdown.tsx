@@ -12,6 +12,8 @@ import Link from '@mui/material/Link';
 import { isExternalLink } from 'src/routes/utils';
 import { RouterLink } from 'src/routes/components';
 
+import { FigcaptionStyled } from 'src/utils/figcaption-styles';
+
 import { Image } from '../image';
 import { StyledRoot } from './styles';
 import { markdownClasses } from './classes';
@@ -54,14 +56,26 @@ type ComponentTag = {
 const rehypePlugins = [rehypeRaw, rehypeHighlight, [remarkGfm, { singleTilde: false }]];
 
 const components = {
-  img: ({ node, ...other }: ComponentTag) => (
-    <Image
-      ratio="16/9"
-      className={markdownClasses.content.image}
-      sx={{ borderRadius: 2 }}
-      {...other}
-    />
-  ),
+  img: ({ node, ...other }: ComponentTag) => {
+    const coverUrlAlt = node?.properties?.alt
+    return (
+      <span>
+        <figure
+          style={{
+            margin: "30px 0",
+          }}
+        >
+          <Image
+            ratio="16/9"
+            className={markdownClasses.content.image}
+            sx={{ borderRadius: 2 }}
+            {...other}
+          />
+          {coverUrlAlt && <FigcaptionStyled>{coverUrlAlt}</FigcaptionStyled>}
+        </figure>
+      </span>
+    )
+  },
   a: ({ href, children, node, ...other }: ComponentTag) => {
     const linkProps = isExternalLink(href)
       ? { target: '_blank', rel: 'noopener' }

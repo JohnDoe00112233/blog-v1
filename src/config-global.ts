@@ -2,6 +2,9 @@ import packageJson from '../package.json';
 
 // ----------------------------------------------------------------------
 
+export const TEXT_CAPTIONS_LIGHT_COLOR = "#334155";
+export const TEXT_CAPTIONS_DARK_COLOR = "#94A3B8";
+
 export type ConfigValue = {
   isStaticExport: boolean;
   site: {

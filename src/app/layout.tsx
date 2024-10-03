@@ -36,9 +36,9 @@ export const metadata = {
   description:
     "Đăng ký ngay K89Bet không bị chặn để trải nghiệm cá cược bóng đá, bacarat, casino trực tuyến với tỷ lệ thắng cao. Giao diện dễ sử dụng, nhận ngay 588k khi đăng ký. Hỗ trợ khách hàng 24/7, đảm bảo an toàn.",
   alternates: {
-    canonical: "https://k89bet.org/vi_VN",
+    canonical: "https://k89.app/vi_VN",
     languages: {
-      "vi-VN": "https://k89bet.org/vi_VN"
+      "vi-VN": "https://k89.app/vi_VN"
     },
   },
   generator: "K89BET",

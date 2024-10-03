@@ -66,7 +66,7 @@ export function HomeAdvertisement({ sx, ...other }: StackProps) {
             variant="contained"
             target="_blank"
             rel="noopener"
-            href={paths.minimalStore}
+            href={paths.registerNow}
           >
             Đăng ký ngay
           </Button>
@@ -79,7 +79,7 @@ export function HomeAdvertisement({ sx, ...other }: StackProps) {
             variant="outlined"
             target="_blank"
             rel="noopener"
-            href={paths.freeUI}
+            href={paths.download}
             endIcon={<Iconify width={16} icon="eva:external-link-fill" sx={{ mr: 0.5 }} />}
             sx={{
               color: 'common.white',

@@ -108,15 +108,15 @@ const jsonLd = {
 }
 
 export default async function Page() {
- return (
-  <section>
-  <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-  />
-  <PostListHomeView posts={BLOG_POST_DATA} />
-</section>
- )
+  return (
+    <section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <PostListHomeView posts={BLOG_POST_DATA} />
+    </section>
+  )
 
 }
 

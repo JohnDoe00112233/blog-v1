@@ -14,6 +14,7 @@ import { FloatLine, } from './components/svg-elements';
 export function HomePricing({ sx, ...other }: StackProps) {
   const data = {
     content: `<h2>🥇Kho game K89Bet vừa giải trí vừa đổi thưởng nhanh</h2>
+    <img src="/assets/images/kho-game-k89bet-doi-thuong-nhanh.webp" alt="Kho game K89Bet vừa giải trí vừa đổi thưởng nhanh"/>
     <h3>🥈Sòng bài</h3>
         <p>Sòng bài K89Bet, người chơi có thể tìm thấy nhiều trò chơi sòng bài phổ biến như:</p>
         <ul>
@@ -195,7 +196,7 @@ export function HomePricing({ sx, ...other }: StackProps) {
 
   <h3>🥈Hướng dẫn đăng ký tài khoản K89Bet</h3>
   <ol>
-    <li>Mở app K89Bet hoặc truy cập trang web <strong>K89Bet com</strong> và nhấn vào "<strong><a href="https://k89.app">Đăng ký</a></strong>".</li>
+    <li>Mở app K89Bet hoặc truy cập trang web <strong>K89 app</strong> và nhấn vào "<strong><a href="https://k89.app">Đăng ký ngay</a></strong>".</li>
     <li>Điền tên đăng nhập bằng chữ thường.</li>
     <li>Tạo mật khẩu bao gồm 8 đến 20 ký tự với ít nhất một chữ hoa.</li>
     <li>Nhập số điện thoại chính chủ với bet thủ Việt bắt đầu bằng đầu số +84.</li>
