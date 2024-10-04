@@ -19,8 +19,8 @@ export const metadata = {
       'Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.',
     images: [
       {
-        url: "",
-        alt: "",
+        url: `${CONFIG.site.basePath}/assets/images/huong-dan-k89bet.webp`,
+        alt: "Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.",
       },
     ],
     authors: ["k89bet"],
@@ -32,8 +32,8 @@ export const metadata = {
     url: `${CONFIG.site.basePath}/${paths.tutorial}/vi_VN`,
     images: [
       {
-        url: "",
-        alt: "",
+        url: `${CONFIG.site.basePath}/assets/images/huong-dan-k89bet.webp`,
+        alt: "Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.",
       },
     ],
     ...baseTwitterGraph

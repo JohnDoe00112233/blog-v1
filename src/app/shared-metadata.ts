@@ -8,7 +8,7 @@ export const commonHomePage = {
   images: [
     {
       url: `${CONFIG.site.basePath}/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
-      alt: "Nhà cái K89BET",
+      alt: "Nhà cái K89BET uy tín",
     },
   ],
 };
@@ -22,7 +22,7 @@ export const searchHomePageJson = {
   images: [
     {
       url: `${CONFIG.site.basePath}/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
-      alt: "Nhà cái K89BET",
+      alt: "Nhà cái K89BET uy tín",
     },
   ],
   language: "vi",

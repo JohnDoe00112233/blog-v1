@@ -32,9 +32,9 @@ export const metadata = {
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  title: "K89BET",
+  title: "K89bet.com | Link vào K89bet chính thức không bị chặn link",
   description:
-    "Đăng ký ngay K89Bet không bị chặn để trải nghiệm cá cược bóng đá, bacarat, casino trực tuyến với tỷ lệ thắng cao. Giao diện dễ sử dụng, nhận ngay 588k khi đăng ký. Hỗ trợ khách hàng 24/7, đảm bảo an toàn.",
+    "Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!",
   alternates: {
     canonical: "https://k89.app/vi_VN",
     languages: {

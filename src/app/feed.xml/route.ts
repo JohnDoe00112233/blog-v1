@@ -1,8 +1,10 @@
 import RSS from "rss";
-import { commonHomePage } from "../shared-metadata";
-import { CONFIG } from "src/config-global";
 import { NextResponse } from "next/server";
+
+import { CONFIG } from "src/config-global";
 import { BLOG_POST_DATA, MOCK_HOMEPAGE_DATA } from "src/data/list-data";
+
+import { commonHomePage } from "../shared-metadata";
 
 export async function GET() {
   const categories = ['the-thao-k89bet', 'xo-so-k89bet', 'no-hu-k89bet', 'casino-k89bet', 'huong-dan'];
@@ -33,8 +35,8 @@ export async function GET() {
       title: post.metaTitle || commonHomePage.title,
       description: post.metaDescription || commonHomePage.description,
       categories: Array.isArray(post.category) ? post.category : [post.category || post.slug],
-      url: `${CONFIG.site.basePath}/${post.category ? post.category + '/' : ''}${post.slug}`,
-      guid: `${CONFIG.site.basePath}/${post.category ? post.category + '/' : ''}${post.slug}`,
+      url: `${CONFIG.site.basePath}/${post.category ? `${post.category  }/` : ''}${post.slug}`,
+      guid: `${CONFIG.site.basePath}/${post.category ? `${post.category  }/` : ''}${post.slug}`,
       enclosure: {
         url: enclosureUrl,
         type: enclosureType,

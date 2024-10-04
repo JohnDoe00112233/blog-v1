@@ -13,7 +13,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Nạp tiền K89Bet – An toàn tuyệt đối và linh hoạt khi giao dịch',
     description: '',
     category: "huong-dan",
-    publish: '2024-08-28',
+    publish: '2024-10-04',
     content: `
     <p>Khi tham gia vào bất kỳ nền tảng cá cược trực tuyến nào, việc nắm rõ quy trình <strong><a href="https://k89.app/nap-tien-k89bet">nạp tiền K89Bet</a></strong> là bước không thể thiếu để đảm bảo mọi giao dịch diễn ra suôn sẻ và bảo mật. Tại <strong><a href="https://k89.app/">nhà cái K89Bet</a></strong>, người chơi có thể lựa chọn từ nhiều phương thức thanh toán khác nhau, từ chuyển khoản ngân hàng cho đến ví điện tử và crypto, giúp bạn luôn cảm thấy an tâm và tiện lợi. Hãy cùng khám phá các phương thức nạp tiền đa dạng và đảm bảo chất lượng mà <strong>nhà cái K89Bet</strong> cung cấp để trải nghiệm của bạn luôn được tối ưu.</p>
     <h2>🥇Các phương thức nạp tiền tại nhà cái K89Bet</h2>
@@ -88,7 +88,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
       '#HướngDẫnK89Bet',
       '#BảoMậtGiaoDịch',
     ],
-    createdAt: '2024-08-28',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -102,7 +102,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Rút Tiền K89Bet – Hướng Dẫn Chi Tiết Và Nhanh Chóng',
     description: '',
     category: "huong-dan",
-    publish: '2024-09-12',
+    publish: '2024-10-04',
     content: `
     <p><strong><a href="https://k89.app/huong-dan/rut-tien-k89bet">Rút tiền K89Bet</a></strong> luôn là khoảnh khắc mong đợi nhất đối với người chơi sau khi giành chiến thắng. Để quá trình rút tiền diễn ra suôn sẻ và đảm bảo an toàn, <strong>K89Bet</strong> cung cấp nhiều hình thức rút tiền với quy trình đơn giản và rõ ràng. Bằng cách tuân thủ các quy định, người chơi có thể dễ dàng nhận được tiền vào tài khoản của mình trong thời gian ngắn nhất.</p>
     <h2>🥇Các phương thức thanh toán khi rút tiền K89Bet</h2>
@@ -318,7 +318,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     <li>Lời mời tham dự các sự kiện VIP của K89Bet.</li>
 </ul>
 <h2>🥇Kết luận</h2>
-<p>Rút tiền tại <strong>K89Bet</strong> không chỉ đơn giản là một quy trình giao dịch, mà còn là một trải nghiệm được thiết kế để mang lại sự hài lòng cao nhất cho người chơi. Với nhiều phương thức thanh toán linh hoạt, hệ thống xử lý nhanh chóng và ưu đãi đặc biệt cho thành viên VIP, <strong>K89Bet</strong> mang đến sự tiện lợi, an toàn và độ tin cậy. Bất kể bạn là người mới hay thành viên lâu năm, sự hỗ trợ tận tâm 24/7 cùng với công nghệ tiên tiến của <strong>K89Bet</strong> đảm bảo bạn sẽ luôn được đáp ứng nhanh nhất. Hãy <strong>tải app K89Bet</strong> ngay hôm nay để trải nghiệm sự khác biệt và nhận thêm nhiều ưu đãi hấp dẫn. Trải nghiệm cá cược với <strong>K89Bet</strong> không chỉ an toàn mà còn vô cùng thú vị!</p>
+<p><strong>Rút tiền K89Bet</strong> không chỉ đơn giản là một quy trình giao dịch, mà còn là một trải nghiệm được thiết kế để mang lại sự hài lòng cao nhất cho người chơi. Với nhiều phương thức thanh toán linh hoạt, hệ thống xử lý nhanh chóng và ưu đãi đặc biệt cho thành viên VIP, <strong>K89Bet</strong> mang đến sự tiện lợi, an toàn và độ tin cậy. Bất kể bạn là người mới hay thành viên lâu năm, sự hỗ trợ tận tâm 24/7 cùng với công nghệ tiên tiến của <strong>K89Bet</strong> đảm bảo bạn sẽ luôn được đáp ứng nhanh nhất. Hãy <strong>tải app K89Bet</strong> ngay hôm nay để trải nghiệm sự khác biệt và nhận thêm nhiều ưu đãi hấp dẫn. Trải nghiệm cá cược với <strong>K89Bet</strong> không chỉ an toàn mà còn vô cùng thú vị!</p>
     `,
     coverUrl: `${CONFIG.site.basePath}/assets/images/rut-tien-k89bet-1080x720.webp`,
     coverUrlAlt: 'Nạp tiền K89Bet an toàn nhanh chóng và bảo mật',
@@ -340,7 +340,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
       '#HướngDẫnK89Bet',
       '#BảoMậtGiaoDịch',
     ],
-    createdAt: '2024-09-12',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -354,7 +354,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Đăng Ký K89Bet – Mở Tài Khoản Nhanh Chóng & Nhận Ngay Ưu Đãi Đặc Biệt',
     description: '',
     category: "huong-dan",
-    publish: '2024-09-13',
+    publish: '2024-10-04',
     content: `
         <p>Việc <strong><a href="https://k89.app/huong-dan/dang-ky-k89bet">đăng ký K89Bet</a></strong> là bước khởi đầu quan trọng để bạn có thể tham gia trải nghiệm cá cược tại nhà cái. Với quy trình đăng ký đơn giản và nhanh chóng, K89Bet luôn mang đến cho người chơi sự tiện lợi tối đa. Không chỉ vậy, nhà cái còn đảm bảo an toàn, không lo bị chặn nhờ vào nhiều liên kết dự phòng, giúp bạn yên tâm tham gia mà không gặp rủi ro.</p>
 
@@ -502,7 +502,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
       '#HướngDẫnK89Bet',
       '#BảoMậtGiaoDịch',
     ],
-    createdAt: '2024-09-13',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -516,7 +516,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Tải App K89Bet – Ứng Dụng Cá Cược Trực Tuyến Hàng Đầu Cho Điện Thoại',
     description: '',
     category: "huong-dan",
-    publish: '2024-09-14',
+    publish: '2024-10-04',
     content: `
       <p><strong><a href="https://k89.app/">K89Bet</a></strong> là một trong những nhà cái uy tín hàng đầu trong lĩnh vực cá cược trực tuyến và đã phát triển ứng dụng di động nhằm mang lại sự tiện lợi tối đa cho người dùng. Việc <strong><a href="https://k89.app/huong-dan/tai-app-k89bet">tải app K89Bet</a></strong> không chỉ giúp người chơi dễ dàng tham gia cá cược mà còn mở ra một trải nghiệm cá cược mượt mà và nhanh chóng trên điện thoại di động.</p>
 <h2>🥇Lí do bạn nên tải app K89Bet về điện thoại</h2>
@@ -591,7 +591,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
       '#HướngDẫnK89Bet',
       '#BảoMậtGiaoDịch',
     ],
-    createdAt: '2024-09-14',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -605,7 +605,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Nhận khuyến mãi K89Bet – Ưu đãi liên tục và cơ hội nhận thưởng lớn',
     description: '',
     category: "huong-dan",
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
     <p>Trong thị trường cá cược trực tuyến đầy sôi động và cạnh tranh, các chương trình khuyến mãi hấp dẫn luôn là yếu tố quan trọng để thu hút và giữ chân người chơi. <strong><a href="https://k89.app/">K89Bet</a></strong> đã nắm bắt điều này và triển khai những chương trình <strong><a href="https://k89.app/huong-dan/khuyen-mai-k89bet">khuyến mãi K89Bet</a></strong> vô cùng hấp dẫn, tạo ra nhiều cơ hội kiếm tiền và tăng thêm trải nghiệm thú vị cho người chơi.</p>
 
@@ -742,7 +742,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
       '#HướngDẫnK89Bet',
       '#BảoMậtGiaoDịch',
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -751,53 +751,6 @@ export const BLOG_POST_DATA: IPostItem[] = [
     totalFavorites: 0,
   },
 ];
-
-export const MOCK_CATEGORY_DATA = [
-  {
-    id: uuidv4(),
-    title: 'Hướng Dẫn K89Bet – Đăng Ký, Nạp Tiền, Rút Tiền & Tải App K89Bet',
-    description:
-      'Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.',
-    descriptionLD:
-      'Trang Hướng dẫn K89Bet cung cấp tất cả thông tin chi tiết về cách đăng ký K89Bet, nạp tiền, rút tiền, tải app và khám phá các khuyến mãi mới nhất tại K89Bet.',
-    keywords: [
-      'Hướng dẫn K89Bet',
-      'Đăng ký K89Bet',
-      'Nạp tiền K89Bet',
-      'Rút tiền K89Bet',
-      'Tải app K89Bet',
-      'Khuyến mãi K89Bet',
-    ],
-    mainEntity: [
-      {
-        position: '',
-        name: '',
-        paths: '',
-      },
-      {
-        position: '',
-        name: '',
-        paths: '',
-      },
-      {
-        position: '',
-        name: '',
-        paths: '',
-      },
-      {
-        position: '',
-        name: '',
-        paths: '',
-      },
-      {
-        position: '',
-        name: '',
-        paths: '',
-      },
-    ],
-  },
-];
-
 
 
 export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
@@ -808,7 +761,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Liên Hệ K89Bet - Sẵn Sàng Hỗ Trợ Người Chơi Nhanh Chóng',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
      <p>Trong quá trình tham gia các trò chơi đổi thưởng tại K89Bet, người chơi có thể gặp phải những câu hỏi hoặc khó khăn cần được giải quyết. Nhằm hỗ trợ kịp thời, hệ thống <strong>liên hệ K89Bet</strong> đã được phát triển, giúp người chơi dễ dàng kết nối với đội ngũ chăm sóc khách hàng của chúng tôi. Với phương châm đặt lợi ích người chơi lên hàng đầu, K89Bet cam kết mang lại sự hỗ trợ nhanh chóng và hiệu quả nhất.</p>
       <h2>🥇Hướng dẫn các hình thức liên hệ K89Bet</h2>
@@ -822,6 +775,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       <h3>🥈Mạng Xã Hội</h3>
       <p>Để tiện lợi hơn trong việc liên hệ K89Bet, bạn cũng có thể kết nối với chúng tôi qua các nền tảng mạng xã hội như:</p>
       <ul>
+         <li><strong><a href="https://t.me/k89betadmin2">Telegram</a></strong></li>
           <li><strong><a href="#">Twitter</a></strong></li>
           <li><strong><a href="#">Pinterest</a></strong></li>
           <li><strong><a href="#">YouTube</a></strong></li>
@@ -932,7 +886,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       '#ĐăngKýTàiKhoảnK89Bet',
       '#GiaoDịchK89Bet'
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -940,7 +894,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     totalComments: 0,
     totalFavorites: 0,
     itemPath: paths.contact,
-    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
+    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet, liên hệ K89Bet",
     articleSection: "Trang chủ K89Bet, Liên hệ K89Bet"
   },
   {
@@ -950,7 +904,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Giới thiệu K89Bet – Link vào K89Bet không bị lỗi chặn',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
     <p>Trong lĩnh vực <strong>cá cược trực tuyến</strong>, <strong>K89Bet</strong> đã và đang khẳng định vị thế của mình là một <strong>nhà cái trực tuyến uy tín</strong>, được đông đảo người chơi yêu thích. Với đa dạng các trò chơi, giao diện thân thiện và nhiều ưu đãi hấp dẫn, <strong>K89Bet com</strong> đã thu hút người chơi từ khắp nơi trên thế giới. Trong bài viết này, chúng ta sẽ cùng <strong><a href="https://k89.app/gioi-thieu-k89bet">giới thiệu K89Bet</a></strong> và lý do vì sao nó lại trở nên phổ biến đến vậy.</p>
     <h2>🥇Giới thiệu K89Bet sơ lược</h2>
@@ -1052,7 +1006,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       '#ĐăngKýTàiKhoảnK89Bet',
       '#GiaoDịchK89Bet'
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1060,7 +1014,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     totalComments: 0,
     totalFavorites: 0,
     itemPath: paths.contact,
-    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
+    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet, giới thiệu K89Bet",
     articleSection: "Trang chủ K89Bet, Liên hệ K89Bet"
   },
   {
@@ -1070,7 +1024,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Giới thiệu K89Bet – Link vào K89Bet không bị lỗi chặn',
     description: 'Giấy phép kinh doanh – Chứng chỉ của Hiệp hội Cá cược Quốc tế',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
     <p>Việc kiểm tra <strong><a href="https://k89.app/giay-phep-kinh-doanh">giấy phép kinh doanh</a></strong> là bước đầu tiên và quan trọng khi xác định độ uy tín và an toàn của một <strong>nhà cái cá cược trực tuyến</strong>. Giấy phép kinh doanh đóng vai trò xác thực độ tin cậy của hệ thống cá cược mà bạn tham gia. Vậy <strong>K89Bet com</strong> sở hữu những đặc điểm gì về giấy phép kinh doanh?</p>
 
@@ -1194,7 +1148,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       '#ĐăngKýTàiKhoảnK89Bet',
       '#GiaoDịchK89Bet'
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1202,8 +1156,8 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     totalComments: 0,
     totalFavorites: 0,
     itemPath: paths.contact,
-    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
-    articleSection: "Trang chủ K89Bet, Liên hệ K89Bet"
+    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet, giấy phép kinh doanh",
+    articleSection: "Trang chủ K89Bet, Giấy phép kinh doanh"
   },
   {
     id: uuidv4(),
@@ -1365,7 +1319,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       '#NạpTiềnRútTiềnK89Bet',
       '#CáCượcTrựcTuyếnK89Bet',
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1383,7 +1337,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Chính Sách Bảo Mật – Mang Lại Trải Nghiệm Tốt Nhất Tại Nhà Cái K89Bet',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
         <p>Đối với những người chơi mới, <strong><a href="https://k89.app/chinh-sach-bao-mat">chính sách bảo mật</a></strong> và các <strong><a href="https://k89.app/dieu-khoan-dieu-kien">điều khoản điều kiện</a></strong> luôn là yếu tố quan trọng. Những chính sách này không chỉ đảm bảo quyền lợi cho người chơi mà còn tạo sự an tâm trong quá trình trải nghiệm tại K89Bet. Hãy cùng tìm hiểu chi tiết về chính sách bảo mật của nhà cái để có cái nhìn rõ ràng hơn.</p>
     <h2>🥇Ý nghĩa quan trọng của chính sách bảo mật K89Bet</h2>
@@ -1454,7 +1408,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       '#AnToànThôngTinNgườiChơi',
       '#CáCượcAnToàn',
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1472,7 +1426,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Trách nhiệm người chơi – Tuân thủ quy định nhà cái',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
     <p>Khi tham gia bất kỳ hoạt động cá cược nào, việc hiểu rõ <strong><a href="https://k89.app/trach-nhiem-nguoi-choi"></a></strong> là vô cùng cần thiết, đặc biệt tại các nhà cái uy tín như <strong>K89Bet</strong>. Việc tuân thủ quy định và quản lý bản thân không chỉ giúp bảo vệ quyền lợi của người chơi, mà còn góp phần tạo ra một môi trường cá cược an toàn, lành mạnh và công bằng.</p>
 
@@ -1557,7 +1511,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       '#NgănNgừaNghiệnCờBạc',
       '#K89Bet',
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1565,7 +1519,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     totalComments: 0,
     totalFavorites: 0,
     itemPath: paths.playerResponsibility,
-    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
+    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet, Trách nhiệm người chơi K89Bet",
     articleSection: "Trang chủ K89Bet, Trách nhiệm người chơi K89Bet"
   },
   {
@@ -1575,7 +1529,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Quyền riêng tư – Tầm quan trọng của quyền cá nhân',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
    <p>Khi tham gia vào các nền tảng cá cược như <strong><a href="https://k89.app/">K89Bet</a></strong>, <strong><a href="https://k89.app/quyen-rieng-tu">quyền riêng tư</a></strong> của người chơi luôn được bảo đảm. Nhà cái không chỉ tuân thủ các quy định nghiêm ngặt về bảo mật mà còn triển khai các biện pháp hiện đại để bảo vệ thông tin cá nhân.</p>
 
@@ -1677,7 +1631,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       '#NgănNgừaNghiệnCờBạc',
       '#K89Bet',
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1685,7 +1639,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     totalComments: 0,
     totalFavorites: 0,
     itemPath: paths.private,
-    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
+    keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet, quyền riêng tư K89Bet",
     articleSection: "Trang chủ K89Bet, Quyền riêng tư K89Bet"
   },
   {
@@ -1695,7 +1649,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Casino K89bet – Sòng bạc trực tuyến đẳng cấp',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
     <p><strong><a href="https://k89.app/casino-k89bet">Casino K89bet</a></strong> là một trong những nền tảng casino trực tuyến hàng đầu tại Việt Nam, thu hút rất nhiều người chơi nhờ sự đa dạng về trò chơi, công nghệ hiện đại, và các ưu đãi hấp dẫn. Trong bài viết này, chúng ta sẽ khám phá các tính năng nổi bật của <strong>casino K89bet</strong> và lý do tại sao nó trở thành lựa chọn số một của các bet thủ yêu thích sòng bạc trực tuyến.</p>
 
@@ -1777,7 +1731,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
       '#BaccaratOnline',
       '#RouletteOnline'
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1795,7 +1749,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Xổ số K89Bet Cơ hội trúng lớn mỗi ngày',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
    <p><strong><a href="https://k89.app/xo-so-k89bet">Xổ số K89Bet</a></strong> không chỉ là cơ hội để người chơi thử vận may mà còn là một nền tảng giải trí hấp dẫn với nhiều loại xổ số phong phú. Tại <strong><a href="https://k89.app">K89bet</a></strong>, bạn sẽ tìm thấy tất cả các trò chơi xổ số phổ biến nhất, từ truyền thống đến hiện đại, mang lại cho người chơi nhiều lựa chọn và cơ hội trúng thưởng lớn mỗi ngày.</p>
 <h2>🥇Tổng quan về xổ số K89bet</h2>
@@ -1835,7 +1789,7 @@ Xổ số Vietlott là hình thức xổ số điện toán hiện đại với 
 <h3>🥈Thưởng cho người chơi VIP</h3>
 <p>🥈K89bet đặc biệt chú trọng đến việc chăm sóc khách hàng VIP với những phần thưởng hấp dẫn, từ tăng tỷ lệ trúng thưởng cho đến các giải thưởng giá trị cao hơn dành riêng cho người chơi thường xuyên.</p>
 <h2>🥇Ưu điểm khi chơi xổ số K89Bet</h2>
-      <img src="/assets/images/uu-diem-khi-choi-xo-so-k89bet.webp" alt="Ưu điểm khi chơi xổ số K89Bet"/>
+      <img src="/assets/images/uu-diem-khi-choi-xo-so-k89bet-k89bet.webp" alt="Ưu điểm khi chơi xổ số K89Bet"/>
 
 <h3>🥈Giao diện thân thiện và dễ sử dụng</h3>
 <p>K89bet cung cấp giao diện trực quan, đơn giản, giúp người chơi dễ dàng tham gia các loại xổ số khác nhau mà không gặp khó khăn trong việc điều hướng. Ngay cả những người mới cũng có thể nhanh chóng làm quen với cách thức tham gia.</p>
@@ -1876,7 +1830,7 @@ Xổ số Vietlott là hình thức xổ số điện toán hiện đại với 
       '#XoSoTrucTuyenK89Bet'
 
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1894,7 +1848,7 @@ Xổ số Vietlott là hình thức xổ số điện toán hiện đại với 
     category: null,
     title: 'Nổ hũ K89bet – Trải nghiệm game đổi thưởng đỉnh cao',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
    <p><strong><a href="https://k89.app/no-hu-k89bet">Nổ hũ K89bet</a></strong> là một trong những trò chơi đổi thưởng hấp dẫn và được yêu thích nhất tại nền tảng <strong><a href="https://k89.app">K89bet</a></strong>. Với giao diện thân thiện, cách chơi đơn giản và đặc biệt là cơ hội nhận thưởng lớn, Nổ Hũ đã trở thành một điểm đến lý tưởng cho những người yêu thích sòng bạc trực tuyến. Bài viết này sẽ giới thiệu chi tiết về cách chơi, các ưu điểm, và mẹo để bạn có thể tăng cơ hội chiến thắng tại <strong>nổ hũ K89bet</strong>.</p>
 
@@ -1992,7 +1946,7 @@ Xổ số Vietlott là hình thức xổ số điện toán hiện đại với 
       '#JackpotK89bet',
       '#KhuyếnMãiK89bet',
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -2001,7 +1955,7 @@ Xổ số Vietlott là hình thức xổ số điện toán hiện đại với 
     totalFavorites: 0,
     itemPath: paths.private,
     keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
-    articleSection: "Trang chủ K89Bet, Xổ số K89Bet"
+    articleSection: "Trang chủ K89Bet, Nổ hũ K89Bet"
   },
   {
     id: uuidv4(),
@@ -2010,7 +1964,7 @@ Xổ số Vietlott là hình thức xổ số điện toán hiện đại với 
     category: null,
     title: 'Thể thao K89Bet – Soi kèo đỉnh cao cùng chuyên gsia',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
     <p>Đam mê cá cược và mong muốn chiến thắng từ những trận đấu hấp dẫn? Hãy đến với <strong><a href="https://k89.app/the-thao-k89bet">thể thao K89Bet</a></strong>, nơi mang đến cơ hội không chỉ giải trí mà còn tạo ra lợi nhuận khổng lồ từ những kèo đấu thể thao đỉnh cao. Với dịch vụ soi kèo chuyên sâu và phân tích tỉ mỉ từ các chuyên gia hàng đầu, <strong><a href="https://k89.app">sân chơi K89Bet</a></strong> cam kết mang đến trải nghiệm cá cược thể thao chuyên nghiệp và đáng tin cậy.</p>
 
@@ -2098,7 +2052,7 @@ Xổ số Vietlott là hình thức xổ số điện toán hiện đại với 
       '#TỷLệCượcHấpDẫn',
       '#CáCượcNgoạiHạngAnh',
     ],
-    createdAt: '2024-09-15',
+    createdAt: '2024-10-04',
     author: {
       name: 'K89BET',
       avatarUrl: `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -2107,7 +2061,7 @@ Xổ số Vietlott là hình thức xổ số điện toán hiện đại với 
     totalFavorites: 0,
     itemPath: paths.private,
     keyword: "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
-    articleSection: "Trang chủ K89Bet, Xổ số K89Bet"
+    articleSection: "Trang chủ K89Bet, Thể thao K89Bet"
   }
 ]
 

@@ -266,7 +266,7 @@ export function HomeFAQs({ sx, ...other }: StackProps) {
         <Button
           color="inherit"
           variant="contained"
-          href="mailto:support@minimals.cc?subject=[Feedback] from Customer"
+          href="https://chat.ichatlink.net/widget/standalone.html?eid=6233a0539bdc913d59eb5539c1e4cbf7&language=vi"
           startIcon={<Iconify icon="fluent:mail-24-filled" />}
         >
           Liên hệ ngay với chúng tôi
