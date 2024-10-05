@@ -29,7 +29,7 @@ RUN yarn global add pm2
 RUN yarn build
 
 # Expose the port
-EXPOSE 8082
+EXPOSE 8083
 
 # Start the PM2 process in production mode
 CMD ["pm2-runtime", "start", "ecosystem.config.js", "--env", "production"]
