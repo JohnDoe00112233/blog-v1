@@ -52,6 +52,6 @@ export type IPostItem = {
   metaDescription: string;
   coverUrlOpenGraph:string;
   coverUrlOpenGraphAlt:string;
-  createdAt: IDateValue;
+  createdAt: any;
   author: { name: string; avatarUrl: string };
 };

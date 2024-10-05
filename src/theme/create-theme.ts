@@ -1,7 +1,9 @@
 import type { Theme } from '@mui/material/styles';
-import type { SettingsState } from 'src/components/settings';
 
 import { experimental_extendTheme as extendTheme } from '@mui/material/styles';
+
+// eslint-disable-next-line @typescript-eslint/consistent-type-imports
+import { SettingsState } from 'src/components/settings/types';
 
 import { setFont } from './styles/utils';
 import { overridesTheme } from './overrides-theme';

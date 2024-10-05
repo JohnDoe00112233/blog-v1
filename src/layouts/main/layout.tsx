@@ -8,9 +8,9 @@ import { useTheme } from '@mui/material/styles';
 import { useBoolean } from 'src/hooks/use-boolean';
 
 import { Main } from './main';
+import { Footer } from './footer';
 import { NavMobile } from './nav/mobile';
 import { NavDesktop } from './nav/desktop';
-import { Footer } from './footer';
 import { HeaderBase } from '../core/header-base';
 import { LayoutSection } from '../core/layout-section';
 import { navData as mainNavData } from '../config-nav-main';

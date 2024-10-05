@@ -7,7 +7,6 @@ import Stack from '@mui/material/Stack';
 import { useTheme } from '@mui/material/styles';
 
 import { CONFIG } from 'src/config-global';
-
 import { varAlpha, stylesMode } from 'src/theme/styles';
 
 import { MotionContainer } from 'src/components/animate';

@@ -1,8 +1,9 @@
 'use client';
 
 import { Container } from "@mui/material";
-import { BackToTop, ScrollProgress, useScrollProgress } from "src/components/animate";
+
 import { Markdown } from "src/components/markdown";
+import { BackToTop, ScrollProgress, useScrollProgress } from "src/components/animate";
 
 
 type Props = {

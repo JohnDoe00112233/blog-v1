@@ -1,5 +1,8 @@
-import type { SettingsState } from 'src/components/settings';
+/* eslint-disable @typescript-eslint/consistent-type-imports */
+
 import type { Theme, Components } from '@mui/material/styles';
+
+import { SettingsState } from 'src/components/settings/types';
 
 import COLORS from '../core/colors.json';
 import PRIMARY_COLOR from './primary-color.json';

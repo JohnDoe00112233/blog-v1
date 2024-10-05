@@ -42,7 +42,7 @@ export async function GET() {
         type: enclosureType,
       },
       author: "K89Bet",
-      date: post.createdAt || new Date().toISOString(),
+      date: post.createdAt,
     });
   });
 
