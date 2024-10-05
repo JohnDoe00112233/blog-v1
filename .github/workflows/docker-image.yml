@@ -45,4 +45,4 @@ jobs:
             docker pull jinchao68/blog:v0
             docker stop client-blog-v2 || true
             docker rm client-blog-v2 || true
-            docker run -dp 8082:8082 --name client-blog-v2 --restart unless-stopped jinchao68/blog:v0
+            docker run -dp 8083:8083 --name client-blog-v2 --restart unless-stopped jinchao68/blog:v0
