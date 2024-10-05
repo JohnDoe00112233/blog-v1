@@ -109,7 +109,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
 <img src="/assets/images/cac-phuong-thuc-thanh-toan-khi-rut-tien-k89bet.webp" alt="Các phương thức rút tiền K89Bet"/>
 <p><strong>K89Bet com</strong> luôn nỗ lực để mang lại sự tiện lợi tối đa cho người chơi với nhiều phương thức thanh toán đa dạng, nhằm đáp ứng nhu cầu phong phú của từng đối tượng người chơi. Dù bạn chọn phương thức truyền thống hay hiện đại, quá trình <strong>rút tiền K89Bet</strong> đều được tối ưu để diễn ra nhanh chóng và an toàn.</p>
 
-<h3>🥈Rút tiền qua tài khoản ngân hàng</h3>s
+<h3>🥈Rút tiền qua tài khoản ngân hàng</h3>
 <p>Đây là phương thức phổ biến nhất và được nhiều người chơi tin dùng. <strong>K89Bet com</strong> hỗ trợ rút tiền qua hầu hết các ngân hàng lớn tại Việt Nam, đảm bảo sự an toàn và bảo mật cao.</p>
 
 <ul>
