@@ -1,35 +1,46 @@
-FROM node:current-alpine
+# Stage 1: Build
+FROM node:18-alpine AS builder
 
-# Set the working directory
 WORKDIR /app
 
-# Copy package files first for caching
-COPY package.json .
-COPY yarn.lock .
+# Install build dependencies
+RUN apk add --no-cache bash python3 make g++
 
-# Install necessary dependencies on Alpine
-RUN apk update && apk add --no-cache bash python3 make g++
-
-# Install project dependencies
+# Copy package files and install dependencies
+COPY package.json yarn.lock ./
 RUN yarn install
 
-# Copy the rest of the files
-COPY next.config.mjs .
-COPY tsconfig.json .
-COPY public ./public
-COPY .env .
-COPY ecosystem.config.js .
-COPY next-env.d.ts .
-COPY ./src ./src
-
-# Install PM2 globally
-RUN yarn global add pm2
+# Copy the rest of the application code
+COPY . .
 
 # Build the project
 RUN yarn build
 
-# Expose the port
+# Stage 2: Production
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install runtime dependencies (if any)
+RUN apk add --no-cache bash
+
+# Copy necessary files from the builder stage
+COPY --from=builder /app/package.json /app/yarn.lock ./
+RUN yarn install --production
+
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/next.config.mjs .
+COPY --from=builder /app/ecosystem.config.js .
+COPY --from=builder /app/.env.production .
+
+# Install PM2 globally
+RUN yarn global add pm2
+
+# Add a non-root user
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+USER appuser
+
 EXPOSE 8082
 
-# Start the PM2 process in production mode
 CMD ["pm2-runtime", "start", "ecosystem.config.js", "--env", "production"]
