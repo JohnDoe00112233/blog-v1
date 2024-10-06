@@ -4,6 +4,7 @@ module.exports = {
       name: "nextjs-app",
       script: "yarn",
       args: "start",
+      interpreter: "/bin/bash", // Chạy Yarn qua Bash
       env: {
         NODE_ENV: "development",
       },
