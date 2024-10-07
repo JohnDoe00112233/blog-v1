@@ -174,7 +174,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                   </li>
                   <li>
                     <Typography variant="body2">
-                      <strong>Mail:</strong> K89.app@gmail.com
+                      <strong>Mail:</strong> support@k89.app
                     </Typography>
                   </li>
                   <li>
