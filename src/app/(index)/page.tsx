@@ -1,4 +1,3 @@
-import { CONFIG } from 'src/config-global';
 
 import { HomeView } from 'src/sections/home/view';
 
@@ -15,7 +14,7 @@ export const metadata = {
       description: 'Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!',
       images: [
         {
-          url:  `${CONFIG.site.basePath}/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
+          url:  `/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
           alt: 'K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!',
         },
       ],
@@ -28,7 +27,7 @@ export const metadata = {
       url: 'https://k89.app',
       images: [
         {
-          url: `${CONFIG.site.basePath}/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
+          url: `/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
           alt: 'K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!',
         },
       ],
@@ -48,7 +47,7 @@ const jsonLd = {
     "@type": "Organization",
     "name": "K89Bet",
     "url": "https://k89.app",
-    "logo": `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
+    "logo": `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
     "description": "Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!",
     "foundingDate": "2024",
     "contactPoint": {

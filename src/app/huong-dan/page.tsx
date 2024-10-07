@@ -1,6 +1,5 @@
 import { paths } from 'src/routes/paths';
 
-import { CONFIG } from 'src/config-global';
 import { BLOG_POST_DATA } from 'src/data/list-data';
 
 import { PostListHomeView } from 'src/sections/blog/view/post-list-home-view';
@@ -19,7 +18,7 @@ export const metadata = {
       'Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.',
     images: [
       {
-        url: `${CONFIG.site.basePath}/assets/images/huong-dan-k89bet.webp`,
+        url: `/assets/images/huong-dan-k89bet.webp`,
         alt: "Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.",
       },
     ],
@@ -29,19 +28,19 @@ export const metadata = {
   twitter: {
     title: 'Hướng Dẫn K89Bet – Đăng Ký, Nạp Tiền, Rút Tiền & Tải App K89Bet',
     description: 'Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.',
-    url: `${CONFIG.site.basePath}/${paths.tutorial}/vi_VN`,
+    url: `https://k89.app/${paths.tutorial}/vi_VN`,
     images: [
       {
-        url: `${CONFIG.site.basePath}/assets/images/huong-dan-k89bet.webp`,
+        url: `/assets/images/huong-dan-k89bet.webp`,
         alt: "Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.",
       },
     ],
     ...baseTwitterGraph
   },
   alternates: {
-    canonical: `${CONFIG.site.basePath}/${paths.tutorial}/vi_VN`,
+    canonical: `https://k89.app/${paths.tutorial}/vi_VN`,
     languages: {
-      "vi-VN": `${CONFIG.site.basePath}/${paths.tutorial}/vi_VN`,
+      "vi-VN": `https://k89.app/${paths.tutorial}/vi_VN`,
     }
   },
 };
@@ -51,7 +50,7 @@ const jsonLd = {
   "@type": "WebPage",
   "name": "Hướng Dẫn K89Bet",
   "description": "Trang Hướng dẫn K89Bet cung cấp tất cả thông tin chi tiết về cách đăng ký K89Bet, nạp tiền, rút tiền, tải app và khám phá các khuyến mãi mới nhất tại K89Bet.",
-  "url": `${CONFIG.site.basePath}/${paths.tutorial}`,
+  "url": `https://k89.app/${paths.tutorial}`,
   "mainEntity": {
     "@type": "ItemList",
     "itemListElement": [
@@ -59,31 +58,31 @@ const jsonLd = {
         "@type": "ListItem",
         "position": 1,
         "name": "Hướng dẫn nạp tiền K89Bet",
-        "url": `${CONFIG.site.basePath}/${paths.recharge}`
+        "url": `https://k89.app/${paths.recharge}`
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Hướng dẫn đăng ký K89Bet",
-        "url": `${CONFIG.site.basePath}/${paths.register}`
+        "url": `https://k89.app/${paths.register}`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Hướng dẫn tải app K89Bet",
-        "url": `${CONFIG.site.basePath}/${paths.download}`
+        "url": `https://k89.app/${paths.download}`
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Hướng dẫn rút tiền K89Bet",
-        "url": `${CONFIG.site.basePath}/${paths.withdraw}`
+        "url": `https://k89.app/${paths.withdraw}`
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Khuyến mãi K89Bet",
-        "url": `${CONFIG.site.basePath}/${paths.promotion}`
+        "url": `https://k89.app/${paths.promotion}`
       }
     ]
   },
@@ -100,7 +99,7 @@ const jsonLd = {
     "name": "K89Bet",
     "logo": {
       "@type": "ImageObject",
-      "url": `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
+      "url": `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
     }
   },
   "datePublished": "2024-09-01",

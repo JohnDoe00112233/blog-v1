@@ -14,11 +14,12 @@ type Props = {
 
 // Hàm generateMetadata để thêm meta cho từng trang
 export async function generateMetadata({ params }: Props) {
+  const urlBasePath = "https://k89.app"
   const { slug } = params;
   // eslint-disable-next-line @typescript-eslint/no-shadow
   const post = MOCK_HOMEPAGE_DATA.find(post => post.slug === slug);
 
-  const urlPath = `${CONFIG.site.basePath}/${slug}/vi_VN`;
+  const urlPath = `${urlBasePath}/${slug}/vi_VN`;
 
   if (!post) {
     return notFound();
@@ -61,7 +62,7 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default function Page({ params }: Props) {
-
+  const urlPath = "https://k89.app"
   const { slug } = params;
 
   // eslint-disable-next-line @typescript-eslint/no-shadow
@@ -81,7 +82,7 @@ export default function Page({ params }: Props) {
       "name": "K89Bet",
       "logo": {
         "@type": "ImageObject",
-        "url": `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
+        "url": `${urlPath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
       }
     },
     "datePublished": "2024-08-28",
@@ -89,7 +90,7 @@ export default function Page({ params }: Props) {
     "description": post?.metaDescription,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `${CONFIG.site.basePath}/${post?.itemPath}`
+      "@id": `${urlPath}/${post?.itemPath}`
     },
     "keywords": post?.keyword,
     "articleSection": post?.articleSection,
@@ -100,13 +101,13 @@ export default function Page({ params }: Props) {
           "@type": "ListItem",
           "position": 1,
           "name": "Trang chủ",
-          "item": CONFIG.site.basePath
+          "item": urlPath
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": post?.name,
-          "item": `${CONFIG.site.basePath}/${post?.itemPath}`
+          "item": `${urlPath}/${post?.itemPath}`
         },
       ]
     }

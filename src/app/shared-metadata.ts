@@ -4,7 +4,7 @@ export const commonHomePage = {
   title: "K89Bet com - Trang chủ chính thức của K89Bet | Tặng 89K",
   description:
     "Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!'",
-  url: `${CONFIG.site.basePath}`,
+  url: "https://k89.app",
   images: [
     {
       url: `${CONFIG.site.basePath}/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
@@ -18,7 +18,7 @@ export const searchHomePageJson = {
   title: "K89Bet com - Trang chủ chính thức của K89Bet | Tặng 89K",
   description:
     "Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!'",
-  url: `${CONFIG.site.basePath}`,
+  url: "https://k89.app",
   images: [
     {
       url: `${CONFIG.site.basePath}/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,

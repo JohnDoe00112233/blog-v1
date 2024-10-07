@@ -19,10 +19,10 @@ type Props = {
 // Hàm generateMetadata để thêm meta cho từng trang
 export async function generateMetadata({ params }: Props) {
   const { slug } = params;
-
+  const urlBasePath = "https://k89.app"
   const post = BLOG_POST_DATA.find(post => post.slug === slug);
 
-  const urlPath = `${CONFIG.site.basePath}/${paths.tutorial}/${slug}/vi_VN`;
+  const urlPath = `${urlBasePath}/${paths.tutorial}/${slug}/vi_VN`;
 
   if (!post) {
     return notFound();
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function Page({ params }: Props) {
   const { slug } = params;
-
+  const urlBasePath = "https://k89.app"
   const post = BLOG_POST_DATA.find((post) => post.slug === slug);
 
   const jsonLd = {
@@ -84,7 +84,7 @@ export default async function Page({ params }: Props) {
       "name": "K89Bet",
       "logo": {
         "@type": "ImageObject",
-        "url": `${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
+        "url": `${urlBasePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
       }
     },
     "datePublished": "2024-08-28",
@@ -92,7 +92,7 @@ export default async function Page({ params }: Props) {
     "description": post?.metaDescription,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `${CONFIG.site.basePath}/${paths.tutorial}/${slug}`
+      "@id": `${urlBasePath}/${paths.tutorial}/${slug}`
     },
     "keywords": "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
     "articleSection": "Nạp tiền K89Bet, Khuyến mãi K89Bet, Tải App K89Bet, Đăng ký K89Bet, Hướng dẫn K89Bet",
@@ -103,19 +103,19 @@ export default async function Page({ params }: Props) {
           "@type": "ListItem",
           "position": 1,
           "name": "Trang chủ",
-          "item": CONFIG.site.basePath
+          "item": urlBasePath
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Hướng dẫn K89Bet",
-          "item": `${CONFIG.site.basePath}/${paths.tutorial}`
+          "item": `${urlBasePath}/${paths.tutorial}`
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Nạp tiền K89Bet",
-          "item": `${CONFIG.site.basePath}/${paths.tutorial}/${slug}`
+          "item": `${urlBasePath}/${paths.tutorial}/${slug}`
         }
       ]
     }
