@@ -34,6 +34,7 @@ export const navData = [
       {
         subheader: 'Hướng dẫn người chơi tại nhà cái K89BET',
         items: [
+          { title: 'Khuyến mãi K89BET', path: paths.promotion },
           { title: 'Tải App K89BET', path: paths.download },
           { title: 'Đăng ký K89BET', path: paths.register },
           { title: 'Nạp tiền K89BET', path: paths.recharge },
