@@ -26,7 +26,7 @@ export const CONFIG: ConfigValue = {
     name: 'K89BET',
     serverUrl: process.env.NEXT_PUBLIC_SERVER_URL ?? '',
     assetURL: process.env.NEXT_PUBLIC_ASSET_URL ?? '',
-    basePath: process.env.NEXT_PUBLIC_BASE_PATH || "https://k89.app" ,
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? '',
     version: packageJson.version,
   },
   isStaticExport: JSON.parse(`${process.env.BUILD_STATIC_EXPORT}`),

@@ -8,7 +8,7 @@ import { commonHomePage } from "../shared-metadata";
 
 export async function GET() {
   const categories = ['the-thao-k89bet', 'xo-so-k89bet', 'no-hu-k89bet', 'casino-k89bet', 'huong-dan'];
-
+      const urlBasePath = "https://k89.app"
   const feed = new RSS({
     title: commonHomePage.title,
     description: commonHomePage.description,
@@ -35,8 +35,8 @@ export async function GET() {
       title: post.metaTitle || commonHomePage.title,
       description: post.metaDescription || commonHomePage.description,
       categories: Array.isArray(post.category) ? post.category : [post.category || post.slug],
-      url: `${CONFIG.site.basePath}/${post.category ? `${post.category  }/` : ''}${post.slug}`,
-      guid: `${CONFIG.site.basePath}/${post.category ? `${post.category  }/` : ''}${post.slug}`,
+      url: `${urlBasePath}/${post.category ? `${post.category  }/` : ''}${post.slug}`,
+      guid: `${urlBasePath}/${post.category ? `${post.category  }/` : ''}${post.slug}`,
       enclosure: {
         url: enclosureUrl,
         type: enclosureType,
