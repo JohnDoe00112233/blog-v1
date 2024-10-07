@@ -76,8 +76,8 @@ export const metadata = {
     },
   ],
   other: {
-    "dmca-site-verification": "",
-    "google-site-verification": "3G6SddOKFuUgy4jU-4AcU-CBRh_YLyDJM0HQfPdP4LM"
+    "google-site-verification": "3G6SddOKFuUgy4jU-4AcU-CBRh_YLyDJM0HQfPdP4LM",
+    "msvalidate.01":"9F6F4FF1AE25154C3B6D43558283080D"
   }
 };
 
