@@ -1,28 +1,28 @@
 import { CONFIG } from "src/config-global";
 
 export const commonHomePage = {
-  title: "K89BET - Trang Chủ Chính Thức Của K89BET.COM",
+  title: "K89Bet com - Trang chủ chính thức của K89Bet | Tặng 89K",
   description:
-    "K89BET là trang chủ đăng ký K889bet chính thức, đăng nhập K89 Casino an toàn bảo mật. Hỗ trợ 24/7 luôn sẵn sáng trợ giúp mọi vấn đề khi chơi tại K89BET",
+    "Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!'",
   url: `${CONFIG.site.basePath}`,
   images: [
     {
       url: `${CONFIG.site.basePath}/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
-      alt: "Nhà cái K89BET uy tín",
+      alt: "Nhà cái K89BET cá cược trực tuyến uy tín hàng đầu Châu Á",
     },
   ],
 };
 
 
 export const searchHomePageJson = {
-  title: "K89BET - Trang Chủ Chính Thức Của K89BET.COM",
+  title: "K89Bet com - Trang chủ chính thức của K89Bet | Tặng 89K",
   description:
-    "K89BET là trang chủ đăng ký K889bet chính thức, đăng nhập K89 Casino an toàn bảo mật. Hỗ trợ 24/7 luôn sẵn sáng trợ giúp mọi vấn đề khi chơi tại K89BET",
+    "Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!'",
   url: `${CONFIG.site.basePath}`,
   images: [
     {
       url: `${CONFIG.site.basePath}/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
-      alt: "Nhà cái K89BET uy tín",
+      alt: "Nhà cái K89BET cá cược trực tuyến uy tín hàng đầu Châu Á",
     },
   ],
   language: "vi",
