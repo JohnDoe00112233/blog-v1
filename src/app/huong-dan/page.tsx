@@ -102,8 +102,8 @@ const jsonLd = {
       "url": `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
     }
   },
-  "datePublished": "2024-09-01",
-  "dateModified": "2024-09-01"
+  "datePublished": "2024-10-04",
+  "dateModified": "2024-10-10"
 }
 
 export default async function Page() {

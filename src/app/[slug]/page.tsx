@@ -62,7 +62,6 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default function Page({ params }: Props) {
-  const urlPath = "https://k89.app"
   const { slug } = params;
 
   // eslint-disable-next-line @typescript-eslint/no-shadow
@@ -82,15 +81,15 @@ export default function Page({ params }: Props) {
       "name": "K89Bet",
       "logo": {
         "@type": "ImageObject",
-        "url": `${urlPath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
+        "url": "/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp"
       }
     },
-    "datePublished": "2024-08-28",
-    "dateModified": "2024-08-28",
+    "datePublished": "2024-10-04",
+    "dateModified": "2024-10-10",
     "description": post?.metaDescription,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `${urlPath}/${post?.itemPath}`
+      "@id": `https://k89.app/${post?.itemPath}`
     },
     "keywords": post?.keyword,
     "articleSection": post?.articleSection,
@@ -101,18 +100,17 @@ export default function Page({ params }: Props) {
           "@type": "ListItem",
           "position": 1,
           "name": "Trang chủ",
-          "item": urlPath
+          "item": "https://k89.app"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": post?.name,
-          "item": `${urlPath}/${post?.itemPath}`
+          "item": `https://k89.app/${post?.itemPath}`
         },
       ]
     }
   };
-
 
   return (
     <section>

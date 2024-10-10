@@ -4,8 +4,6 @@ import { paths } from 'src/routes/paths';
 
 import { uuidv4 } from 'src/utils/uuidv4';
 
-import { CONFIG } from 'src/config-global';
-
 export const BLOG_POST_DATA: IPostItem[] = [
   {
     id: uuidv4(),
