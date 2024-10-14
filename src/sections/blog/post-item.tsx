@@ -32,7 +32,6 @@ export function PostItem({ post }: PostItemProps) {
   const theme = useTheme();
 
   const linkTo = paths.post.details(post.slug);
-  console.log("linkTo",linkTo);
   return (
     <Card>
       <Box sx={{ position: 'relative' }}>

@@ -233,7 +233,7 @@ export function HomeFAQs({ sx, ...other }: StackProps) {
             aria-controls={`panel${index}bh-content`}
             id={`panel${index}bh-header`}
           >
-            <Typography variant="h6"> {item.question}</Typography>
+            <Typography variant="h3" sx={{fontSize:"18px !important"}}> {item.question}</Typography>
           </AccordionSummary>
           <AccordionDetails>{item.answer}</AccordionDetails>
         </Accordion>

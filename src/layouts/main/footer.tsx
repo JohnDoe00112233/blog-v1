@@ -102,7 +102,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
               }}
             >
               {_socials.map((social) => (
-                <IconButton key={social.name}>
+                <IconButton aria-label='socical-button' key={social.name}>
                   <SocialIcon icon={social.name} />
                 </IconButton>
               ))}
