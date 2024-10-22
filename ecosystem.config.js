@@ -11,6 +11,7 @@ module.exports = {
       env_production: {
         NODE_ENV: "production",
       },
+      post_deploy: "yarn build"
     },
   ],
 };
