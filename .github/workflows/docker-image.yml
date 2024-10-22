@@ -14,25 +14,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      # Dọn dẹp Docker để giải phóng dung lượng
-      - name: Cleanup Docker
-        run: |
-          docker system prune -a --volumes -f
-
-      # Tạo file môi trường từ secret
       - name: Create env file
         run: echo "${{ secrets.BLOG_ENV_PRODUCTION }}" > .env.production
-
-      # Build Docker image và sử dụng --pull và --no-cache để chắc chắn không sử dụng cache cũ
       - name: Build the Docker image
-        run: docker build --pull --no-cache --progress=plain -t jinchao68/blog:v0 .
-
-      # Đăng nhập vào Docker Hub để đẩy image
+        run: docker build --progress=plain -t jinchao68/blog:v0 .
       - name: Login to Docker Hub
         run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
-
-      # Đẩy image lên Docker Hub với tag v0
       - name: Push the Docker Image
         run: docker push jinchao68/blog:v0
 
@@ -40,14 +27,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      # Thiết lập kết nối SSH bằng khóa riêng để truy cập server
       - name: Check SSH Key
         run: |
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > test_key.pem
           chmod 600 test_key.pem
           ssh -i test_key.pem -o StrictHostKeyChecking=no -o ConnectTimeout=10 ${{ secrets.HOST_USERNAME }}@${{ secrets.HOST }} "echo SSH connection successful"
-
-      # Thực hiện các lệnh SSH từ xa để pull image mới và khởi động container mới
       - name: executing remote ssh commands using private key
         if: success()
         uses: appleboy/ssh-action@v1.0.3
@@ -57,25 +41,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             set -x
-            # Đăng nhập vào Docker Hub
             docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }}
-
-            # Dừng container hiện tại nếu có
-            docker stop client-blog-v2 || true
-
-            # Xóa container cũ nếu có
-            docker rm client-blog-v2 || true
-
-            # Xóa image cũ để đảm bảo pull image mới hoàn toàn
-            docker rmi jinchao68/blog:v0 || true
-
-            # Pull image mới từ Docker Hub
             docker pull jinchao68/blog:v0
-
-            # Chạy container mới với image mới
+            docker stop client-blog-v2 || true
+            docker rm client-blog-v2 || true
             docker run -dp 8083:8083 --name client-blog-v2 --restart unless-stopped jinchao68/blog:v0
-
-            # Xóa các Docker image và container không cần thiết để giải phóng tài nguyên
-            docker image prune -f
-            docker container prune -f
-

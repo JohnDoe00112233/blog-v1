@@ -11,8 +11,6 @@ module.exports = {
       env_production: {
         NODE_ENV: "production",
       },
-      // Thêm post_deploy để build trước khi start
-      post_deploy: "yarn build",
     },
   ],
 };
