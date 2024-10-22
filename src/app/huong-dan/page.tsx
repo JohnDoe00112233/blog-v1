@@ -9,6 +9,7 @@ import { baseTwitterGraph, baseOpenGraphTypeWebSite } from '../shared-metadata';
 // ----------------------------------------------------------------------
 
 export const metadata = {
+  metadataBase: new URL('https://k89.app'), // Thêm metadataBase
   title: 'Hướng Dẫn K89Bet – Đăng Ký, Nạp Tiền, Rút Tiền & Tải App K89Bet',
   description:
     'Tất cả hướng dẫn chi tiết về K89Bet. Tìm hiểu cách đăng ký K89Bet, nạp tiền, rút tiền, tải app, và khám phá khuyến mãi K89Bet mới nhất.',

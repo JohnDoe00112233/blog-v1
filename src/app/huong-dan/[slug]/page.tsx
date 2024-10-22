@@ -29,6 +29,7 @@ export async function generateMetadata({ params }: Props) {
   }
 
   return {
+    metadataBase: new URL('https://k89.app'), // Thêm metadataBase
     title: post.metaTitle,
     description: post.metaDescription,
     openGraph: {
