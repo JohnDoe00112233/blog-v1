@@ -20,13 +20,10 @@ COPY next-env.d.ts .
 COPY ./src ./src
 
 # Build the project (ensure the build step is correctly executed)
-RUN yarn build
+RUN yarn build --no-cache
 
 # Expose the port
 EXPOSE 8083
-
-# Set default environment
-ENV NODE_ENV=production
 
 # Start the PM2 process in production mode
 CMD ["pm2-runtime", "start", "ecosystem.config.js", "--env", "production"]

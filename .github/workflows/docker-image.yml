@@ -15,10 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Dọn dẹp Docker để giải phóng dung lượng
-      - name: Cleanup Docker
-        run: |
-          docker system prune -a --volumes -f
       # Tạo file môi trường từ secret
       - name: Create env file
         run: echo "${{ secrets.BLOG_ENV_PRODUCTION }}" > .env.production
@@ -73,7 +69,3 @@ jobs:
 
             # Chạy container mới với image mới
             docker run -dp 8083:8083 --name client-blog-v2 --restart unless-stopped jinchao68/blog:v0
-
-            # Xóa các Docker image và container không cần thiết để giải phóng tài nguyên
-            docker image prune -f
-            docker container prune -f
