@@ -26,6 +26,7 @@ COPY ./src ./src
 RUN yarn global add pm2
 
 # Build the project
+RUN rm -rf node_modules/.cache
 RUN yarn build
 
 # Expose the port
