@@ -10,6 +10,8 @@ COPY yarn.lock .
 # Install necessary dependencies on Alpine
 RUN apk update && apk add --no-cache bash python3 make g++
 
+RUN rm -rf node_modules
+
 # Install project dependencies
 RUN yarn install
 
@@ -26,7 +28,6 @@ COPY ./src ./src
 RUN yarn global add pm2
 
 # Build the project
-RUN rm -rf node_modules/.cache
 RUN yarn build
 
 # Expose the port

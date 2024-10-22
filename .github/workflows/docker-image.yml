@@ -21,7 +21,7 @@ jobs:
 
       # Build Docker image và sử dụng --pull và --no-cache để chắc chắn không sử dụng cache cũ
       - name: Build the Docker image
-        run: docker build --pull --no-cache --progress=plain -t jinchao68/blog:v0 .
+        run: docker build --no-cache --progress=plain -t jinchao68/blog:v1 .
 
       # Đăng nhập vào Docker Hub để đẩy image
       - name: Login to Docker Hub
@@ -29,7 +29,7 @@ jobs:
 
       # Đẩy image lên Docker Hub với tag v0
       - name: Push the Docker Image
-        run: docker push jinchao68/blog:v0
+        run: docker push jinchao68/blog:v1
 
   deploy:
     needs: build
@@ -62,10 +62,10 @@ jobs:
             docker rm client-blog-v2 || true
 
             # Xóa image cũ để đảm bảo pull image mới hoàn toàn
-            docker rmi jinchao68/blog:v0 || true
+            docker rmi jinchao68/blog:v1 || true
 
             # Pull image mới từ Docker Hub
-            docker pull jinchao68/blog:v0
+            docker pull jinchao68/blog:v1
 
             # Chạy container mới với image mới
-            docker run -dp 8083:8083 --name client-blog-v2 --restart unless-stopped jinchao68/blog:v0
+            docker run -dp 8083:8083 --name client-blog-v2 --restart unless-stopped jinchao68/blog:v1
