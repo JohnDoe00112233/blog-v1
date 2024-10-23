@@ -19,7 +19,7 @@ export const paths = {
   download: "/huong-dan/tai-app-k89bet",
   withdraw: "/huong-dan/rut-tien-k89bet",
   recharge: "/huong-dan/nap-tien-k89bet",
-  tutorial:'huong-dan',
+  tutorial:'/huong-dan',
   contact: '/lien-he-k89bet',
   faqs: '/cau-hoi-thuong-gap',
   terms:'/dieu-khoan-va-dieu-kien',
