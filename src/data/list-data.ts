@@ -1020,7 +1020,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     slug: 'giay-phep-kinh-doanh',
     name: "Giấy phép kinh doanh K89Bet",
     category: null,
-    title: 'Giới thiệu K89Bet – Link vào K89Bet không bị lỗi chặn',
+    title: 'Giấy phép kinh doanh K89Bet – Sự đảm bảo an toàn và uy tín cho cá cược trực tuyến',
     description: 'Giấy phép kinh doanh – Chứng chỉ của Hiệp hội Cá cược Quốc tế',
     publish: '2024-10-04',
     content: `
@@ -1164,7 +1164,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Điều khoản và điều kiện – Những quy định người chơi cần nắm rõ',
     description: '',
-    publish: '2024-09-15',
+    publish: '2024-10-04',
     content: `
     <p>Nếu bạn đã từng tham gia tại <strong>nhà cái K89Bet</strong>, chắc chắn không thể bỏ qua việc tìm hiểu <strong><a href="https://k89.app/dieu-khoan-dieu-kien">điều khoản và điều kiện</a></strong> mà hệ thống này đưa ra. Đây là những quy định cần thiết nhằm duy trì một <strong>môi trường giải trí lành mạnh</strong> và công bằng cho tất cả người chơi. Do đó, các tân thủ nên tìm hiểu kỹ những điều khoản này trước khi chính thức tham gia vào các hoạt động cá cược.</p>
     <h2>🥇Sơ lược về điều khoản và điều kiện tại K89Bet</h2>
