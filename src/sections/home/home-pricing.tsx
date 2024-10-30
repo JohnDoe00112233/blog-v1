@@ -13,8 +13,18 @@ import { FloatLine, } from './components/svg-elements';
 
 export function HomePricing({ sx, ...other }: StackProps) {
   const data = {
-    content: `<h2>🥇Kho game K89Bet vừa giải trí vừa đổi thưởng nhanh</h2>
-    <img src="/assets/images/kho-game-k89bet-doi-thuong-nhanh.webp" alt="Kho game K89Bet vừa giải trí vừa đổi thưởng nhanh"/>
+    content: `
+    <h2>🥇Giới thiệu về nhà cái K89Bet</h2>
+    <img src="/assets/images/gioi-thieu-ve-nha-cai-k89bet.webp" alt="Giới thiệu về nhà cái K89Bet"/>
+    <h3>🥈Nhà cái K89Bet uy tín,chất lượng</h3>
+  <p><strong><a href="https://k89.app/">K89Bet</a></strong> là nhà cái cá cược trực tuyến hàng đầu, cung cấp các sản phẩm cá cược chất lượng cao và uy tín. Với giấy phép hoạt động hợp pháp tại Costa Rica, K89Bet đảm bảo tuân thủ nghiêm ngặt các quy định và chính sách, mang đến sự công bằng cho người chơi.</p>
+  <h3>🥈Môi trường cá cược minh bạch</h3>
+  <p>K89Bet cam kết tạo ra một sân chơi minh bạch, không gian lận. Mọi kết quả trong các ván chơi đều được đảm bảo ngẫu nhiên và công bằng. Bất kỳ hành vi gian lận nào đều bị xử phạt nghiêm khắc.</p>
+  <h3>🥈Sự đa dạng trong các trò chơi</h3>
+  <p><strong>K89Bet.app</strong> cung cấp một kho trò chơi phong phú với hàng nghìn phiên bản nổi bật. Từ Casino đến các trò chơi khác, mọi sản phẩm đều được áp dụng công nghệ cá cược hiện đại, mang lại trải nghiệm đỉnh cao cho người chơi.</p>
+  <h3>🥈K89Bet bảo mật thông tin cá nhân cực kỳ tốt</h3>
+  <p><strong>K89Bet app</strong> sử dụng công nghệ mã hóa SSL 128-bit để bảo vệ thông tin cá nhân của người chơi. Mỗi thành viên đều được cấp một ID và mật khẩu riêng biệt, giúp quản lý các lần đăng nhập an toàn và hiệu quả.</p>
+    <h2>🥇Kho game K89Bet vừa giải trí vừa đổi thưởng nhanh</h2>
     <h3>🥈Sòng bài</h3>
         <p>Sòng bài K89Bet, người chơi có thể tìm thấy nhiều trò chơi sòng bài phổ biến như:</p>
         <ul>

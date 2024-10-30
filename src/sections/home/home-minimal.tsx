@@ -1,34 +1,33 @@
+import type { BoxProps} from '@mui/material';
 import type { StackProps } from '@mui/material/Stack';
 
 import { m } from 'framer-motion';
 
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
-import Grid from '@mui/material/Unstable_Grid2';
 import Container from '@mui/material/Container';
+import { Button, Typography, useTheme } from '@mui/material';
 
-import { Markdown } from 'src/components/markdown';
-import { varFade, MotionViewport } from 'src/components/animate';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
 
-import { SectionTitle } from './components/section-title';
-import { CircleSvg, FloatLine, FloatPlusIcon } from './components/svg-elements';
+import { textGradient } from 'src/theme/styles';
+
+import { Iconify } from 'src/components/iconify';
+import { varFade, MotionViewport, MotionContainer } from 'src/components/animate';
+
+import { HeroBackground } from './components/hero-background';
+import {  FloatLine, FloatPlusIcon } from './components/svg-elements';
 
 // ----------------------------------------------------------------------
 
-export function HomeMinimal({ sx, ...other }: StackProps) {
+const smKey = 'sm';
+const mdKey = 'md';
+const lgKey = 'lg';
 
-  const data = {
-    title: 'Giới thiệu về nhà cái K89Bet',
-    content: `<h3>🥈Nhà cái K89Bet uy tín,chất lượng</h3>
-  <p><strong><a href="https://k89.app/">K89Bet</a></strong> là nhà cái cá cược trực tuyến hàng đầu, cung cấp các sản phẩm cá cược chất lượng cao và uy tín. Với giấy phép hoạt động hợp pháp tại Costa Rica, K89Bet đảm bảo tuân thủ nghiêm ngặt các quy định và chính sách, mang đến sự công bằng cho người chơi.</p>
-  <h3>🥈Môi trường cá cược minh bạch</h3>
-  <p>K89Bet cam kết tạo ra một sân chơi minh bạch, không gian lận. Mọi kết quả trong các ván chơi đều được đảm bảo ngẫu nhiên và công bằng. Bất kỳ hành vi gian lận nào đều bị xử phạt nghiêm khắc.</p>
-  <h3>🥈Sự đa dạng trong các trò chơi</h3>
-  <p><strong>K89Bet.app</strong> cung cấp một kho trò chơi phong phú với hàng nghìn phiên bản nổi bật. Từ Casino đến các trò chơi khác, mọi sản phẩm đều được áp dụng công nghệ cá cược hiện đại, mang lại trải nghiệm đỉnh cao cho người chơi.</p>
-  <h3>🥈K89Bet bảo mật thông tin cá nhân cực kỳ tốt</h3>
-  <p><strong>K89Bet app</strong> sử dụng công nghệ mã hóa SSL 128-bit để bảo vệ thông tin cá nhân của người chơi. Mỗi thành viên đều được cấp một ID và mật khẩu riêng biệt, giúp quản lý các lần đăng nhập an toàn và hiệu quả.</p>
-  `
-  }
+export function HomeMinimal({ sx, ...other }: StackProps) {
+  const theme = useTheme();
+
   const renderLines = (
     <>
       <FloatPlusIcon sx={{ top: 72, left: 72 }} />
@@ -39,33 +38,97 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
     </>
   );
 
-  const renderDescription = (
-    <>
-      <SectionTitle
-        title="Giới thiệu về nhà cái"
-        txtGradient="K89BET"
-        sx={{ mb: { xs: 5, md: 8 }, textAlign: { xs: 'center', md: 'left' } }}
-      />
 
-      <Stack
-        spacing={6}
+  const renderHeading = (
+    <MInview>
+      <Box
+        component="h1"
+        display="flex"
+        flexWrap="wrap"
+        justifyContent="center"
         sx={{
-          mx: { xs: 'auto', md: 'unset' },
+          ...theme.typography.h2,
+          my: 0,
+          mx: 'auto',
+          maxWidth: 680,
+          fontFamily: theme.typography.fontSecondaryFamily,
+          [theme.breakpoints.up(lgKey)]: { fontSize: 72, lineHeight: '90px' },
         }}
       >
-          <Box
-            component={m.div}
-            key={data.title}
-            variants={varFade({ distance: 24 }).inUp}
-            gap={3}
-            display="flex"
+         <Box
+          component={m.span}
+          animate={{ backgroundPosition: '200% center' }}
+          transition={{
+            duration: 20,
+            ease: 'linear',
+            repeat: Infinity,
+            repeatType: 'reverse',
+          }}
+          sx={{
+            ...textGradient(
+              `300deg, ${theme.vars.palette.primary.main} 0%, ${theme.vars.palette.warning.main} 25%, ${theme.vars.palette.primary.main} 50%, ${theme.vars.palette.warning.main} 75%, ${theme.vars.palette.primary.main} 100%`
+            ),
+            backgroundSize: '400%',
+            ml: { xs: 0.75, md: 1, xl: 1.5 },
+          }}
+        >
+          K89BET COM
+        </Box>
+        <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
+        Link vào K89Bet mới nhất
+        </Box>
+        Tặng 89K
+      </Box>
+    </MInview>
+  );
+
+  const renderText = (
+    <MInview>
+      <Typography
+        variant="body1"
+        sx={{
+          mx: 'auto',
+          [theme.breakpoints.up(smKey)]: { whiteSpace: 'pre' },
+          [theme.breakpoints.up(lgKey)]: { fontSize: 20, lineHeight: '36px' },
+        }}
+      >
+        {`K89Bet, một tên tuổi mới trong thị trường cá cược Việt Nam, đã nhanh chóng gây ấn tượng với người chơi nhờ sự uy tín, an toàn, xanh chín và công bằng. \nNền tảng này đáp ứng đầy đủ nhu cầu của bet thủ, đặc biệt là những người chơi khó tính, đảm bảo một sân chơi minh bạch và đáng tin cậy.`}
+      </Typography>
+    </MInview>
+  );
+
+  const renderButtons = (
+    <Box display="flex" flexWrap="wrap" justifyContent="center" gap={{ xs: 1.5, sm: 2 }}>
+      <MInview>
+        <Stack alignItems="center" spacing={2.5}>
+          <Button
+            component={RouterLink}
+            href={paths.registerNow}
+            color="inherit"
+            size="large"
+            variant="contained"
+            startIcon={<Iconify width={24} icon="iconoir:flash" />}
           >
-            <Stack spacing={1}>
-             <Markdown children={data.content}/>
-            </Stack>
-          </Box>
-      </Stack>
-    </>
+              Đăng ký ngay
+          </Button>
+        </Stack>
+      </MInview>
+
+      <MInview>
+        <Button
+          color="inherit"
+          size="large"
+          variant="outlined"
+          target="_blank"
+          rel="noopener"
+          href={paths.dowload}
+          startIcon={<Iconify width={24} icon="eva:external-link-fill" />}
+          sx={{ borderColor: 'text.primary' }}
+        >
+          Tải App K89Bet
+        </Button>
+      </MInview>
+    </Box>
   );
 
   return (
@@ -82,14 +145,29 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
       <MotionViewport>
         {renderLines}
 
-        <Container sx={{ position: 'relative' }}>
-          <Grid container columnSpacing={{ xs: 0, md: 8 }} sx={{ position: 'relative', zIndex: 9 }}>
-            <Grid xs={12} md={6} lg={7}>
-              {renderDescription}
-            </Grid>
-          </Grid>
+        <Container
+          component={MotionContainer}
+          sx={{
+            py: 3,
+            gap: 5,
+            zIndex: 9,
+            display: 'flex',
+            alignItems: 'center',
+            flexDirection: 'column',
+            [theme.breakpoints.up(mdKey)]: {
+              flex: '1 1 auto',
+              justifyContent: 'center',
+              py: 'var(--layout-header-desktop-height)',
+            },
+          }}
+        >
+          <Stack spacing={3} sx={{ textAlign: 'center' }}>
+           {renderHeading}
+           {renderText}
+          </Stack>
 
-          <CircleSvg variants={varFade().in} sx={{ display: { xs: 'none', md: 'block' } }} />
+          {renderButtons}
+
         </Container>
       </MotionViewport>
     </Stack>
@@ -97,4 +175,17 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
 }
 
 // ----------------------------------------------------------------------
+
+
+type MInviewProps = BoxProps & {
+  children: React.ReactNode;
+};
+
+function MInview({ children, component = m.div }: MInviewProps) {
+  return (
+    <Box component={component} variants={varFade({ distance: 24 }).inUp}>
+      {children}
+    </Box>
+  );
+}
 
