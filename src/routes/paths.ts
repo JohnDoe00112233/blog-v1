@@ -3,6 +3,7 @@
 
 export const paths = {
   comingSoon: '/coming-soon',
+  feed:"/feed.xml",
   businessLicense:"/giay-phep-kinh-doanh",
   playerResponsibility:"/trach-nhiem-nguoi-choi",
   privacyPolicy:"/chinh-sach-bao-mat",

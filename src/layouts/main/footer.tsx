@@ -26,7 +26,7 @@ const LINKS = [
     children: [
       { name: 'Giới thiệu K89Bet', href: paths.about },
       { name: 'Giấy phép kinh doanh', href: paths.businessLicense },
-      { name: 'RSS Feed', href: paths.contact },
+      { name: 'RSS Feed', href: paths.feed },
     ],
   },
   {
