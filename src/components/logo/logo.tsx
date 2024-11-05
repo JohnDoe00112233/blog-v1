@@ -27,7 +27,7 @@ export const Logo = forwardRef<HTMLDivElement, LogoProps>(
      * OR using local (public folder)
      */
     const logo = ( <Box alt="logo" component="img" sx={{
-      borderRadius:"8px", objectFit:"cover" }} src={`${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`} width={width} height={height} /> );
+      borderRadius:"8px", objectFit:"contain" }} src={`${CONFIG.site.basePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`} width={width} height={height} /> );
     return (
       <NoSsr
         fallback={
