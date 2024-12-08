@@ -8,7 +8,6 @@ import { primary } from 'src/theme/core/palette';
 import { ThemeProvider } from 'src/theme/theme-provider';
 import { getInitColorSchemeScript } from 'src/theme/color-scheme-script';
 
-import { Snackbar } from 'src/components/snackbar';
 import { ProgressBar } from 'src/components/progress-bar';
 import { MotionLazy } from 'src/components/animate/motion-lazy';
 
@@ -93,7 +92,6 @@ export default async function RootLayout({ children }: Props) {
         {getInitColorSchemeScript}
         <ThemeProvider>
           <MotionLazy>
-            <Snackbar />
             <ProgressBar />
             {children}
           </MotionLazy>

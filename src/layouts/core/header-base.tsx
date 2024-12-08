@@ -10,7 +10,6 @@ import { RouterLink } from 'src/routes/components';
 import { Logo } from 'src/components/logo';
 
 import { HeaderSection } from './header-section';
-import { Searchbar } from '../components/searchbar';
 import { MenuButton } from '../components/menu-button';
 import { SignInButton } from '../components/sign-in-button';
 
@@ -146,7 +145,7 @@ export function HeaderBase({
               )}
 
               {/* -- Searchbar -- */}
-              {searchbar && <Searchbar data-slot="searchbar" data={data?.nav} />}
+              {/* {searchbar && <Searchbar data-slot="searchbar" data={data?.nav} />} */}
 
 
               {/* -- Sign in button -- */}

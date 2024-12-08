@@ -1,6 +1,6 @@
 "use client";
 
-import { styled } from "@mui/material";
+import { styled } from "@mui/material/styles";
 
 import { TEXT_CAPTIONS_DARK_COLOR, TEXT_CAPTIONS_LIGHT_COLOR } from "src/config-global";
 

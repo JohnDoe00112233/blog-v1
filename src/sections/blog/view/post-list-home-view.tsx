@@ -15,7 +15,6 @@ import { useDebounce } from 'src/hooks/use-debounce';
 import { orderBy } from 'src/utils/helper';
 
 import { POST_SORT_OPTIONS } from 'src/_mock';
-import { useSearchPosts } from 'src/actions/blog';
 
 import { PostList } from '../post-list';
 import { PostSort } from '../post-sort';
@@ -33,8 +32,6 @@ export function PostListHomeView({ posts }: Props) {
   const [searchQuery, setSearchQuery] = useState('');
 
   const debouncedQuery = useDebounce(searchQuery);
-
-  const { searchResults, searchLoading } = useSearchPosts(debouncedQuery);
 
   const dataFiltered = applyFilter({ inputData: posts, sortBy });
 
@@ -61,9 +58,9 @@ export function PostListHomeView({ posts }: Props) {
       >
         <PostSearch
           query={debouncedQuery}
-          results={searchResults}
+          results={[]}
           onSearch={handleSearch}
-          loading={searchLoading}
+          loading={false}
           hrefItem={(title: string) => paths.post.details(title)}
         />
 

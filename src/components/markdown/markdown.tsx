@@ -1,18 +1,11 @@
-import './code-highlight-block.css';
 
 import type { Options } from 'react-markdown';
 
 import { useMemo } from 'react';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
-import rehypeHighlight from 'rehype-highlight';
 
-import Link from '@mui/material/Link';
-
-import { isExternalLink } from 'src/routes/utils';
-import { RouterLink } from 'src/routes/components';
-
-import { FigcaptionStyled } from 'src/utils/figcaption-styles';
+import { FigcaptionStyled } from 'src/components/markdown/figcaption-styles';
 
 import { Image } from '../image';
 import { StyledRoot } from './styles';
@@ -53,7 +46,7 @@ type ComponentTag = {
   [key: string]: any;
 };
 
-const rehypePlugins = [rehypeRaw, rehypeHighlight, [remarkGfm, { singleTilde: false }]];
+const rehypePlugins = [rehypeRaw, [remarkGfm, { singleTilde: false }]];
 
 const components = {
   img: ({ node, ...other }: ComponentTag) => {
@@ -76,33 +69,9 @@ const components = {
       </span>
     )
   },
-  a: ({ href, children, node, ...other }: ComponentTag) => {
-    const linkProps = isExternalLink(href)
-      ? { target: '_blank', rel: 'noopener' }
-      : { component: RouterLink };
-
-    return (
-      <Link {...linkProps} href={href} className={markdownClasses.content.link} {...other}>
-        {children}
-      </Link>
-    );
-  },
-  pre: ({ children }: ComponentTag) => (
-    <div className={markdownClasses.content.codeBlock}>
-      <pre>{children}</pre>
-    </div>
+  a: ({ href, children, ...other }: ComponentTag) => (
+    <a style={{textDecoration:"none", fontWeight:"bold", color:"#00A76F", }} href={href} target="_blank" rel="noopener noreferrer" {...other}>
+      {children}
+    </a>
   ),
-  code({ className, children, node, ...other }: ComponentTag) {
-    const language = /language-(\w+)/.exec(className || '');
-
-    return language ? (
-      <code {...other} className={className}>
-        {children}
-      </code>
-    ) : (
-      <code {...other} className={markdownClasses.content.codeInline}>
-        {children}
-      </code>
-    );
-  },
 };
