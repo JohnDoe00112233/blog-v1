@@ -1,13 +1,13 @@
 
 import type { Options } from 'react-markdown';
 
+import Image from 'next/image';
 import { useMemo } from 'react';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 
 import { FigcaptionStyled } from 'src/components/markdown/figcaption-styles';
 
-import { Image } from '../image';
 import { StyledRoot } from './styles';
 import { markdownClasses } from './classes';
 import { htmlToMarkdown, isMarkdownContent } from './html-to-markdown';
@@ -51,6 +51,7 @@ const rehypePlugins = [rehypeRaw, [remarkGfm, { singleTilde: false }]];
 const components = {
   img: ({ node, ...other }: ComponentTag) => {
     const coverUrlAlt = node?.properties?.alt
+    const coverUrl = node?.properties?.src
     return (
       <span>
         <figure
@@ -59,18 +60,21 @@ const components = {
           }}
         >
           <Image
-            ratio="16/9"
+            alt={coverUrlAlt} src={coverUrl}
             className={markdownClasses.content.image}
-            sx={{ borderRadius: 2 }}
-            {...other}
-          />
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            width={1024}
+            height={720}
+            quality={75}
+            priority
+            {...other} />
           {coverUrlAlt && <FigcaptionStyled>{coverUrlAlt}</FigcaptionStyled>}
         </figure>
       </span>
     )
   },
   a: ({ href, children, ...other }: ComponentTag) => (
-    <a style={{textDecoration:"none", fontWeight:"bold", color:"#00A76F", }} href={href} target="_blank" rel="noopener noreferrer" {...other}>
+    <a style={{ textDecoration: "none", fontWeight: "bold", color: "#00A76F", }} href={href} target="_blank" rel="noopener noreferrer" {...other}>
       {children}
     </a>
   ),

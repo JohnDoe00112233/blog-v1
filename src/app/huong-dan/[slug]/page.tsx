@@ -85,7 +85,7 @@ export default async function Page({ params }: Props) {
       "name": "K89Bet",
       "logo": {
         "@type": "ImageObject",
-        "url": `${urlBasePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`
+        "url": `${urlBasePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.png`
       }
     },
     "datePublished": "2024-08-28",

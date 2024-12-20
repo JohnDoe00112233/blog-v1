@@ -10,4 +10,3 @@ export * from './actions';
 
 export * from './container';
 
-export * from './background';

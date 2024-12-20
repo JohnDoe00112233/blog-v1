@@ -112,7 +112,7 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
                 [theme.breakpoints.up(lgKey)]: { fontSize: 20, lineHeight: '36px' },
               }}
             >
-              {`K89Bet, một tên tuổi mới trong thị trường cá cược Việt Nam, đã nhanh chóng gây ấn tượng với người chơi nhờ sự uy tín, an toàn, xanh chín và công bằng. \nNền tảng này đáp ứng đầy đủ nhu cầu của bet thủ, đặc biệt là những người chơi khó tính, đảm bảo một sân chơi minh bạch và đáng tin cậy.`}
+              {`K89Bet, một tên tuổi mới trong thị trường cá cược trực tuyến đã nhanh chóng gây ấn tượng với người chơi nhờ sự uy tín, an toàn, xanh chín và công bằng. \nNền tảng này đáp ứng đầy đủ nhu cầu của bet thủ, đặc biệt là những người chơi khó tính, đảm bảo một sân chơi minh bạch và đáng tin cậy.`}
             </Typography>
           </Stack>
 
