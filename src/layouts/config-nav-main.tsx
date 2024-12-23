@@ -5,47 +5,31 @@ import { Iconify } from 'src/components/iconify';
 // ----------------------------------------------------------------------
 
 export const navData = [
-  { title: 'Trang chủ', path: '/', icon: <Iconify width={22} icon="solar:home-2-bold-duotone" /> },
+  { title: 'K89BET', path: '/', icon: <Iconify width={22} icon="solar:home-2-bold-duotone" /> },
   {
-    title: 'Nổ Hũ',
-    path: paths.jackpot,
+    title: 'ĐĂNG KÝ K89BET',
+    path: paths.register,
     icon: <Iconify width={22} icon="solar:atom-bold-duotone" />,
   },
   {
-    title: 'Casino',
-    path: paths.casino,
+    title: 'NẠP TIỀN K89BET',
+    path: paths.recharge,
     icon: <Iconify width={22} icon="solar:file-bold-duotone" />,
   },
   {
-    title: 'Xổ số',
+    title: 'RÚT TIỀN K89BET',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.lottery,
+    path: paths.withdraw,
   },
   {
-    title: 'Thể Thao',
+    title: 'TẢI APP K89BET',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.sports,
+    path: paths.download,
   },
+
   {
-    title: 'Hướng dẫn',
+    title: 'TIN TỨC',
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: "/huong-dan",
-    children: [
-      {
-        subheader: 'Hướng dẫn người chơi tại nhà cái K89BET',
-        items: [
-          { title: 'Khuyến mãi K89BET', path: paths.promotion },
-          { title: 'Tải App K89BET', path: paths.download },
-          { title: 'Đăng ký K89BET', path: paths.register },
-          { title: 'Nạp tiền K89BET', path: paths.recharge },
-          { title: 'Rút tiền K89BET', path: paths.withdraw },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Liên hệ',
-    icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.contact,
+    path: paths.blog,
   },
 ];

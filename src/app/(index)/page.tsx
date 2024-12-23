@@ -6,13 +6,13 @@ import { baseOpenGraph, baseTwitterGraph } from '../shared-metadata';
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  metadataBase: new URL('https://k89.app'), // Thêm metadataBase
-  title: 'K89bet.com | Link vào K89bet chính thức không bị chặn link',
+  metadataBase: new URL('https://k89bet68.com'), // Thêm metadataBase
+  title: 'K89bet | Link vào K89bet chính thức không mạo danh',
   description:
-    'Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!',
+    'K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!',
     openGraph: {
-      title: 'K89bet.com | Link vào K89bet chính thức không bị chặn link',
-      description: 'Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!',
+      title: 'K89bet | Link vào K89bet chính thức không mạo danh',
+      description: 'K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!',
       images: [
         {
           url:  `/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
@@ -23,9 +23,9 @@ export const metadata = {
       ...baseOpenGraph,
     },
     twitter: {
-      title: 'K89bet.com | Link vào K89bet chính thức không bị chặn link',
-      description: 'Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!',
-      url: 'https://k89.app',
+      title: 'K89bet| Link vào K89bet chính thức không mạo danh',
+      description: 'K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!',
+      url: 'https://k89bet68.com',
       images: [
         {
           url: `/assets/images/nha-cai-ca-cuoc-truc-tuyen-hang-dau-k89bet.webp`,
@@ -35,9 +35,9 @@ export const metadata = {
       ...baseTwitterGraph
     },
     alternates: {
-      canonical: 'https://k89.app',
+      canonical: 'https://k89bet68.com',
       languages: {
-        "vi-VN": 'https://k89.app'
+        "vi-VN": 'https://k89bet68.com'
       }
     },
 };
@@ -47,9 +47,9 @@ const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "K89Bet",
-    "url": "https://k89.app",
+    "url": "https://k89bet68.com",
     "logo": `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
-    "description": "Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!",
+    "description": "K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!",
     "foundingDate": "2024",
     "contactPoint": {
       "@type": "ContactPoint",

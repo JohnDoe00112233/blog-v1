@@ -6,7 +6,7 @@ import { searchHomePageJson } from "../shared-metadata";
 
 export async function GET() {
   const combinedPosts = BLOG_POST_DATA.concat(MOCK_HOMEPAGE_DATA);
-  const urlBasePath = "https://k89.app"
+  const urlBasePath = "https://k89bet68.com"
 
   const posts = combinedPosts.map((post) => ({
     title: post.title || searchHomePageJson.title,

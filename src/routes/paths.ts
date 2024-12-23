@@ -24,6 +24,7 @@ export const paths = {
   contact: '/lien-he-k89bet',
   faqs: '/cau-hoi-thuong-gap',
   terms:'/dieu-khoan-va-dieu-kien',
+  blog:"/tin-tuc",
   page403: '/error/403',
   page404: '/error/404',
   page500: '/error/500',

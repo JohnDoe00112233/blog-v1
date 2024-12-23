@@ -99,10 +99,10 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
                   ml: { xs: 0.75, md: 1, xl: 1.5 },
                 }}
               >
-                K89BET COM
+                 K89bet Điểm Đến Giải Trí
               </Box>
-              Link vào K89Bet mới nhất
-              Tặng 89K
+              Đổi Thưởng Uy Tín
+             
             </Box>
             <Typography
               variant="body1"
@@ -112,7 +112,8 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
                 [theme.breakpoints.up(lgKey)]: { fontSize: 20, lineHeight: '36px' },
               }}
             >
-              {`K89Bet, một tên tuổi mới trong thị trường cá cược trực tuyến đã nhanh chóng gây ấn tượng với người chơi nhờ sự uy tín, an toàn, xanh chín và công bằng. \nNền tảng này đáp ứng đầy đủ nhu cầu của bet thủ, đặc biệt là những người chơi khó tính, đảm bảo một sân chơi minh bạch và đáng tin cậy.`}
+              <a style={{textDecoration:"none", color:"red"}} href="https://k89bet68.com">K89bet</a>
+              {` thương hiệu cá cược uy tín, đang tạo nên sức hút lớn trong cộng đồng người chơi nhờ sự chuyên nghiệp và đa dạng dịch vụ. \n Với cam kết mang đến trải nghiệm đáng nhớ, K89bet không chỉ là nơi bạn thỏa mãn đam mê cá cược mà còn là cánh cửa mở ra cơ hội chinh phục các phần thưởng hấp dẫn. \n Cùng khám phá những điểm đặc biệt của nhà cái này qua bài viết dưới đây!`}
             </Typography>
           </Stack>
 
@@ -126,7 +127,7 @@ export function HomeMinimal({ sx, ...other }: StackProps) {
                 variant="contained"
                 startIcon={<Iconify width={24} icon="iconoir:flash" />}
               >
-                Đăng ký ngay
+                Đăng ký nhanh
               </Button>
             </Stack>
             <Button

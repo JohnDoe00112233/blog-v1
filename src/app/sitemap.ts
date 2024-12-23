@@ -5,7 +5,7 @@ import { BLOG_POST_DATA, MOCK_HOMEPAGE_DATA } from "src/data/list-data";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const combinedPosts = BLOG_POST_DATA.concat(MOCK_HOMEPAGE_DATA);
-  const urlBasePath = "https://k89.app"
+  const urlBasePath = "https://k89bet68.com"
 
   const mapPostsToSitemap = combinedPosts.map((post) => ({
     url: `${urlBasePath}/${post.category ? `${post.category}/` : ''}${post.slug}` || "",
@@ -22,43 +22,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
     },
     {
-      url: `${urlBasePath}/giay-phep-kinh-doanh`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: "daily",
-      priority: 0.7,
-    },
-    {
-      url: `${urlBasePath}/quyen-rieng-tu`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: "daily",
-      priority: 0.7,
-    },
-    {
       url: `${urlBasePath}/`,
       lastModified: new Date().toISOString(),
       changeFrequency: "daily",
       priority: 0.7,
     },
     {
-      url: `${urlBasePath}/huong-dan`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: "daily",
-      priority: 0.7,
-    },
-    {
       url: `${urlBasePath}/gioi-thieu-k89bet`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: "daily",
-      priority: 0.7,
-    },
-    {
-      url: `${urlBasePath}/lien-he-k89bet`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: "daily",
-      priority: 0.7,
-    },
-    {
-      url: `${urlBasePath}/trach-nhiem-nguoi-choi`,
       lastModified: new Date().toISOString(),
       changeFrequency: "daily",
       priority: 0.7,

@@ -31,22 +31,22 @@ export const metadata = {
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  metadataBase: new URL('https://k89.app'), // Thêm metadataBase
-  title: "K89bet.com | Link vào K89bet chính thức không bị chặn link",
+  metadataBase: new URL('https://k89bet68.com'), // Thêm metadataBase
+  title: "K89bet | Link vào K89bet chính thức không mạo danh",
   description:
-    "Tham gia ngay nhà cái K89bet.com – nền tảng cá cược uy tín với tỷ lệ cược cao, đa dạng trò chơi casino, thể thao và nổ hũ hấp dẫn. Nhận khuyến mãi độc quyền cho người chơi mới và cơ hội thắng lớn mỗi ngày. Đăng ký miễn phí chỉ trong 1 phút!",
+    "K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!",
   alternates: {
-    canonical: "https://k89.app/vi_VN",
+    canonical: "https://k89bet68.com/vi_VN",
     languages: {
-      "vi-VN": "https://k89.app/vi_VN"
+      "vi-VN": "https://k89bet68.com/vi_VN"
     },
   },
-  generator: "K89BET",
-  applicationName: "K89BET",
+  generator: "K89bet",
+  applicationName: "K89bet",
   referrer: "origin-when-cross-origin",
-  authors: [{ name: "k89bet" }],
-  creator: "k89bet",
-  publisher: "k89bet",
+  authors: [{ name: "K89bet" }],
+  creator: "K89bet",
+  publisher: "K89bet",
   formatDetection: {
     email: false,
     address: false,

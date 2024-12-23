@@ -19,7 +19,7 @@ type Props = {
 // Hàm generateMetadata để thêm meta cho từng trang
 export async function generateMetadata({ params }: Props) {
   const { slug } = params;
-  const urlBasePath = "https://k89.app"
+  const urlBasePath = "https://k89bet68.com"
   const post = BLOG_POST_DATA.find(post => post.slug === slug);
 
   const urlPath = `${urlBasePath}/${paths.tutorial}/${slug}/vi_VN`;
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props) {
   }
 
   return {
-    metadataBase: new URL('https://k89.app'), // Thêm metadataBase
+    metadataBase: new URL('https://k89bet68.com'), // Thêm metadataBase
     title: post.metaTitle,
     description: post.metaDescription,
     openGraph: {
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function Page({ params }: Props) {
   const { slug } = params;
-  const urlBasePath = "https://k89.app"
+  const urlBasePath = "https://k89bet68.com"
   const post = BLOG_POST_DATA.find((post) => post.slug === slug);
 
   const jsonLd = {

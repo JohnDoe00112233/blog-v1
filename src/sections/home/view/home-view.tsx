@@ -1,12 +1,10 @@
 'use client';
 
 import Stack from '@mui/material/Stack';
-import { Container } from '@mui/material';
 
 import { BackToTop } from 'src/components/animate/back-to-top';
 import { ScrollProgress, useScrollProgress } from 'src/components/animate/scroll-progress';
 
-import { HomeFAQs } from '../home-faqs';
 import { HomeMinimal } from '../home-minimal';
 import { HomePricing } from '../home-pricing';
 
@@ -29,10 +27,9 @@ export function HomeView() {
       <Stack sx={{ position: 'relative', bgcolor: 'background.default' }}>
         <HomeMinimal />
 
-        <Container maxWidth="md">
+
         <HomePricing />
-        </Container>
-        <HomeFAQs />
+
       </Stack>
     </>
   );

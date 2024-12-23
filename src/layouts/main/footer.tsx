@@ -25,7 +25,6 @@ const LINKS = [
     headline: 'K89BET',
     children: [
       { name: 'Giới thiệu K89Bet', href: paths.about },
-      { name: 'Giấy phép kinh doanh', href: paths.businessLicense },
       { name: 'RSS Feed', href: paths.feed },
     ],
   },
@@ -34,8 +33,6 @@ const LINKS = [
     children: [
       { name: 'Điều khoản điều kiện', href: paths.terms },
       { name: 'Chính sách bảo mật', href: paths.privacyPolicy },
-      { name: 'Trách nhiệm người chơi', href: paths.playerResponsibility },
-      { name: 'Quyền riêng tư', href: paths.privacy },
     ],
   },
 ];
@@ -82,7 +79,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
               }}
             >
               Bên cạnh việc cung cấp dịch vụ hỗ trợ khách hàng qua chat trực tuyến 24/7, <span><Link
-                href="https://k89.app"
+                href="https://k89bet68.com"
                 target="_blank"
                 rel="noopener"
                 sx={{ mx: 0.5 }}
@@ -154,7 +151,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                 }}
               >
                 <Typography component="div" variant="overline">
-                  Liện hệ nhà cái
+                  Liện hệ K89BET
                 </Typography>
                 <Box component="ul" sx={{ listStyleType: {xs: "none", md:"disc"} }}>
                   <li>
@@ -174,30 +171,30 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                   </li>
                   <li>
                     <Typography variant="body2">
-                      <strong>Mail:</strong> support@k89.app
+                      <strong>Mail:</strong> support@k89bet68.com
                     </Typography>
                   </li>
                   <li>
                     <Typography variant="body2">
                       <strong>Website:</strong>  <Link
-                        href="https://k89.app/"
+                        href="https://k89bet68.com/"
                         target="_blank"
                         rel="noopener"
                         sx={{ mx: 0.5 }}
                       >
-                        https://k89.app/
+                        https://k89bet68.com/
                       </Link>
                     </Typography>
                   </li>
                   <li>
                     <Typography variant="body2">
                        <Link
-                        href="https://k89.app/sitemap.xml"
+                        href="https://k89bet68.com/sitemap.xml"
                         target="_blank"
                         rel="noopener"
                         sx={{ mx: 0.5 }}
                       >
-                        Sitemap
+                        Sơ đồ trang web
                       </Link>
                     </Typography>
                   </li>

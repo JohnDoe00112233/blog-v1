@@ -8,7 +8,7 @@ import { commonHomePage } from "../shared-metadata";
 
 export async function GET() {
   const categories = ['the-thao-k89bet', 'xo-so-k89bet', 'no-hu-k89bet', 'casino-k89bet', 'huong-dan'];
-      const urlBasePath = "https://k89.app"
+      const urlBasePath = "https://k89bet68.com"
   const feed = new RSS({
     title: commonHomePage.title,
     description: commonHomePage.description,

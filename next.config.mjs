@@ -4,7 +4,7 @@
 
 import withBundleAnalyzer from '@next/bundle-analyzer';
 
-const isStaticExport = 'false';
+const isStaticExport = 'true';
 
 const nextConfig = {
   trailingSlash: true,
@@ -34,6 +34,9 @@ const nextConfig = {
   ...(isStaticExport === 'true' && {
     output: 'export',
   }),
+  images: {
+    unoptimized: true, // Vô hiệu hóa Image Optimization API
+  },
 };
 
 

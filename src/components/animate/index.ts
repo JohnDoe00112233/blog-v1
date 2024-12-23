@@ -9,3 +9,5 @@ export * from './motion-viewport';
 export * from './scroll-progress';
 
 export * from './motion-container';
+
+export * from './animate-border';

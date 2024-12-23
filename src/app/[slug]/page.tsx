@@ -14,7 +14,7 @@ type Props = {
 
 // Hàm generateMetadata để thêm meta cho từng trang
 export async function generateMetadata({ params }: Props) {
-  const urlBasePath = "https://k89.app"
+  const urlBasePath = "https://k89bet68.com"
   const { slug } = params;
   // eslint-disable-next-line @typescript-eslint/no-shadow
   const post = MOCK_HOMEPAGE_DATA.find(post => post.slug === slug);
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props) {
   }
 
   return {
-    metadataBase: new URL('https://k89.app'), // Thêm metadataBase
+    metadataBase: new URL('https://k89bet68.com'), // Thêm metadataBase
     title: post.metaTitle,
     description: post.metaDescription,
     openGraph: {
@@ -90,7 +90,7 @@ export default function Page({ params }: Props) {
     "description": post?.metaDescription,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://k89.app/${post?.itemPath}`
+      "@id": `https://k89bet68.com/${post?.itemPath}`
     },
     "keywords": post?.keyword,
     "articleSection": post?.articleSection,
@@ -101,13 +101,13 @@ export default function Page({ params }: Props) {
           "@type": "ListItem",
           "position": 1,
           "name": "Trang chủ",
-          "item": "https://k89.app"
+          "item": "https://k89bet68.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": post?.name,
-          "item": `https://k89.app/${post?.itemPath}`
+          "item": `https://k89bet68.com/${post?.itemPath}`
         },
       ]
     }
