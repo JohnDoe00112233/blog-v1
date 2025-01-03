@@ -25,6 +25,7 @@ const LINKS = [
     headline: 'K89BET',
     children: [
       { name: 'Giới thiệu K89Bet', href: paths.about },
+      { name: 'Liên hệ K89Bet', href: paths.contact },
       { name: 'RSS Feed', href: paths.feed },
     ],
   },
@@ -78,17 +79,17 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                 [theme.breakpoints.up(layoutQuery)]: { mx: 'unset' },
               }}
             >
-              Bên cạnh việc cung cấp dịch vụ hỗ trợ khách hàng qua chat trực tuyến 24/7, <span><Link
+              <span><Link
                 href="https://k89bet68.com"
                 target="_blank"
                 rel="noopener"
                 sx={{ mx: 0.5 }}
               >
-                K89BET
+                K89bet
               </Link></span>
-              còn sẵn sàng giải đáp mọi thắc mắc của bạn qua kênh Telegram. Đội ngũ CSKH của K89 casino hoạt động không ngừng nghỉ suốt cả năm, luôn sẵn sàng tiếp nhận và phản hồi nhanh chóng mọi câu hỏi từ người chơi.
+              tự hào mang đến nền tảng cá cược trực tuyến vượt trội, không chỉ đảm bảo tính uy tín mà còn khẳng định chất lượng hàng đầu trên thị trường. Với sự công nhận chính thức từ các cơ quan quản lý danh tiếng tại châu Mỹ, K89bet là một trong những nhà cái hiếm hoi sở hữu giấy phép hoạt động do Bộ Nội vụ và Liên bang tại Schleswig-Holstein cấp phép. Đây chính là minh chứng cho cam kết về tính hợp pháp và tiêu chuẩn cao mà K89bet luôn hướng đến.
             </Typography>
-            <Typography><strong>Hashtag:</strong> #K89Bet, #K89app, #K89betcom, #K89betcasino, #nhacaiK89Bet #K89betapp #trangchuK89bet #linkvaoK89bet</Typography>
+            <Typography><strong>Hashtag:</strong> #K89Bet, #K89betcom, #K89betcasino, #nhacaiK89Bet  #trangchuK89bet #linkvaoK89bet</Typography>
             <Stack
               direction="row"
               sx={{
@@ -153,10 +154,10 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                 <Typography component="div" variant="overline">
                   Liện hệ K89BET
                 </Typography>
-                <Box component="ul" sx={{ listStyleType: {xs: "none", md:"disc"} }}>
+                <Box component="ul" sx={{ listStyleType: { xs: "none", md: "disc" } }}>
                   <li>
                     <Typography variant="body2">
-                      <strong>Địa chỉ:</strong> 146/59 Đ. Vũ Tùng, Phường 2, Bình Thạnh, Hồ Chí Minh.
+                      <strong>Địa chỉ:</strong> 200 Bát Nàn, Phường Thạnh Mỹ Lợi, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam
                     </Typography>
                   </li>
                   <li>
@@ -188,7 +189,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                   </li>
                   <li>
                     <Typography variant="body2">
-                       <Link
+                      <Link
                         href="https://k89bet68.com/sitemap.xml"
                         target="_blank"
                         rel="noopener"
