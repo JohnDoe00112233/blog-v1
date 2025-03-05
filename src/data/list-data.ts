@@ -15,6 +15,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     content: `
 
     <h2>🥇Hướng dẫn nạp tiền K89bet dễ dàng</h2>
+    <img src="/assets/images/huong-dan-nap-tien-k89bet-de-dang.webp" alt="Hướng dẫn nạp tiền k89bet dễ dàng"/>
     <h3>🥈Các phương thức nạp tiền phổ biến</h3>
     <p>
             K89bet mang đến đa dạng các phương thức nạp tiền hiện đại, đáp ứng tối đa nhu cầu của mọi người chơi. Những phương thức này không chỉ nhanh chóng mà còn an toàn tuyệt đối:
@@ -61,6 +62,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
             <strong>💡 Lưu ý:</strong> Lưu lại hóa đơn hoặc chụp màn hình giao dịch làm bằng chứng nếu cần. Nếu gặp bất kỳ sự cố nào trong quá trình nạp tiền, hãy liên hệ với bộ phận hỗ trợ khách hàng ngay lập tức để được hỗ trợ.
         </blockquote>
          <h2>🥇Lỗi thường gặp khi nạp tiền K89bet</h2>
+         <img src="/assets/images/loi-thuong-gap-khi-nap-tien-k89bet.webp" alt="Hướng dẫn nạp tiền k89bet dễ dàng"/>
           <h3>🥈Lỗi không nhận được tiền khi nạp</h3>
         <p>
             Một trong những vấn đề phổ biến mà người chơi có thể gặp phải là không thấy tiền vào tài khoản sau khi đã thực hiện giao dịch nạp tiền. Dưới đây là những nguyên nhân thường gặp:
@@ -123,6 +125,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
 
 
         <h2>🥇Chương trình khuyến mãi khi nạp tiền K89bet</h2>
+         <img src="/assets/images/chuong-trinh-khuyen-mai-khi-nap-tien-k89bet.webp" alt="Chương trình khuyến mãi khi nạp tiền K89bet"/>
         <p>
             Để mang đến cho người chơi những lợi ích tốt nhất, K89bet thường xuyên triển khai các chương trình khuyến mãi hấp dẫn khi nạp tiền. Dưới đây là một số ưu đãi nổi bật:
         </p>
@@ -217,13 +220,11 @@ export const BLOG_POST_DATA: IPostItem[] = [
     category: "huong-dan",
     publish: '2024-10-04',
     content: `
-
         <p>
             <p><strong><a href="https://k89bet68.com/rut-tien-k89bet">Rút tiền K89Bet</a></strong> là một trong những bước quan trọng mà người chơi quan tâm sau khi trải nghiệm các dịch vụ tại đây. Trong bài viết này, <strong><a href="https://k89bet68.com">K89Bet</a></strong> sẽ giải thích chi tiết các quy định và điều khoản liên quan, cung cấp hướng dẫn từng bước giúp bạn rút tiền một cách an toàn, nhanh chóng và hiệu quả. Đồng thời, bạn sẽ được điểm qua một số lưu ý quan trọng để đảm bảo giao dịch mượt mà nhất.
         </p>
-
-
         <h2>🥇Quy định về điều khoản rút tiền K89bet</h2>
+         <img src="/assets/images/quy-dinh-ve-rut-tien-k89bet.webp" alt="Quy định về điều khoản rút tiền K89bet"/>
         <p>
             Việc tuân thủ các quy định về điều khoản <strong>rút tiền K89bet</strong> không chỉ giúp bạn đảm bảo tính hợp pháp mà còn mang lại sự tiện lợi và minh bạch trong quá trình giao dịch. Dưới đây là một số quy định quan trọng bạn cần nắm rõ:
         </p>
@@ -320,7 +321,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
 
 
         <h2>🥇Hướng dẫn rút tiền K89bet an toàn</h2>
-
+     <img src="/assets/images/huong-dan-rut-tien-k89bet-an-toan.webp" alt="Hướng dẫn rút tiền K89bet an toàn"/>
         <h3>🥈Bước 1: Đăng nhập tài khoản</h3>
         <p>
             Đầu tiên, bạn cần đăng nhập vào tài khoản cá cược của mình trên trang web
@@ -469,6 +470,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
             <strong><a href="https://k89bet68.com/huong-dan/dang-ky-k89bet">Đăng ký K89Bet</a></strong> chính là chìa khóa mở ra cánh cửa dẫn bạn vào thế giới giải trí đỉnh cao với hàng loạt trò chơi hấp dẫn và dịch vụ vượt trội.
             Trong bài viết này, chúng tôi sẽ hướng dẫn bạn cách tạo tài khoản một cách dễ dàng, đồng thời giới thiệu những điều khoản quan trọng để bạn tham gia một cách an toàn và hợp pháp.</p>
         <h2>🥇Điều kiện quan trọng khi đăng ký K89bet</h2>
+         <img src="/assets/images/dieu-kien-quan-trong-khi-dang-ky-k89bet.webp" alt="Điều kiện quan trọng khi đăng ký K89bet"/>
         <p>
             Khi tham gia nền tảng <strong><a href="https://k89bet68.com">K89bet</a></strong>, việc hiểu rõ các điều khoản và điều kiện là yếu tố thiết yếu để bảo vệ quyền lợi của bạn
             và đảm bảo trải nghiệm liền mạch. Dưới đây là những yêu cầu cơ bản bạn cần lưu ý trước khi tiến hành đăng ký.
@@ -531,6 +533,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
             Điều này giúp bạn tránh những sai sót và đảm bảo giao dịch diễn ra suôn sẻ.
         </blockquote>
         <h2>🥇Hướng dẫn đăng ký K89bet dễ dàng trong vài bước</h2>
+        <img src="/assets/images/huong-dan-dang-ky-k89bet-de-dang.webp" alt="Hướng dẫn đăng ký K89bet dễ dàng trong vài bước"/>
         <p>Sau khi đã hiểu rõ các điều khoản và điều kiện của K89bet, bạn có thể bắt đầu quá trình <strong>đăng ký k89bet</strong> chỉ với vài bước đơn giản dưới đây.</p>
         <h3>🥈Truy cập trang web chính thức của K89bet</h3>
         <p>
@@ -650,6 +653,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
 
     <section>
         <h2>🥇Hướng dẫn tải app K89bet chi tiết</h2>
+         <img src="/assets/images/huong-dan-tai-app-k89bet-chi-tiet.webp" alt="Điểm nổi bật của nhà cái K89bet"/>
         <p>
             Khi nói đến việc <strong>tải app K89bet</strong>, nhiều người cảm thấy bối rối vì không biết bắt đầu từ đâu. Đừng lo, hướng dẫn dưới đây sẽ giúp bạn thực hiện điều đó một cách dễ dàng.
         </p>
@@ -706,6 +710,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
 </section>
 <section>
     <h2>🥇Khắc phục lỗi khi tải app K89bet</h2>
+      <img src="/assets/images/khac-phuc-loi-khi-tai-app-k89bet.webp" alt="Khắc phục lỗi khi tải app K89bet"/>
     <p>Khi <strong>tải app K89bet</strong>, đôi khi bạn có thể gặp phải một số vấn đề không mong muốn. Đừng lo, trong phần này, chúng tôi sẽ liệt kê những lỗi thường gặp và hướng dẫn chi tiết cách khắc phục.</p>
 
     <h3>🥈Lỗi không tải được ứng dụng</h3>
@@ -1001,6 +1006,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
         <a href="https://k89bet68.com/nap-tien-k89bet">Cách nạp/rút tiền tại K89bet</a> để thực hiện giao dịch thuận tiện hơn.
     </p>
     <h2>🥇 Điểm nổi bật của nhà cái K89bet</h2>
+     <img src="/assets/images/diem-noi-bat-cua-nha-cai-k89bet.webp" alt="Điểm nổi bật của nhà cái K89bet"/>
     <p>
         K89bet không chỉ là một nền tảng cá cược trực tuyến thông thường mà còn là nơi hội tụ những yếu tố giúp người chơi có trải nghiệm tốt nhất. Dưới đây là các điểm nổi bật chính của nhà cái K89bet:
     </p>
@@ -1044,6 +1050,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
 
 <section>
     <h2>🥇Giới thiệu K89bet – Sân chơi cá cược chất lượng</h2>
+     <img src="/assets/images/gioi-thieu-san-choi-ca-cuoc-chat-luong.webp" alt="Sân chơi K89bet cá cược chất lượng"/>
     <p>
         <strong>Giới thiệu K89bet</strong> tự hào là một trong những nhà cái uy tín và hàng đầu hiện nay, với giấy phép hoạt động hợp pháp và minh bạch. Đây chính là minh chứng cho cam kết của K89bet trong việc mang đến một môi trường cá cược an toàn, minh bạch và công bằng cho người chơi.
     </p>
@@ -1221,6 +1228,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
             <strong><a href="https://k89bet68.com/">K89bet</a></strong> xây dựng bộ <strong><a href="https://k89bet68.com/dieu-khoan-su-dung">điều khoản sử dụng</a></strong> chi tiết, đảm bảo người chơi được tham gia trong một môi trường an toàn, minh bạch và công bằng.
         </p>
         <h2>🥇Tại Sao Điều Khoản Sử Dụng Là Quan Trọng Với Người Chơi?</h2>
+         <img src="/assets/images/tai-sao-dieu-khoan-su-dung-la-quan-trong-voi-nguoi-choi.webp" alt="Tại sao điều khoản sử dụng là quan trọng với người chơi"/>
         <p>
             Những quy định sử dụng dịch vụ không chỉ là cơ sở pháp lý mà còn bảo vệ quyền lợi của bạn khi tham gia tại <strong>K89bet</strong>. Các nội dung quan trọng bao gồm:
         </p>
@@ -1300,6 +1308,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
         Điều này không chỉ đảm bảo tính minh bạch mà còn giúp ngăn chặn các hành vi rửa tiền, bảo vệ tài chính cho cả nhà cái và người chơi.
     </p>
      <h2>🥇Xử lý vi phạm điều khoản sử dụng K89bet</h2>
+      <img src="/assets/images/xu-ly-vi-pham-dieu-khoan-su-dung-k89bet.webp" alt="Xử lý vi phạm điều khoản sử dụng K89bet"/>
     <p>
         Khi tham gia tại <strong>K89bet</strong>, việc tuân thủ điều khoản sử dụng là yếu tố quan trọng để duy trì một môi trường cá cược công bằng và minh bạch. Nếu người chơi vi phạm các quy định này, họ có thể đối mặt với những hậu quả nghiêm trọng. Để đảm bảo tính minh bạch, <strong>K89bet</strong> đã xây dựng một quy trình xử lý vi phạm rõ ràng, từ cảnh cáo cho đến khóa tài khoản vĩnh viễn.
     </p>
@@ -1383,9 +1392,9 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
 </section>
 
     `,
-    coverUrl: `/assets/images/dieu-khoan-va-dieu-kien-1080x720.webp`,
+    coverUrl: `/assets/images/dieu-khoan-su-dung-k89bet-1080x720.webp`,
     coverUrlAlt: 'Giấy phép kinh doanh nhà cái K89Bet uy tín',
-    coverUrlOpenGraph: `/assets/images/dieu-khoan-va-dieu-kien-1200x630.webp`,
+    coverUrlOpenGraph: `/assets/images/dieu-khoan-su-dung-k89bet-1200x630.webp`,
     coverUrlOpenGraphAlt: 'Điều khoản và điều kiện của nhà cái K89Bet',
     totalViews: 0,
     totalShares: 0,
@@ -1417,6 +1426,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
         An toàn thông tin cá nhân luôn là mối quan tâm hàng đầu của người chơi trực tuyến. Với <strong><a href="https://k89bet68.com/">K89bet</a></strong>, <strong><a href="https://k89bet68.com/chinh-sach-bao-mat">chính sách bảo mật</a></strong> không chỉ là cách để bảo vệ dữ liệu cá nhân mà còn là cam kết lâu dài đối với khách hàng, đảm bảo rằng mọi hoạt động cá cược đều diễn ra an toàn và minh bạch.
     </p>
     <h2>🥇Chính sách bảo mật là gì?</h2>
+    <img src="/assets/images/chinh-sach-bao-mat-k89bet-la-gi.webp" alt="Chính sách bảo mật K89bet là gì?"/>
     <p>
         <strong>Chính sách bảo mật</strong> không chỉ đơn thuần là một văn bản liệt kê các biện pháp bảo vệ thông tin mà còn là:
     </p>
@@ -1481,7 +1491,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     </ol>
     <h3>🥈Tầm quan trọng của chính sách</h3>
     <p>Chính sách bảo mật rõ ràng và minh bạch mang lại nhiều lợi ích cho cả người dùng và <strong>K89bet</strong>:</p>
-    <h4>🥇Đối với người dùng:</h4>
+    <h4>🥉Đối với người dùng:</h4>
     <ul>
         <li>Tăng cường sự tin tưởng.</li>
         <li>Giảm lo ngại về việc lộ thông tin cá nhân.</li>
@@ -1492,6 +1502,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
         <li>Tránh rủi ro pháp lý trong quá trình vận hành.</li>
     </ul>
     <h2>🥇Quyền riêng tư trong chính sách bảo mật K89bet</h2>
+    <img src="/assets/images/quyen-rieng-tu-trong-chinh-sach-bao-mat-k89bet.webp" alt="Chính sách bảo mật K89bet là gì?"/>
     <p>
         Quyền riêng tư là một trong những yếu tố nhạy cảm nhất trong lĩnh vực trực tuyến. Đặc biệt với các nhà cái như <strong>K89bet</strong>, nơi thông tin tài chính và cá nhân của người dùng có thể trở thành mục tiêu nếu không được bảo vệ đúng cách. Chính vì vậy, <strong>K89bet</strong> đã thiết lập chính sách bảo mật chặt chẽ nhằm đảm bảo quyền riêng tư cho người chơi.
     </p>
@@ -1634,6 +1645,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     </blockquote>
     <p>Đội ngũ hỗ trợ kỹ thuật của K89bet luôn sẵn sàng khắc phục các vấn đề để đảm bảo bạn có trải nghiệm mượt mà nhất.</p>
      <h2>🥇 Hướng dẫn liên hệ K89bet nhanh chóng</h2>
+     <img src="/assets/images/huong-dan-lien-he-k89bet-nhanh-chong.webp" alt="Chính sách bảo mật K89bet là gì?"/>
     <p>Sau khi đã xác định được các trường hợp cần <strong>liên hệ K89bet</strong>, bước tiếp theo là tìm hiểu các phương thức liên hệ hiệu quả. Dưới đây là một số phương pháp mà bạn có thể sử dụng để kết nối với nhà cái:</p>
 
     <h3>🥈 Sử dụng chat trực tuyến</h3>
