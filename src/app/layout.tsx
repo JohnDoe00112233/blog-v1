@@ -32,7 +32,7 @@ export const metadata = {
     "max-snippet": -1,
   },
   metadataBase: new URL('https://k89bet68.com'), // Thêm metadataBase
-  title: "K89bet | Link vào K89bet chính thức không mạo danh",
+  title: "K89bet | Link vào K89bet chính thức mới nhất 2025",
   description:
     "K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!",
   alternates: {
@@ -76,8 +76,8 @@ export const metadata = {
     },
   ],
   other: {
-    "google-site-verification": "3G6SddOKFuUgy4jU-4AcU-CBRh_YLyDJM0HQfPdP4LM",
-    "msvalidate.01":"9F6F4FF1AE25154C3B6D43558283080D"
+    "google-site-verification": "",
+    "msvalidate.01":""
   }
 };
 

@@ -7,11 +7,11 @@ import { baseOpenGraph, baseTwitterGraph } from '../shared-metadata';
 
 export const metadata = {
   metadataBase: new URL('https://k89bet68.com'), // Thêm metadataBase
-  title: 'K89bet | Link vào K89bet chính thức không mạo danh',
+  title: 'K89bet | Link vào K89bet chính thức mới nhất 2025',
   description:
     'K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!',
     openGraph: {
-      title: 'K89bet | Link vào K89bet chính thức không mạo danh',
+      title: 'K89bet | Link vào K89bet chính thức mới nhất 2025',
       description: 'K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!',
       images: [
         {
@@ -23,7 +23,7 @@ export const metadata = {
       ...baseOpenGraph,
     },
     twitter: {
-      title: 'K89bet| Link vào K89bet chính thức không mạo danh',
+      title: 'K89bet | Link vào K89bet chính thức mới nhất 2025',
       description: 'K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!',
       url: 'https://k89bet68.com',
       images: [
@@ -50,7 +50,7 @@ const jsonLd = {
     "url": "https://k89bet68.com",
     "logo": `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
     "description": "K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!",
-    "foundingDate": "2024",
+    "foundingDate": "2025",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "(+84) 921227035",
@@ -65,7 +65,7 @@ const jsonLd = {
     ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "146/59 Đ. Vũ Tùng, Phường 2, Bình Thạnh, Hồ Chí Minh.",
+      "streetAddress": "200 Bát Nàn, Phường Thạnh Mỹ Lợi, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam",
       "addressLocality": "TP. Hồ Chí Minh",
       "addressRegion": "VN",
       "postalCode": "700000",

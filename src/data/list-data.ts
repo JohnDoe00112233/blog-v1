@@ -11,9 +11,8 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Hướng dẫn nạp tiền K89bet nhanh chóng và an toàn',
     description: '',
     category: "huong-dan",
-    publish: '2024-10-04',
+    publish: '2025-11-03',
     content: `
-
     <h2>🥇Hướng dẫn nạp tiền K89bet dễ dàng</h2>
     <img src="/assets/images/huong-dan-nap-tien-k89bet-de-dang.webp" alt="Hướng dẫn nạp tiền k89bet dễ dàng"/>
     <h3>🥈Các phương thức nạp tiền phổ biến</h3>
@@ -62,7 +61,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
             <strong>💡 Lưu ý:</strong> Lưu lại hóa đơn hoặc chụp màn hình giao dịch làm bằng chứng nếu cần. Nếu gặp bất kỳ sự cố nào trong quá trình nạp tiền, hãy liên hệ với bộ phận hỗ trợ khách hàng ngay lập tức để được hỗ trợ.
         </blockquote>
          <h2>🥇Lỗi thường gặp khi nạp tiền K89bet</h2>
-         <img src="/assets/images/loi-thuong-gap-khi-nap-tien-k89bet.webp" alt="Hướng dẫn nạp tiền k89bet dễ dàng"/>
+         <img src="/assets/images/loi-thuong-gap-khi-nap-tien-k89bet.webp" alt="Lỗi thường gặp khi nạp tiền K89bet"/>
           <h3>🥈Lỗi không nhận được tiền khi nạp</h3>
         <p>
             Một trong những vấn đề phổ biến mà người chơi có thể gặp phải là không thấy tiền vào tài khoản sau khi đã thực hiện giao dịch nạp tiền. Dưới đây là những nguyên nhân thường gặp:
@@ -204,7 +203,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     metaDescription:
       'Hướng dẫn chi tiết nạp tiền K89Bet. Đảm bảo an toàn tuyệt đối, giao dịch nhanh gọn qua ngân hàng, ví điện tử, và tiền mã hoá hỗ trợ người chơi 24/7',
     tags: [],
-    createdAt: '2024-10-04',
+    createdAt: '2025-11-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -218,7 +217,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Rút tiền K89bet – Hướng dẫn chi tiết và nhanh chóng',
     description: '',
     category: "huong-dan",
-    publish: '2024-10-04',
+    publish: '2025-11-03',
     content: `
         <p>
             <p><strong><a href="https://k89bet68.com/rut-tien-k89bet">Rút tiền K89Bet</a></strong> là một trong những bước quan trọng mà người chơi quan tâm sau khi trải nghiệm các dịch vụ tại đây. Trong bài viết này, <strong><a href="https://k89bet68.com">K89Bet</a></strong> sẽ giải thích chi tiết các quy định và điều khoản liên quan, cung cấp hướng dẫn từng bước giúp bạn rút tiền một cách an toàn, nhanh chóng và hiệu quả. Đồng thời, bạn sẽ được điểm qua một số lưu ý quan trọng để đảm bảo giao dịch mượt mà nhất.
@@ -390,6 +389,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
 
 
        <h2>🥇Câu hỏi thường gặp khi rút tiền K89bet</h2>
+       <img src="/assets/images/cau-hoi-thuong-gap-khi-rut-tien-k89bet.webp" alt="Câu hỏi thường gặp khi rút tiền K89bet"/>
 
 <h3>🥈Thời gian xử lý tối đa là bao lâu?</h3>
 <p>Thời gian xử lý giao dịch thường từ <strong>24-48 giờ làm việc</strong>. Nếu giao dịch thực hiện vào cuối tuần hoặc ngày lễ, thời gian này có thể kéo dài hơn.</p>
@@ -450,7 +450,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     metaDescription:
       'Rút tiền K89Bet an toàn và nhanh chóng với các bước đơn giản. Tìm hiểu quy định và hướng dẫn rút tiền từ nhà cái K89Bet để đảm bảo giao dịch của bạn diễn ra suôn sẻ.',
     tags: [],
-    createdAt: '2024-10-04',
+    createdAt: '2025-11-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -464,7 +464,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Đăng ký K89bet - Khám phá hành trình cá cược không giới hạn',
     description: '',
     category: "huong-dan",
-    publish: '2024-10-04',
+    publish: '2025-11-03',
     content: `
         <p>Bạn đang tìm kiếm một nền tảng cá cược trực tuyến uy tín và chất lượng?
             <strong><a href="https://k89bet68.com/huong-dan/dang-ky-k89bet">Đăng ký K89Bet</a></strong> chính là chìa khóa mở ra cánh cửa dẫn bạn vào thế giới giải trí đỉnh cao với hàng loạt trò chơi hấp dẫn và dịch vụ vượt trội.
@@ -625,7 +625,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     metaDescription:
       'Đăng ký K89bet dễ dàng và nhanh chóng chỉ trong vài bước. Trải nghiệm ngay các trò chơi hấp dẫn, ưu đãi đặc biệt và dịch vụ đẳng cấp tại nhà cái uy tín K89bet.',
     tags: [],
-    createdAt: '2024-10-04',
+    createdAt: '2025-11-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -639,7 +639,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Hướng Dẫn Tải APP K89bet - Nhanh, An Toàn, Đơn Giản',
     description: '',
     category: "huong-dan",
-    publish: '2024-10-04',
+    publish: '2025-11-03',
     content: `
      <section>
         <p>
@@ -833,148 +833,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     metaDescription:
       'Khi nói đến việc tải app K89bet, nhiều người có thể cảm thấy bối rối vì không biết bắt đầu từ đâu. Đừng lo lắng, bài viết này sẽ hướng dẫn bạn từng bước.',
     tags: [],
-    createdAt: '2024-10-04',
-    author: {
-      name: 'K89BET',
-      avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
-    },
-    totalComments: 0,
-    totalFavorites: 0,
-  },
-  {
-    id: uuidv4(),
-    slug: 'khuyen-mai-k89bet',
-    title: 'Nhận khuyến mãi K89Bet – Ưu đãi liên tục và cơ hội nhận thưởng lớn',
-    description: '',
-    category: "huong-dan",
-    publish: '2024-10-04',
-    content: `
-    <p>Trong thị trường cá cược trực tuyến đầy sôi động và cạnh tranh, các chương trình khuyến mãi hấp dẫn luôn là yếu tố quan trọng để thu hút và giữ chân người chơi. <strong><a href="https://k89bet68.com/">K89Bet</a></strong> đã nắm bắt điều này và triển khai những chương trình <strong><a href="https://k89bet68.com/huong-dan/khuyen-mai-k89bet">khuyến mãi K89Bet</a></strong> vô cùng hấp dẫn, tạo ra nhiều cơ hội kiếm tiền và tăng thêm trải nghiệm thú vị cho người chơi.</p>
-
-    <h2>🥇Đôi nét về nhà cái K89Bet</h2>
-    <img src="/assets/images/doi-net-ve-nha-cai-k89bet.webp" alt="Đôi nét về nhà cái K89Bet com"/>
-    <p>Được thành lập vào năm 2024, <strong>K89Bet</strong> nhanh chóng trở thành một trong những nhà cái uy tín hàng đầu trong khu vực châu Á. Với giao diện thân thiện, dễ sử dụng cùng hệ thống thanh toán nhanh chóng và an toàn, K89Bet không ngừng cải thiện để mang lại trải nghiệm cá cược tốt nhất cho người chơi.</p>
-
-    <h3>🥈Các sản phẩm cá cược phổ biến tại K89Bet</h3>
-    <ul>
-        <li><strong>Cá cược thể thao</strong>: Bóng đá, bóng rổ, tennis, đua xe và nhiều môn thể thao khác với tỷ lệ cược hấp dẫn, giúp người chơi thoải mái lựa chọn.</li>
-        <li><strong>Casino trực tuyến</strong>: Các trò chơi casino nổi tiếng như Baccarat, Roulette, Blackjack, Poker với đồ họa tuyệt đẹp, mang lại cảm giác chơi chân thực.</li>
-        <li><strong>Slot Games</strong>: Hàng trăm trò chơi slot với giao diện đẹp mắt và cơ hội thắng lớn, phù hợp cho người chơi yêu thích sự nhanh chóng và giải trí.</li>
-        <li><strong>Đá gà trực tuyến</strong>: Cung cấp trải nghiệm đá gà sống động với chất lượng hình ảnh và âm thanh rõ nét, giúp người chơi cảm thấy như đang có mặt tại trường đấu.</li>
-    </ul>
-
-    <h3>🥈Dịch vụ chăm sóc khách hàng tận tình</h3>
-    <p>Không chỉ dừng lại ở sản phẩm cá cược, <strong>K89Bet com</strong> còn đặc biệt chú trọng đến dịch vụ chăm sóc khách hàng. Đội ngũ nhân viên hỗ trợ luôn sẵn sàng túc trực 24/7, đảm bảo giải đáp mọi thắc mắc và hỗ trợ khách hàng nhanh chóng, hiệu quả.</p>
-    <h2>🥇Các chương trình khuyến mãi K89Bet mới nhất</h2>
-     <img src="/assets/images/cac-chuong-trinh-khuyen-mai-k89bet-moi-nhat.webp" alt="Các chương trình khuyến mãi K89Bet mới nhất"/>
-<p>K89Bet luôn mang đến cho người chơi những <strong><a href="https://k89bet68.com/huong-dan/khuyen-mai-k89bet">chương trình khuyến mãi</a></strong> giá trị, giúp bạn gia tăng cơ hội thắng lớn khi tham gia cá cược. Hãy nhanh chóng khám phá các ưu đãi nổi bật dưới đây để không bỏ lỡ cơ hội!</p>
-
-<h3>🥈Tiền thưởng 1% mỗi lần nạp</h3>
-<p>Mỗi lần <strong><a href="https://k89bet68.com/huong-dan/nap-tien-k89bet">nạp tiền K89Bet</a></strong>, bạn sẽ nhận ngay 1% tiền thưởng, không giới hạn số lần trong tháng. Đây là cách tuyệt vời để tích lũy thêm nguồn vốn mà không cần thêm chi phí.</p>
-<p><strong>Ưu điểm:</strong> Tiền thưởng có thể dùng trong tất cả các trò chơi tại <strong>K89Bet com</strong>.</p>
-<p><strong>Điều kiện:</strong> Áp dụng cho mọi lần nạp tiền, tiền thưởng sẽ được cộng ngay sau khi giao dịch hoàn thành.</p>
-
-<h3>🥈Ưu đãi thể thao - Tặng tiền 888K mỗi ngày</h3>
-<p>Đối với các cược thủ yêu thích thể thao, <strong>K89Bet com</strong> dành tặng bạn 888.000 đồng mỗi ngày cho 10 người chơi may mắn nhất. Đây là cơ hội để thử sức với các trận đấu hấp dẫn mà không cần lo về vốn cược.</p>
-
-<p><strong>Cách tham gia:</strong> Chỉ cần đặt cược từ 100.000 đồng trở lên tại bất kỳ môn thể thao nào.</p>
-
-<p><strong>Phần thưởng:</strong></p>
-<ul>
-    <li>Người chơi đứng đầu: Nhận ngay 188.000 đồng.</li>
-    <li>Vị trí từ 2 đến 5: Nhận 88.000 đồng.</li>
-    <li>Vị trí từ 6 đến 10: Nhận 8.800 đồng.</li>
-</ul>
-
-<p><strong>Điều kiện:</strong> Chỉ áp dụng cho người chơi đã <strong><a href="https://k89bet68.com/huong-dan/dang-ky-k89bet">đăng ký tài khoản K89Bet</a></strong>.</p>
-
-<h3>🥈Khuyến mãi Nổ Hũ & Casino – Thưởng 50% lần nạp 2</h3>
-<p>Thêm cơ hội với các trò chơi <strong>Nổ Hũ</strong> và <strong>Casino</strong> bằng cách nạp tiền lần thứ hai và nhận ngay 50% giá trị tiền nạp, tối đa lên đến 1.000.000 đồng.</p>
-
-<p><strong>Cách thức nhận thưởng:</strong></p>
-<ul>
-    <li>Nạp tiền vào tài khoản.</li>
-    <li>Chọn chương trình khuyến mãi “Tặng 50% lần nạp 2 Nổ Hũ, Casino” trên giao diện <strong>K89Bet com</strong>.</li>
-    <li>Nhận ngay 50% giá trị tiền nạp vào tài khoản cá cược.</li>
-</ul>
-
-<p><strong>Ưu điểm:</strong> Tăng cơ hội chiến thắng với số vốn cao hơn, tạo động lực cho người chơi tiếp tục tham gia.</p>
-<p><strong>Điều kiện:</strong> Tiền thưởng phải được cược ít nhất 25 lần trước khi có thể rút ra.</p>
-
-<h3>🥈Thưởng 5% tiền nạp ngày Chủ Nhật</h3>
-<p>Vào mỗi Chủ Nhật, K89Bet tặng thêm cho bạn 5% giá trị tiền nạp, tối đa lên đến 500.000 đồng. Đây là cơ hội tuyệt vời để kéo dài thời gian chơi và tăng cơ hội chiến thắng trong các trò chơi cá cược.</p>
-
-<p><strong>Cách thức nhận thưởng:</strong></p>
-<ul>
-    <li>Nạp tiền vào tài khoản vào ngày Chủ Nhật.</li>
-    <li>Nhận thêm 5% giá trị tiền nạp vào tài khoản cá cược.</li>
-</ul>
-
-<p><strong>Ưu điểm:</strong> Tăng giá trị tiền nạp và kéo dài thời gian chơi, tăng cơ hội chiến thắng.</p>
-<p><strong>Điều kiện:</strong> Áp dụng cho lần nạp đầu tiên vào ngày Chủ Nhật, tiền thưởng phải được cược ít nhất 15 lần trước khi có thể rút ra.</p>
-
-<p>Tận dụng ngay các ưu đãi từ khuyến mãi K89Bet để nâng cao trải nghiệm cá cược của bạn. Với các chương trình khuyến mãi đa dạng và hấp dẫn, K89Bet com không chỉ mang lại cơ hội nhận thưởng lớn mà còn giúp người chơi có những phút giây giải trí tuyệt vời. Đừng bỏ lỡ cơ hội tham gia ngay hôm nay!</p>
-<h2>🥇Tổng hợp ưu đãi hoàn trả cực hấp dẫn tại K89Bet</h2>
- <img src="/assets/images/tong-hop-uu-dai-hoan-tra-cuc-hap-dan-tai-k89bet.webp" alt="Tổng hợp ưu đãi hoàn trả cực hấp dẫn tại K89Bet"/>
-<p>Bên cạnh các chương trình khuyến mãi K89Bet khi nạp tiền, các chương trình hoàn trả của nhà cái mang đến cho người chơi cơ hội hoàn lại một phần tiền cược, giúp bạn vừa tiết kiệm vừa tăng cơ hội chiến thắng. Cùng khám phá những ưu đãi hấp dẫn dưới đây:</p>
-
-<h3>🥈Hoàn trả cược thể thao hấp dẫn</h3>
-<p>Tham gia vào sảnh cược thể thao tại K89Bet, người chơi có cơ hội nhận hoàn trả 0,4% trên tổng số tiền cược trong tuần. Đây là ưu đãi tuyệt vời giúp bạn có thêm vốn để tiếp tục thử sức với những trận đấu yêu thích.</p>
-<ul>
-    <li><strong>Ưu điểm:</strong> Hoàn trả tự động, càng cược nhiều càng nhận được nhiều tiền hoàn lại.</li>
-    <li><strong>Điều kiện:</strong> Hoàn thành một vòng cược để đủ điều kiện rút tiền K89Bet. Tiền hoàn trả được cập nhật vào tài khoản vào thứ 5 hàng tuần.</li>
-</ul>
-
-<h3>🥈Hoàn trả cho sảnh bắn cá</h3>
-<p>Sảnh chơi bắn cá tại K89Bet nổi bật với mức hoàn trả hấp dẫn từ 0,5% đến 0,8%, phụ thuộc vào cấp bậc thành viên của người chơi. Tiền hoàn trả sẽ tự động cộng vào tài khoản của bạn mỗi tuần, tạo cơ hội tiếp tục trải nghiệm mà không cần nạp thêm tiền.</p>
-<ul>
-    <li><strong>Ưu điểm:</strong> Giảm thiểu rủi ro, tăng khả năng tham gia nhiều vòng chơi với số vốn lớn hơn.</li>
-    <li><strong>Điều kiện:</strong> Hoàn thành một vòng cược trước khi rút tiền.</li>
-</ul>
-
-<h3>🥈Hoàn trả đặc biệt tại sảnh đá gà</h3>
-<p>Không chỉ có các sảnh thể thao, người chơi đá gà tại K89Bet cũng có thể tận hưởng chương trình hoàn trả độc đáo. Khi bạn thắng 7 trận liên tiếp trong vòng 24 giờ, bạn sẽ nhận được phần thưởng hoàn trả, với giá trị thưởng lên đến 1 triệu đồng.</p>
-<ul>
-    <li><strong>Ưu điểm:</strong> Tăng cơ hội chiến thắng với phần thưởng liên tiếp cho người chơi đá gà.</li>
-    <li><strong>Điều kiện:</strong> Chương trình áp dụng cho tất cả người chơi đá gà với số trận thắng liên tiếp được tính mỗi ngày.</li>
-</ul>
-
-<h3>🥈Hoàn trả hấp dẫn tại sảnh lô đề</h3>
-<p>Sảnh lô đề tại K89Bet cũng mang đến cơ hội hoàn trả lên đến 0,25% mỗi tuần, tùy thuộc vào cấp bậc người chơi. Chỉ cần hoàn thành một vòng cược, tiền hoàn trả sẽ tự động được cộng vào tài khoản và có thể rút về bất kỳ lúc nào.</p>
-<ul>
-    <li><strong>Ưu điểm:</strong> Dễ dàng tích lũy tiền hoàn trả để tiếp tục chơi hoặc rút về tài khoản cá nhân.</li>
-    <li><strong>Điều kiện:</strong> Số tiền hoàn trả được tính theo mức cược và cấp bậc cá nhân của người chơi.</li>
-</ul>
-<h2>🥇Các điều khoản khuyến mãi nhà cái K89Bet</h2>
- <img src="/assets/images/cac-dieu-khoan-khuyen-mai-nha-cai-k89bet.webp" alt="Các điều khoản khuyến mãi nhà cái K89Bet"/>
-  <p>Để tận dụng tối đa các chương trình <strong><a href="https://k89bet68.com/khuyen-mai-k89bet">khuyến mãi K89Bet</a></strong> hấp dẫn, người chơi cần lưu ý và tuân thủ các điều khoản sau đây:</p>
-
-  <h3>🥈Áp dụng cho một tài khoản duy nhất</h3>
-  <p>Mỗi người chơi chỉ được phép tạo một tài khoản duy nhất tại K89Bet. Nếu phát hiện hành vi tạo nhiều tài khoản để nhận khuyến mãi, tài khoản sẽ bị khóa vĩnh viễn. Hãy tuân thủ nguyên tắc này để đảm bảo bạn được tham gia các chương trình khuyến mãi một cách công bằng và minh bạch.</p>
-
-  <h3>🥈Quyền thay đổi ưu đãi</h3>
-  <p>K89Bet có quyền thay đổi hoặc điều chỉnh các chương trình khuyến mãi mà không cần phải thông báo trước cho người chơi. Điều này giúp nhà cái linh hoạt trong việc đưa ra các ưu đãi mới, phù hợp với nhu cầu của người chơi và thị trường. Vì vậy, hãy thường xuyên kiểm tra cập nhật các <strong>khuyến mãi K89Bet</strong> để không bỏ lỡ cơ hội.</p>
-
-  <h3>🥈Điều kiện và điều khoản khác nhau</h3>
-  <p>Mỗi chương trình khuyến mãi sẽ có những điều kiện và điều khoản riêng biệt, từ số lần cược tối thiểu đến số tiền nạp yêu cầu. Để đảm bảo bạn không gặp khó khăn khi tham gia và <strong>rút tiền K89Bet</strong>, hãy đọc kỹ điều khoản trước khi quyết định nhận ưu đãi. Việc hiểu rõ các điều kiện sẽ giúp bạn tránh được những phiền toái không đáng có trong quá trình tham gia cá cược.</p>
-
-  <h3>🥈Tuân thủ quy định khuyến mãi</h3>
-  <p>Việc tuân thủ đúng quy định và thể lệ của các chương trình khuyến mãi không chỉ giúp bạn hưởng trọn vẹn lợi ích mà còn tránh các rủi ro bị khóa tài khoản hoặc mất quyền nhận thưởng. <strong><a href="https://k89bet68.com/huong-dan/tai-app-k89bet">Tải app K89Bet</a></strong>, đăng ký tài khoản và tham gia với tinh thần thượng tôn pháp luật để đảm bảo mọi giao dịch và khuyến mãi diễn ra thuận lợi.</p>
-
-  <h2>🥇Kết luận</h2>
-  <p>Như vậy, K89Bet không chỉ mang đến trải nghiệm cá cược đa dạng mà còn là điểm đến hấp dẫn với những chương trình khuyến mãi giá trị. Việc tham gia vào các ưu đãi như tiền thưởng nạp lần đầu, hoàn trả hàng tuần, hay các chương trình <strong><a href="https://k89bet68.com/huong-dan/rut-tien-k89bet">rút tiền K89Bet</a></strong> tiện lợi, sẽ giúp người chơi vừa giải trí vừa có thêm cơ hội gia tăng thu nhập. Hãy nhanh chóng <strong>tải app K89Bet</strong> và tham gia ngay hôm nay để tận dụng các chương trình khuyến mãi độc đáo!</p>
-    `,
-    coverUrl: `/assets/images/khuyen-mai-k89bet-1080x720.webp`,
-    coverUrlAlt: 'Nạp tiền K89Bet an toàn nhanh chóng và bảo mật',
-    coverUrlOpenGraph: `/assets/images/khuyen-mai-k89bet-1200x630.webp`,
-    coverUrlOpenGraphAlt: 'Nạp tiền K89Bet an toàn nhanh chóng và bảo mật',
-    totalViews: 0,
-    totalShares: 0,
-    metaTitle: 'Khuyến mãi K89Bet - Nhận ngay ưu đãi hấp dẫn từ nhà cái uy tín',
-    metaDescription:
-      'Khuyến mãi K89Bet mới nhất với nhiều ưu đãi hấp dẫn. Tham gia ngay để nhận thưởng khủng, cơ hội cá cược và tăng vốn nhanh chóng từ các chương trình ưu đãi đặc biệt.',
-    tags: [],
-    createdAt: '2024-10-04',
+    createdAt: '2025-11-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -993,7 +852,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Giới Thiệu K89bet – Nhà Cái Uy Tín Trong Cá Cược Online',
     description: '',
-    publish: '2024-10-04',
+    publish: '2025-11-03',
     content: `
     <section>
     <p>
@@ -1083,6 +942,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
 </section>
 <section>
     <h2>🥇Giới thiệu K89bet về các sảnh trò chơi</h2>
+     <img src="/assets/images/gioi-thieu-k89bet-ve-cac-sanh-tro-choi.webp" alt="Giới thiệu K89bet về các sảnh trò chơi"/>
     <h3>🥈Casino Trực Tuyến</h3>
     <p>
         <strong>Giới thiệu K89bet</strong> mang đến cho người chơi một sảnh casino trực tuyến đẳng cấp với các trò chơi phổ biến như
@@ -1203,7 +1063,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     metaDescription:
       'Giới thiệu K89bet – nhà cái uy tín hàng đầu trong cá cược online. Được cấp phép hợp pháp, K89bet mang đến trải nghiệm an toàn và dịch vụ chất lượng.',
     tags: [],
-    createdAt: '2024-10-04',
+    createdAt: '2025-11-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1221,7 +1081,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Điều Khoản Sử Dụng Dịch Vụ K89bet – Những Điều Người Chơi Cần Biết',
     description: '',
-    publish: '2024-10-04',
+    publish: '2025-11-03',
     content: `
         <p>
             Tham gia cá cược trực tuyến không chỉ là giải trí mà còn cần hiểu rõ các quy định và trách nhiệm đi kèm.
@@ -1402,7 +1262,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     metaDescription:
       'Tìm hiểu chi tiết điều khoản sử dụng, chính sách thanh toán an toàn và bảo mật tại K89Bet. Nạp tiền, rút tiền dễ dàng với nhiều phương thức phổ biến, hỗ trợ khách hàng 24/7.',
     tags: [],
-    createdAt: '2024-10-04',
+    createdAt: '2025-11-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1420,7 +1280,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Chính Sách Bảo Mật K89bet – An Toàn Và Minh Bạch',
     description: '',
-    publish: '2024-10-04',
+    publish: '2025-11-03',
     content: `
         <p>
         An toàn thông tin cá nhân luôn là mối quan tâm hàng đầu của người chơi trực tuyến. Với <strong><a href="https://k89bet68.com/">K89bet</a></strong>, <strong><a href="https://k89bet68.com/chinh-sach-bao-mat">chính sách bảo mật</a></strong> không chỉ là cách để bảo vệ dữ liệu cá nhân mà còn là cam kết lâu dài đối với khách hàng, đảm bảo rằng mọi hoạt động cá cược đều diễn ra an toàn và minh bạch.
@@ -1572,7 +1432,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     metaDescription:
       'Chính sách bảo mật K89bet không chỉ bảo vệ thông tin cá nhân mà còn là cam kết về sự an toàn và tin cậy trong mọi hoạt động cá cược.',
     tags: [],
-    createdAt: '2024-10-04',
+    createdAt: '2025-11-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1590,10 +1450,11 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Liên Hệ K89bet - Hỗ Trợ Nhanh Chóng Và Tận Tâm',
     description: '',
-    publish: '2024-10-04',
+    publish: '2025-11-03',
     content: `
       <p><strong><a href="https://k89bet68.com/lien-he-k89bet">Liên hệ K89bet</a></strong> là bước cần thiết khi người chơi gặp phải vấn đề hoặc cần trợ giúp trong quá trình tham gia cá cược trực tuyến. Với đội ngũ hỗ trợ chuyên nghiệp, <strong><a href="https://k89bet68.com/lien-he-k89bet">K89bet</a></strong> luôn sẵn sàng giải đáp mọi thắc mắc và đảm bảo mang đến trải nghiệm người chơi tốt nhất.</p>
        <h2>🥇 Trường hợp cần liên hệ K89bet</h2>
+        <img src="/assets/images/truong-hop-can-lien-he-k89bet.webp" alt="Trường hợp cần liên hệ K89bet"/>
         <p>Khi tham gia vào nền tảng cá cược K89bet, có nhiều lý do khiến bạn cần liên hệ với đội ngũ hỗ trợ. Sau đây là một số tình huống phổ biến cần lưu ý:</p>
         <h3>🥈 Thắc mắc về tài khoản</h3>
         <ul>
@@ -1645,7 +1506,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     </blockquote>
     <p>Đội ngũ hỗ trợ kỹ thuật của K89bet luôn sẵn sàng khắc phục các vấn đề để đảm bảo bạn có trải nghiệm mượt mà nhất.</p>
      <h2>🥇 Hướng dẫn liên hệ K89bet nhanh chóng</h2>
-     <img src="/assets/images/huong-dan-lien-he-k89bet-nhanh-chong.webp" alt="Chính sách bảo mật K89bet là gì?"/>
+     <img src="/assets/images/huong-dan-lien-he-k89bet-nhanh-chong.webp" alt="Hướng dẫn liên hệ K89bet nhanh chóng"/>
     <p>Sau khi đã xác định được các trường hợp cần <strong>liên hệ K89bet</strong>, bước tiếp theo là tìm hiểu các phương thức liên hệ hiệu quả. Dưới đây là một số phương pháp mà bạn có thể sử dụng để kết nối với nhà cái:</p>
 
     <h3>🥈 Sử dụng chat trực tuyến</h3>
@@ -1702,7 +1563,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     metaDescription:
       'Liên hệ K89bet dễ dàng và nhanh chóng với đội ngũ hỗ trợ chuyên nghiệp. Hãy khám phá các cách liên hệ và nhận trợ giúp hiệu quả từ K89bet ngay hôm nay!',
     tags: [],
-    createdAt: '2024-10-04',
+    createdAt: '2025-11-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,

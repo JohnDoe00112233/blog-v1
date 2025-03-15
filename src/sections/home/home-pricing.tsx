@@ -38,6 +38,7 @@ const buttonData: ButtonData[] = [
 
 const contentData = `
    <h2>Hướng dẫn nhanh cách đăng ký tài khoản K89bet</h2>
+     <img src="/assets/images/huong-dan-nhanh-cach-dang-ky-tai-khoan-k89bet.webp" alt="Hướng dẫn nhanh cách đăng ký tài khoản K89bet"/>
         <ol>
             <li>
                 <strong>Truy cập trang chủ chính thức K89bet:</strong>

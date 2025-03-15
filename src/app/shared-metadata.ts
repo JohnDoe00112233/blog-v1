@@ -1,7 +1,7 @@
 import { CONFIG } from "src/config-global";
 
 export const commonHomePage = {
-  title: "K89BET| Link vào K89BET chính thức không mạo danh",
+  title: "K89bet | Link vào K89bet chính thức mới nhất 2025",
   description:
     "K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!",
   url: "https://k89bet68.com",
@@ -15,7 +15,7 @@ export const commonHomePage = {
 
 
 export const searchHomePageJson = {
-  title: "K89BET| Link vào K89BET chính thức không mạo danh",
+  title: "K89bet | Link vào K89bet chính thức mới nhất 2025",
   description:
     "K89bet khẳng định vị thế nhà cái hàng đầu với sản phẩm và dịch vụ vượt trội. Khám phá ngay nền tảng giải trí đẳng cấp, cùng các ưu đãi không thể bỏ lỡ!",
   url: "https://k89bet68.com",

@@ -26,10 +26,4 @@ export const navData = [
     icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
     path: paths.download,
   },
-
-  {
-    title: 'TIN TỨC',
-    icon: <Iconify width={22} icon="solar:notebook-bold-duotone" />,
-    path: paths.blog,
-  },
 ];
