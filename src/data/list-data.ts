@@ -11,7 +11,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Hướng dẫn nạp tiền K89bet nhanh chóng và an toàn',
     description: '',
     category: "huong-dan",
-    publish: '2025-11-03',
+    publish: '2025-31-03',
     content: `
     <h2>🥇Hướng dẫn nạp tiền K89bet dễ dàng</h2>
     <img src="/assets/images/huong-dan-nap-tien-k89bet-de-dang.webp" alt="Hướng dẫn nạp tiền k89bet dễ dàng"/>
@@ -203,7 +203,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     metaDescription:
       'Hướng dẫn chi tiết nạp tiền K89Bet. Đảm bảo an toàn tuyệt đối, giao dịch nhanh gọn qua ngân hàng, ví điện tử, và tiền mã hoá hỗ trợ người chơi 24/7',
     tags: [],
-    createdAt: '2025-11-03',
+    createdAt: '2025-31-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -217,7 +217,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Rút tiền K89bet – Hướng dẫn chi tiết và nhanh chóng',
     description: '',
     category: "huong-dan",
-    publish: '2025-11-03',
+    publish: '2025-31-03',
     content: `
         <p>
             <p><strong><a href="https://k89bet68.com/rut-tien-k89bet">Rút tiền K89Bet</a></strong> là một trong những bước quan trọng mà người chơi quan tâm sau khi trải nghiệm các dịch vụ tại đây. Trong bài viết này, <strong><a href="https://k89bet68.com">K89Bet</a></strong> sẽ giải thích chi tiết các quy định và điều khoản liên quan, cung cấp hướng dẫn từng bước giúp bạn rút tiền một cách an toàn, nhanh chóng và hiệu quả. Đồng thời, bạn sẽ được điểm qua một số lưu ý quan trọng để đảm bảo giao dịch mượt mà nhất.
@@ -450,7 +450,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     metaDescription:
       'Rút tiền K89Bet an toàn và nhanh chóng với các bước đơn giản. Tìm hiểu quy định và hướng dẫn rút tiền từ nhà cái K89Bet để đảm bảo giao dịch của bạn diễn ra suôn sẻ.',
     tags: [],
-    createdAt: '2025-11-03',
+    createdAt: '2025-31-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -464,7 +464,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Đăng ký K89bet - Khám phá hành trình cá cược không giới hạn',
     description: '',
     category: "huong-dan",
-    publish: '2025-11-03',
+    publish: '2025-31-03',
     content: `
         <p>Bạn đang tìm kiếm một nền tảng cá cược trực tuyến uy tín và chất lượng?
             <strong><a href="https://k89bet68.com/huong-dan/dang-ky-k89bet">Đăng ký K89Bet</a></strong> chính là chìa khóa mở ra cánh cửa dẫn bạn vào thế giới giải trí đỉnh cao với hàng loạt trò chơi hấp dẫn và dịch vụ vượt trội.
@@ -625,7 +625,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     metaDescription:
       'Đăng ký K89bet dễ dàng và nhanh chóng chỉ trong vài bước. Trải nghiệm ngay các trò chơi hấp dẫn, ưu đãi đặc biệt và dịch vụ đẳng cấp tại nhà cái uy tín K89bet.',
     tags: [],
-    createdAt: '2025-11-03',
+    createdAt: '2025-31-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -639,7 +639,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     title: 'Hướng Dẫn Tải APP K89bet - Nhanh, An Toàn, Đơn Giản',
     description: '',
     category: "huong-dan",
-    publish: '2025-11-03',
+    publish: '2025-31-03',
     content: `
      <section>
         <p>
@@ -833,7 +833,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     metaDescription:
       'Khi nói đến việc tải app K89bet, nhiều người có thể cảm thấy bối rối vì không biết bắt đầu từ đâu. Đừng lo lắng, bài viết này sẽ hướng dẫn bạn từng bước.',
     tags: [],
-    createdAt: '2025-11-03',
+    createdAt: '2025-31-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -852,7 +852,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Giới Thiệu K89bet – Nhà Cái Uy Tín Trong Cá Cược Online',
     description: '',
-    publish: '2025-11-03',
+    publish: '2025-31-03',
     content: `
     <section>
     <p>
@@ -1063,7 +1063,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     metaDescription:
       'Giới thiệu K89bet – nhà cái uy tín hàng đầu trong cá cược online. Được cấp phép hợp pháp, K89bet mang đến trải nghiệm an toàn và dịch vụ chất lượng.',
     tags: [],
-    createdAt: '2025-11-03',
+    createdAt: '2025-31-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1081,7 +1081,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Điều Khoản Sử Dụng Dịch Vụ K89bet – Những Điều Người Chơi Cần Biết',
     description: '',
-    publish: '2025-11-03',
+    publish: '2025-31-03',
     content: `
         <p>
             Tham gia cá cược trực tuyến không chỉ là giải trí mà còn cần hiểu rõ các quy định và trách nhiệm đi kèm.
@@ -1262,7 +1262,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     metaDescription:
       'Tìm hiểu chi tiết điều khoản sử dụng, chính sách thanh toán an toàn và bảo mật tại K89Bet. Nạp tiền, rút tiền dễ dàng với nhiều phương thức phổ biến, hỗ trợ khách hàng 24/7.',
     tags: [],
-    createdAt: '2025-11-03',
+    createdAt: '2025-31-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1280,7 +1280,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Chính Sách Bảo Mật K89bet – An Toàn Và Minh Bạch',
     description: '',
-    publish: '2025-11-03',
+    publish: '2025-31-03',
     content: `
         <p>
         An toàn thông tin cá nhân luôn là mối quan tâm hàng đầu của người chơi trực tuyến. Với <strong><a href="https://k89bet68.com/">K89bet</a></strong>, <strong><a href="https://k89bet68.com/chinh-sach-bao-mat">chính sách bảo mật</a></strong> không chỉ là cách để bảo vệ dữ liệu cá nhân mà còn là cam kết lâu dài đối với khách hàng, đảm bảo rằng mọi hoạt động cá cược đều diễn ra an toàn và minh bạch.
@@ -1432,7 +1432,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     metaDescription:
       'Chính sách bảo mật K89bet không chỉ bảo vệ thông tin cá nhân mà còn là cam kết về sự an toàn và tin cậy trong mọi hoạt động cá cược.',
     tags: [],
-    createdAt: '2025-11-03',
+    createdAt: '2025-31-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
@@ -1450,7 +1450,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     category: null,
     title: 'Liên Hệ K89bet - Hỗ Trợ Nhanh Chóng Và Tận Tâm',
     description: '',
-    publish: '2025-11-03',
+    publish: '2025-31-03',
     content: `
       <p><strong><a href="https://k89bet68.com/lien-he-k89bet">Liên hệ K89bet</a></strong> là bước cần thiết khi người chơi gặp phải vấn đề hoặc cần trợ giúp trong quá trình tham gia cá cược trực tuyến. Với đội ngũ hỗ trợ chuyên nghiệp, <strong><a href="https://k89bet68.com/lien-he-k89bet">K89bet</a></strong> luôn sẵn sàng giải đáp mọi thắc mắc và đảm bảo mang đến trải nghiệm người chơi tốt nhất.</p>
        <h2>🥇 Trường hợp cần liên hệ K89bet</h2>
@@ -1563,7 +1563,7 @@ export const MOCK_HOMEPAGE_DATA: IPostItem[] = [
     metaDescription:
       'Liên hệ K89bet dễ dàng và nhanh chóng với đội ngũ hỗ trợ chuyên nghiệp. Hãy khám phá các cách liên hệ và nhận trợ giúp hiệu quả từ K89bet ngay hôm nay!',
     tags: [],
-    createdAt: '2025-11-03',
+    createdAt: '2025-31-03',
     author: {
       name: 'K89BET',
       avatarUrl: `/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp`,
