@@ -30,8 +30,8 @@ export const paths = {
   page500: '/error/500',
   dowload:
     "https://app-download.alltocon.com/ve3prod/",
-  login: "https://www.89k.biz/?uagt=seoweb1&path=root",
-  registerNow: "https://www.89k.biz/?uagt=seoweb1&path=signup",
+  login: "https://www.k8966.com/?uagt=seoweb1&path=root",
+  registerNow: "https://www.k8966.com/?uagt=seoweb1&path=signup",
   post: {
     root: `/post`,
     details: (slug: string) => `/huong-dan/${slug}`,
