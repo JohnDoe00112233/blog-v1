@@ -206,7 +206,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
         </Grid>
 
         <Typography variant="body2" sx={{ mt: 10 }}>
-          © 2024 K89BET All rights reserved.
+          © 2025 K89BET All rights reserved.
         </Typography>
       </Container>
     </Box>

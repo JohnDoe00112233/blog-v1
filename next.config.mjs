@@ -2,13 +2,12 @@
  * @type {import('next').NextConfig}
  */
 
-import withBundleAnalyzer from '@next/bundle-analyzer';
-
-const isStaticExport = 'true';
+// @ts-ignore
+const isStaticExport = 'false';
 
 const nextConfig = {
   trailingSlash: true,
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH ,
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
   env: {
     BUILD_STATIC_EXPORT: isStaticExport,
   },
@@ -28,20 +27,13 @@ const nextConfig = {
       test: /\.svg$/,
       use: ['@svgr/webpack'],
     });
-    config.cache = false;
+
     return config;
   },
+  // @ts-ignore
   ...(isStaticExport === 'true' && {
     output: 'export',
   }),
-  images: {
-    unoptimized: true, // Vô hiệu hóa Image Optimization API
-  },
 };
 
-
-const bundleAnalyzer = withBundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
-});
-
-export default bundleAnalyzer(nextConfig);
+export default nextConfig;

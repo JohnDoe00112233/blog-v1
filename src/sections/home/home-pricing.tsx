@@ -113,7 +113,7 @@ export function HomePricing({ sx, ...other }: StackProps) {
         rel="noopener"
         href={href}
         startIcon={<Iconify icon="iconoir:flash" width={40} />}
-        sx={{ p: 4, fontSize: 40 }}
+        sx={{ p: 4, fontSize: {xs:18, md:30, lg:40} }}
       >
         {label}
       </Button>
