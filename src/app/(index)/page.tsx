@@ -53,7 +53,7 @@ const jsonLd = {
     "foundingDate": "2025",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "(+84) 921227035",
+      "telephone": "(+84) 335410591",
       "contactType": "Customer Service",
       "areaServed": "VN",
       "availableLanguage": ["Vietnamese"]
