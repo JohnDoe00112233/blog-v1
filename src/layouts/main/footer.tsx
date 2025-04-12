@@ -167,7 +167,7 @@ export function Footer({ layoutQuery, sx }: FooterProps) {
                   </li>
                   <li>
                     <Typography variant="body2">
-                      <strong>Hotline: </strong> (+84) 921227035
+                      <strong>Hotline: </strong> (+84) 335410591
                     </Typography>
                   </li>
                   <li>

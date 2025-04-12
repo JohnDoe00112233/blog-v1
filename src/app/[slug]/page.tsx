@@ -1,11 +1,13 @@
-import { notFound } from "next/navigation";
+/* eslint-disable @typescript-eslint/no-shadow */
+import { notFound } from 'next/navigation';
 
-import { CONFIG } from "src/config-global";
-import { BLOG_POST_DATA, MOCK_HOMEPAGE_DATA } from "src/data/list-data";
+import { CONFIG } from 'src/config-global';
+import { BLOG_POST_DATA } from 'src/data/list-data';
+import { baseOpenGraph, baseTwitterGraph } from 'src/app/shared-metadata';
 
-import { PostDetailsHomeView } from "src/sections/blog/view";
+import { PostDetailsHomeView } from 'src/sections/blog/view';
 
-import { baseOpenGraph, baseTwitterGraph } from "../shared-metadata";
+// ----------------------------------------------------------------------
 
 type Props = {
   params: { slug: string };
@@ -14,10 +16,9 @@ type Props = {
 
 // Hàm generateMetadata để thêm meta cho từng trang
 export async function generateMetadata({ params }: Props) {
-  const urlBasePath = "https://k89bet68.com"
   const { slug } = params;
-  // eslint-disable-next-line @typescript-eslint/no-shadow
-  const post = MOCK_HOMEPAGE_DATA.find(post => post.slug === slug);
+  const urlBasePath = "https://k89bet68.com"
+  const post = BLOG_POST_DATA.find(post => post.slug === slug);
 
   const urlPath = `${urlBasePath}/${slug}/vi_VN`;
 
@@ -62,11 +63,11 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default function Page({ params }: Props) {
-  const { slug } = params;
 
-  // eslint-disable-next-line @typescript-eslint/no-shadow
-  const post = MOCK_HOMEPAGE_DATA.find((post) => post.slug === slug);
+export default async function Page({ params }: Props) {
+  const { slug } = params;
+  const urlBasePath = "https://k89bet68.com"
+  const post = BLOG_POST_DATA.find((post) => post.slug === slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -82,18 +83,18 @@ export default function Page({ params }: Props) {
       "name": "K89Bet",
       "logo": {
         "@type": "ImageObject",
-        "url": "/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.webp"
+        "url": `${urlBasePath}/logo/k89bet-nha-cai-ca-cuoc-uy-tin-hang-dau-chau-a.png`
       }
     },
-    "datePublished": "2024-10-04",
-    "dateModified": "2024-10-10",
+    "datePublished": "2025-04-05",
+    "dateModified": "2025-04-05",
     "description": post?.metaDescription,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://k89bet68.com/${post?.itemPath}`
+      "@id": `${urlBasePath}/${slug}`
     },
-    "keywords": post?.keyword,
-    "articleSection": post?.articleSection,
+    "keywords": "nạp tiền K89Bet, K89Bet hiện đang mở, tải app K89Bet, đăng ký K89Bet, khuyến mãi K89Bet, nhà cái K89Bet",
+    "articleSection": "Nạp tiền K89Bet, Khuyến mãi K89Bet, Tải App K89Bet, Đăng ký K89Bet, Hướng dẫn K89Bet",
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -101,17 +102,21 @@ export default function Page({ params }: Props) {
           "@type": "ListItem",
           "position": 1,
           "name": "Trang chủ",
-          "item": "https://k89bet68.com"
+          "item": urlBasePath
         },
         {
           "@type": "ListItem",
-          "position": 2,
+          "position": 3,
           "name": post?.name,
-          "item": `https://k89bet68.com/${post?.itemPath}`
-        },
+          "item": `${urlBasePath}/${slug}`
+        }
       ]
     }
   };
+
+  if (!post) {
+    return notFound();
+  }
 
   return (
     <section>
@@ -125,7 +130,6 @@ export default function Page({ params }: Props) {
   )
 
 }
-
 
 // ----------------------------------------------------------------------
 
@@ -143,7 +147,7 @@ export { dynamic };
  */
 export async function generateStaticParams() {
   if (CONFIG.isStaticExport) {
-    return MOCK_HOMEPAGE_DATA.map(post => ({
+    return BLOG_POST_DATA.map(post => ({
       slug: post.slug,
     }));
   }
