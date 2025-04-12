@@ -467,7 +467,7 @@ export const BLOG_POST_DATA: IPostItem[] = [
     publish: '2025-31-03',
     content: `
         <p>Bạn đang tìm kiếm một nền tảng cá cược trực tuyến uy tín và chất lượng?
-            <strong><a href="https://k89bet68.com/huong-dan/dang-ky-k89bet">Đăng ký K89Bet</a></strong> chính là chìa khóa mở ra cánh cửa dẫn bạn vào thế giới giải trí đỉnh cao với hàng loạt trò chơi hấp dẫn và dịch vụ vượt trội.
+            <strong><a href="https://k89bet68.com/dang-ky-k89bet">Đăng ký K89Bet</a></strong> chính là chìa khóa mở ra cánh cửa dẫn bạn vào thế giới giải trí đỉnh cao với hàng loạt trò chơi hấp dẫn và dịch vụ vượt trội.
             Trong bài viết này, chúng tôi sẽ hướng dẫn bạn cách tạo tài khoản một cách dễ dàng, đồng thời giới thiệu những điều khoản quan trọng để bạn tham gia một cách an toàn và hợp pháp.</p>
         <h2>🥇Điều kiện quan trọng khi đăng ký K89bet</h2>
          <img src="/assets/images/dieu-kien-quan-trong-khi-dang-ky-k89bet.webp" alt="Điều kiện quan trọng khi đăng ký K89bet"/>
